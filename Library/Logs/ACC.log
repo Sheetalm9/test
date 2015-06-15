@@ -1,0 +1,603 @@
+06/10/15 12:06:34:382 | [INFO] | 44567 | ACC | C3App | ApplicationContext |  | C3App | 1852 | ************************* START Adobe Creative Cloud. Version: 1.8.0.447 *************************
+06/10/15 12:06:34:486 | [INFO] | 44567 | ACC | Core | AsyncMessageProcessor |  | Core | 1852 | AsyncMessageProcessorMac initialized...
+06/10/15 12:06:34:486 | [INFO] | 44567 | ACC | Core | AsyncMessageProcessor |  | Core | 1852 | AsyncMessageProcessorMac Message Queue initialized...
+06/10/15 12:06:34:576 | [INFO] | 44567 | ACC | Core | AppletManager |  | Core | 1852 | Querying applet database at path: /Applications/Utilities/Adobe Creative Cloud
+06/10/15 12:06:34:576 | [INFO] | 44567 | ACC | Core | AppletManager |  | Core | 1852 | Loading PIM library from path: /Applications/Utilities/Adobe Creative Cloud/utils/AdobePIM.dylib
+06/10/15 12:06:35:219 | [INFO] | 44567 | ACC | Core | AppletManager |  | Core | 1852 | Getting applet data from Applet database.
+06/10/15 12:06:35:318 | [INFO] | 44567 | ACC | Core | AppletManager |  | Core | 1852 | Registering Applets...
+06/10/15 12:06:35:386 | [INFO] | 44567 | ACC | Core | AppletManager |  | Core | 1852 | Getting applet data from Applet database.
+06/10/15 12:06:35:407 | [INFO] | 44567 | ACC | Core | AppletManager |  | Core | 1852 | All installed packages version string: ACCC:2.8.0.447|AppsPanel:2.8.0.447|AssetsPanel:2.8.0.446|BehancePanel:2.8.0.446|CEF:2.8.0.446|Core:2.8.0.446|CoreExt:2.8.0.446|CoreSync:2.8.0.446|CoreSyncExtension:2.8.0.446|DesignLibraryPlugin:2.8.0.446|ExchangePlugin:2.8.0.446|FilesPanel:2.8.0.446|FontsPanel:2.8.0.446|HEX:2.8.0.446|HomePanel:2.8.0.447|LiveType:2.8.0.446|MarketPanel:2.8.0.446|NEX:2.8.0.446|SynKit:2.8.0.446|Utils:2.8.0.447
+06/10/15 12:06:35:408 | [INFO] | 44567 | ACC | Core | AppletManager |  | Core | 1852 | Getting applet relationship info from Applet database.
+06/10/15 12:06:35:422 | [INFO] | 44567 | ACC | Core | AppletManager |  | Core | 1852 | Registering Applets...
+06/10/15 12:06:35:428 | [INFO] | 44567 | ACC | Core | AppletManager |  | Core | 1852 | Identifying applet relationships...
+06/10/15 12:06:35:438 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Loading Applet - CmdCntr_CoreExt for InstanceID - CoreInstance
+06/10/15 12:06:37:179 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Loading Applet - Analytics_CoreExt for InstanceID - CoreInstance
+06/10/15 12:06:37:262 | [INFO] | 44567 | ACC | ACE | ACE |  | ACE | 1852 | ACE Initialized
+06/10/15 12:06:37:322 | [INFO] | 44567 | ACC | ACE |  |  | ACE | 1852 | ETS environment is: 7
+06/10/15 12:06:37:340 | [INFO] | 44567 | ACC | ACE |  |  | ACE | 1852 | OS Bitness is: 64
+06/10/15 12:06:37:376 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Loading Applet - LocManager_CoreExt for InstanceID - CoreInstance
+06/10/15 12:06:37:498 | [INFO] | 44567 | ACC | LocalizationManager |  |  | LocalizationManager | 1852 | LocalizationManager Initialized
+06/10/15 12:06:37:498 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Loading Applet - C3Prefs_CoreExt for InstanceID - CoreInstance
+06/10/15 12:06:37:633 | [INFO] | 44567 | ACC | C3PrefsCoreExt |  |  | C3PrefsCoreExt | 1852 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>C3Prefs_CoreExt</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>CoreInstance</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/CoreExt</appletDIR>
+</CommandLineArguments>
+06/10/15 12:06:37:635 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Loading Applet - ElevationManager_CoreExt for InstanceID - CoreInstance
+06/10/15 12:06:37:729 | [INFO] | 44567 | ACC | ElevationManager |  |  | ElevationManager | 1852 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>ElevationManager_CoreExt</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>CoreInstance</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/CoreExt</appletDIR>
+</CommandLineArguments>
+06/10/15 12:06:37:752 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Loading Applet - NotificationManager_CoreExt for InstanceID - CoreInstance
+06/10/15 12:06:37:994 | [INFO] | 44567 | ACC | NotificationManager |  |  | NotificationManager | 1852 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>NotificationManager_CoreExt</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>CoreInstance</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/CoreExt</appletDIR>
+</CommandLineArguments>
+06/10/15 12:06:38:061 | [INFO] | 44567 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 1852 | Dictionary Path: /Applications/Utilities/Adobe Creative Cloud/CoreExt/Resources/NotificationManager/Dictionary/en_US/stringTable.zdct
+06/10/15 12:06:38:069 | [INFO] | 44567 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 1852 | Dictionary reading successful.
+06/10/15 12:06:38:107 | [WARN] | 44567 | ACC | Core | ExternalGateway |  | Core | 1852 | Applet ID - C3Container_BL is not loaded for instance ID - 1
+06/10/15 12:06:38:108 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Loading Applet - ANSClient_CoreExt for InstanceID - CoreInstance
+06/10/15 12:06:38:439 | [INFO] | 44567 | ACC | ANSClient |  |  | ANSClient | 1852 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>ANSClient_CoreExt</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>CoreInstance</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/CoreExt</appletDIR>
+</CommandLineArguments>
+06/10/15 12:06:38:679 | [INFO] | 44567 | ACC | C3App | LocalizationManager |  | C3App | 1852 | Dictionary Path: /Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Resources/Dictionary/en_US/stringTable.zdct
+06/10/15 12:06:38:687 | [INFO] | 44567 | ACC | C3App | LocalizationManager |  | C3App | 1852 | Dictionary reading successful.
+06/10/15 12:06:38:860 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Loading Applet - HEX_UIX for InstanceID - CoreInstance
+06/10/15 12:06:39:319 | [INFO] | 44567 | ACC | HEX |  |  | HEX | 1852 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>HEX_UIX</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>CoreInstance</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/HEX</appletDIR>
+</CommandLineArguments>
+06/10/15 12:06:39:556 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Loading Applet - C3Container_BL for InstanceID - 1
+06/10/15 12:06:39:695 | [INFO] | 44567 | ACC | Core | CoreCommandHandler |  | Core | 1852 | HandleMessage: Message is not defined/implemented in core: ProcessCommandLine. Broadcasting to core extensions
+06/10/15 12:06:39:703 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Loading Applet - NEX_UIX for InstanceID - CoreInstance
+06/10/15 12:06:39:814 | [INFO] | 44567 | ACC | NEX | NEX |  | NEX | 1852 | NEX Initialized
+06/10/15 12:06:39:815 | [INFO] | 44567 | ACC | NEX | NEX |  | NEX | 1852 | Inside LoadUIApplet
+06/10/15 12:06:39:817 | [INFO] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Loading Applet - C3Container_UI for WindowID - 1
+06/10/15 12:06:40:059 | [INFO] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Registering Applet. Type:  ID:C3Container_UI  Version:1.0
+06/10/15 12:06:40:846 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Loading Applet - LWA_Native for InstanceID - 1
+06/10/15 12:06:40:909 | [INFO] | 44567 | ACC | C3PrefsCoreExt | C3PrefsMessageProcessor |  | C3PrefsCoreExt | 1852 | Inside GetLocalConfigXmlPath
+06/10/15 12:06:40:934 | [WARN] | 44567 | ACC | C3PrefsCoreExt |  |  | C3PrefsCoreExt | 1852 | Could not initialize C3Config sig file as XML data
+06/10/15 12:06:40:935 | [INFO] | 44567 | ACC | LocalizationManager |  |  | LocalizationManager | 1852 | Inside GetLocaleForApplet
+06/10/15 12:06:40:959 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Loading Applet - HomePanel_BL for InstanceID - 1
+06/10/15 12:06:41:099 | [INFO] | 44567 | ACC | HomePanelBL |  |  | HomePanelBL | 1852 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>HomePanel_BL</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>1</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/HomePanel</appletDIR>
+</CommandLineArguments>
+06/10/15 12:06:41:103 | [INFO] | 44567 | ACC | NEX | NEX |  | NEX | 1852 | Inside LoadUIApplet
+06/10/15 12:06:41:104 | [INFO] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Loading Applet - HomePanel_UI for WindowID - 1
+06/10/15 12:06:41:192 | [INFO] | 44567 | ACC | HomePanelUI |  |  | HomePanelUI | 1852 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>HomePanel_UI</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>1</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/HomePanel</appletDIR>
+    <dpi_x>72</dpi_x>
+    <dpi_y>72</dpi_y>
+    <isHighDPI>0</isHighDPI>
+</CommandLineArguments>
+06/10/15 12:06:41:198 | [INFO] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Registering Applet. Type:  ID:HomePanel_UI  Version:1.0
+06/10/15 12:06:41:211 | [INFO] | 44567 | ACC | C3PrefsCoreExt | C3PrefsMessageProcessor |  | C3PrefsCoreExt | 1852 | Inside GetLocalConfigXmlPath
+06/10/15 12:06:41:238 | [WARN] | 44567 | ACC | C3PrefsCoreExt |  |  | C3PrefsCoreExt | 1852 | Could not initialize C3Config sig file as XML data
+06/10/15 12:06:41:241 | [INFO] | 44567 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 1852 | Dictionary Path: /Applications/Utilities/Adobe Creative Cloud/HomePanel/HomePanelUI.bundle/Contents/Resources/Dictionary/en_US/stringTable.zdct
+06/10/15 12:06:41:283 | [INFO] | 44567 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 1852 | Dictionary reading successful.
+06/10/15 12:06:41:626 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Loading Applet - AppsPanel_BL for InstanceID - 1
+06/10/15 12:06:41:889 | [INFO] | 44567 | ACC | ProductsAppsBL |  |  | ProductsAppsBL | 1852 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>AppsPanel_BL</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>1</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/AppsPanel/AppsPanelBL.bundle/Contents/MacOS</appletDIR>
+</CommandLineArguments>
+06/10/15 12:06:41:914 | [INFO] | 44567 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 1852 | Dictionary Path: /Applications/Utilities/Adobe Creative Cloud/AppsPanel/AppsPanelBL.bundle/Contents/resource/Dictionary/en_US/stringTable.zdct
+06/10/15 12:06:41:922 | [INFO] | 44567 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 1852 | Dictionary reading successful.
+06/10/15 12:06:42:357 | [INFO] | 44567 | ACC | Core | CoreCommandHandler |  | Core | 1852 | HandleMessage: Message is not defined/implemented in core: LoadBindings. Broadcasting to core extensions
+06/10/15 12:06:42:364 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Loading Applet - AssetsPanel_BL for InstanceID - 1
+06/10/15 12:06:42:440 | [INFO] | 44567 | ACC | AssetsUI |  |  | AssetsUI | 1852 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>AssetsPanel_BL</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>1</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/AssetsPanel</appletDIR>
+</CommandLineArguments>
+06/10/15 12:06:42:446 | [INFO] | 44567 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 1852 | Dictionary Path: /Applications/Utilities/Adobe Creative Cloud/AssetsPanel/resource/Dictionary/en_US/stringTable.zdct
+06/10/15 12:06:42:446 | [INFO] | 44567 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 1852 | Dictionary reading successful.
+06/10/15 12:06:42:456 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Loading Applet - FilesPanel_BL for InstanceID - 1
+06/10/15 12:06:42:522 | [INFO] | 44567 | ACC | FileAppsUI |  |  | FileAppsUI | 1852 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>FilesPanel_BL</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>1</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/FilesPanel/FilesPanelBL.bundle/Contents/MacOS</appletDIR>
+</CommandLineArguments>
+06/10/15 12:06:42:529 | [INFO] | 44567 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 1852 | Dictionary Path: /Applications/Utilities/Adobe Creative Cloud/FilesPanel/FilesPanelBL.bundle/Contents/MacOS/../Resources/Dictionary/en_US/stringTable.zdct
+06/10/15 12:06:42:532 | [INFO] | 44567 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 1852 | Dictionary reading successful.
+06/10/15 12:06:42:604 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Loading Applet - FontsPanel_BL for InstanceID - 1
+06/10/15 12:06:42:678 | [INFO] | 44567 | ACC | FontsAppBL |  |  | FontsAppBL | 1852 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>FontsPanel_BL</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>1</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/FontsPanel/FontsPanelBL.bundle/Contents/MacOS</appletDIR>
+</CommandLineArguments>
+06/10/15 12:06:42:684 | [INFO] | 44567 | ACC | C3PrefsCoreExt | C3PrefsMessageProcessor |  | C3PrefsCoreExt | 1852 | Inside GetLocalConfigXmlPath
+06/10/15 12:06:42:697 | [WARN] | 44567 | ACC | C3PrefsCoreExt |  |  | C3PrefsCoreExt | 1852 | Could not initialize C3Config sig file as XML data
+06/10/15 12:06:42:700 | [INFO] | 44567 | ACC | LocalizationManager |  |  | LocalizationManager | 1852 | Inside GetLocaleForApplet
+06/10/15 12:06:42:701 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 1852 | Locale Used for applet: en_US
+06/10/15 12:06:42:702 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Loading Applet - MarketPanel_BL for InstanceID - 1
+06/10/15 12:06:42:767 | [INFO] | 44567 | ACC | MarketAppBL |  |  | MarketAppBL | 1852 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>MarketPanel_BL</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>1</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/MarketPanel</appletDIR>
+</CommandLineArguments>
+06/10/15 12:06:42:771 | [INFO] | 44567 | ACC | C3PrefsCoreExt | C3PrefsMessageProcessor |  | C3PrefsCoreExt | 1852 | Inside GetLocalConfigXmlPath
+06/10/15 12:06:42:786 | [WARN] | 44567 | ACC | C3PrefsCoreExt |  |  | C3PrefsCoreExt | 1852 | Could not initialize C3Config sig file as XML data
+06/10/15 12:06:42:788 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Loading Applet - BehancePanel_BL for InstanceID - 1
+06/10/15 12:06:42:847 | [INFO] | 44567 | ACC | BehancePanelBL |  |  | BehancePanelBL | 1852 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>BehancePanel_BL</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>1</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/BehancePanel</appletDIR>
+</CommandLineArguments>
+06/10/15 12:06:42:850 | [INFO] | 44567 | ACC | NEX | NEX |  | NEX | 1852 | Inside LoadUIApplet
+06/10/15 12:06:42:850 | [INFO] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Loading Applet - BehancePanel_UI for WindowID - 1
+06/10/15 12:06:42:920 | [INFO] | 44567 | ACC | BehancePanelUI |  |  | BehancePanelUI | 1852 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>BehancePanel_UI</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>1</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/BehancePanel</appletDIR>
+    <dpi_x>72</dpi_x>
+    <dpi_y>72</dpi_y>
+    <isHighDPI>0</isHighDPI>
+</CommandLineArguments>
+06/10/15 12:06:42:924 | [INFO] | 44567 | ACC | C3PrefsCoreExt | C3PrefsMessageProcessor |  | C3PrefsCoreExt | 1852 | Inside GetLocalConfigXmlPath
+06/10/15 12:06:42:941 | [WARN] | 44567 | ACC | C3PrefsCoreExt |  |  | C3PrefsCoreExt | 1852 | Could not initialize C3Config sig file as XML data
+06/10/15 12:06:42:942 | [INFO] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Registering Applet. Type:  ID:BehancePanel_UI  Version:1.0
+06/10/15 12:06:42:944 | [INFO] | 44567 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 1852 | Dictionary Path: /Applications/Utilities/Adobe Creative Cloud/BehancePanel/BehancePanelUI.bundle/Contents/Resources/Dictionary/en_US/stringTable.zdct
+06/10/15 12:06:42:945 | [INFO] | 44567 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 1852 | Dictionary reading successful.
+06/10/15 12:06:42:946 | [INFO] | 44567 | ACC | c3containerBL | CoreSyncHandler |  | c3containerBL | 1852 | launchCoreSync >> firstLaunch => 1
+06/10/15 12:06:42:946 | [WARN] | 44567 | ACC | CmdCntr | MessageRouter |  | CmdCntr | 1852 | targetId field is empty. Sending message in broadcast mode
+06/10/15 12:06:42:946 | [INFO] | 44567 | ACC | c3containerBL | CoreSyncHandler |  | c3containerBL | 1852 | runCoreSync >> coreSyncBinaryPath => /Applications/Utilities/Adobe Creative Cloud/ACC/../CoreSync/Core Sync.app/Contents/MacOS/Core Sync
+06/10/15 12:06:42:972 | [INFO] | 44567 | ACC | c3containerBL | CoreSyncHandler |  | c3containerBL | 1852 | postLaunchHook
+06/10/15 12:06:42:988 | [INFO] | 44567 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 1852 | Opening OOBELib session for DeviceID...
+06/10/15 12:06:43:073 | [INFO] | 44567 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 1852 | Opened PWASession with session key - 76460A17-BFB0-4A51-9F09-CC1DF0E6EE7A
+06/10/15 12:06:43:073 | [INFO] | 44567 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 1852 | Performing getDeviceID...
+06/10/15 12:06:43:097 | [INFO] | 44567 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 1852 | deviceID => CAE7190170BC3758EE9671F719903040C152FB73E96B7B86BB60F93AC624827D
+06/10/15 12:06:43:097 | [INFO] | 44567 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 1852 | deviceName => Benjis-MacBook-Air.local
+06/10/15 12:06:43:097 | [INFO] | 44567 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 1852 | Closing OOBELib session : 76460A17-BFB0-4A51-9F09-CC1DF0E6EE7A commit : 1
+06/10/15 12:06:43:136 | [INFO] | 44567 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 1852 | Done closing PWASession : 76460A17-BFB0-4A51-9F09-CC1DF0E6EE7A
+06/10/15 12:06:43:148 | [WARN] | 44567 | ACC | c3containerBL | MessageHandler |  | c3containerBL | 1852 | Failed in getting value for key in OPMGetValueForKey
+06/10/15 12:06:43:151 | [INFO] | 44567 | ACC | c3containerBL | SignInStateMachine |  | c3containerBL | 1852 | changeState ~> 0 - 0 - 5
+06/10/15 12:06:43:151 | [INFO] | 44567 | ACC | c3containerBL | SignInStateMachine |  | c3containerBL | 1852 | changeState ~> 0 - 1 - 5
+06/10/15 12:06:43:151 | [INFO] | 44567 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 1852 | Opening IMSSession...
+06/10/15 12:06:43:153 | [WARN] | 44567 | ACC | c3containerBL | SelfUpdateStateMachine |  | c3containerBL | 2541 | GetUserProfileXml: Current User Access-Token is invalid. Ignoring the request
+06/10/15 12:06:43:153 | [INFO] |  | ACCC | Analytics | ETSFramework |  |  | 2541 | Event Guid generated is: '37a43059-3f21-4434-95b8-0edbb7b4ccee'
+06/10/15 12:06:43:153 | [INFO] |  | ACCC | Analytics | ETSFramework |  |  | 2423 | Event with guid '37a43059-3f21-4434-95b8-0edbb7b4ccee' is being sent
+06/10/15 12:06:43:196 | [INFO] | 44567 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 1852 | Done opening IMSSession, session key - AACD9DA7-167D-4020-89ED-0FF9DFC7846E
+06/10/15 12:06:43:196 | [INFO] | 44567 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 1852 | Invoking Register Client ID for Group
+06/10/15 12:06:43:199 | [INFO] | 44567 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 1852 | Fetching default user profile for requested ClientID...
+06/10/15 12:06:43:202 | [INFO] | 44567 | ACC | c3containerBL | UserProfileData |  | c3containerBL | 1852 | Set Profile Data...
+06/10/15 12:06:43:203 | [INFO] | 44567 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 1852 | Retrieved default user profile successfully
+06/10/15 12:06:43:203 | [ERROR] | 44567 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 1852 | Invalid Person GUID found!
+06/10/15 12:06:43:203 | [INFO] | 44567 | ACC | c3containerBL | SignInStateMachine |  | c3containerBL | 1852 | changeState ~> 1 - 1 - 5
+06/10/15 12:06:43:436 | [WARN] | 44567 | ACC | FileAppsUI | FilesAppUIContainerMessageProcessor |  | FileAppsUI | 2102 | Ignoring sync status message recieved when user is not signed in or coresynclaunch or panel frozen not recieved: <?xml version="1.0" encoding="utf-8"?>
+<response><status>success</status><type>accc.files.SyncStatusPush</type><requestid>18204bf4-e69b-4b09-b50e-720e4cc21222</requestid><sync><label>-</label><status>11</status><stringstatus>CoreSyncStateSyncDisabled</stringstatus></sync><context/><title><key/><label/><translatable>0</translatable></title><message><key/><label/><translatable>1</translatable></message></response>
+06/10/15 12:06:43:510 | [INFO] | 44567 | ACC | HomePanelUI | HomeAppUIMessageProcessor |  | HomePanelUI | 1852 | Hiding Home App Panel
+06/10/15 12:06:43:512 | [WARN] | 44567 | ACC | ProductsAppsBL | ProductsAppBLManager |  | ProductsAppsBL | 1852 | UI View is not created yet, Adding msg to queue
+06/10/15 12:06:43:512 | [INFO] | 44567 | ACC | AssetsUI | ASSET_PANEL |  | AssetsUI | 1852 | Inside ShowView
+06/10/15 12:06:43:513 | [WARN] | 44567 | ACC | Core | ExternalGateway |  | Core | 1852 | Applet ID - AssetsPanel_UI is not loaded for instance ID - 1
+06/10/15 12:06:43:513 | [INFO] | 44567 | ACC | BehancePanelUI | BehanceAppUIMessageProcessor |  | BehancePanelUI | 1852 | Hiding Behance Panel
+06/10/15 12:06:43:514 | [INFO] | 44567 | ACC | Core | CoreCommandHandler |  | Core | 1852 | HandleMessage: Message is not defined/implemented in core: StartUp. Broadcasting to core extensions
+06/10/15 12:06:43:524 | [INFO] | 44567 | ACC | c3containerBL | CoreSyncHandler |  | c3containerBL | 2541 | handleSignInForCoreSyncOnPingResponse >> coreSyncStartedUp => 0
+06/10/15 12:06:43:524 | [INFO] | 44567 | ACC | c3containerBL | CoreSyncHandler |  | c3containerBL | 2541 | handleCoreSyncStartedUp
+06/10/15 12:06:43:525 | [INFO] | 44567 | ACC | Core | CoreCommandHandler |  | Core | 2103 | HandleMessage: Message is not defined/implemented in core: coreSyncLaunched. Broadcasting to core extensions
+06/10/15 12:06:43:529 | [WARN] | 44567 | ACC | Core | ExternalGateway |  | Core | 2102 | Applet ID - AssetsPanel_UI is not loaded for instance ID - 1
+06/10/15 12:06:43:532 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2541 | Inside coreSyncLaunched
+06/10/15 12:06:43:532 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2541 | Inside handleOfflineMode
+06/10/15 12:06:43:532 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2541 | Inside handleOldPreferences
+06/10/15 12:06:43:534 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2541 | handleOldPreferences - Processing Old Preferences for backward compatibility
+06/10/15 12:06:43:537 | [INFO] | 44567 | ACC | C3PrefsCoreExt |  |  | C3PrefsCoreExt | 2541 | Inside SetValue
+06/10/15 12:06:43:540 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2541 | handleOfflineMode - Default Sync Off was found to be true..setting disabled state
+06/10/15 12:06:43:540 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2541 | Send Update Preferences to LiveType: OFF
+06/10/15 12:06:43:556 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2541 | Handling updateFontsStateBasedOnPref
+06/10/15 12:06:43:556 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2541 | Returning from updateFontsStateBasedOnPref
+06/10/15 12:06:44:657 | [WARN] | 44567 | ACC | VulcanWrapper | VulcanInterface |  | VulcanWrapper | 2245 | Refresh of endpoints didnt complete till we waited!
+06/10/15 12:06:44:659 | [INFO] | 44567 | ACC | c3containerBL | CoreSyncHandler |  | c3containerBL | 2103 | handleCoreSyncStartedUp
+06/10/15 12:06:44:659 | [INFO] | 44567 | ACC | VulcanWrapper | VulcanInterface |  | VulcanWrapper | 2245 | Received RefreshEndPoints callback:
+06/10/15 12:06:44:659 | [INFO] | 44567 | ACC | VulcanWrapper | VulcanInterface |  | VulcanWrapper | 2245 | Endpoint (source): AppId = ACCC, EndPointId = 220.1433963195
+06/10/15 12:06:44:659 | [INFO] | 44567 | ACC | VulcanWrapper | VulcanInterface |  | VulcanWrapper | 2245 | Got COSY endpoint info, moving to unicast mode.
+06/10/15 12:06:44:659 | [INFO] | 44567 | ACC | VulcanWrapper | VulcanInterface |  | VulcanWrapper | 2245 | Endpoint: AppId = COSY, EndPointId = 289.1433963203
+06/10/15 12:06:44:661 | [INFO] | 44567 | ACC | Core | CoreCommandHandler |  | Core | 2656 | HandleMessage: Message is not defined/implemented in core: coreSyncLaunched. Broadcasting to core extensions
+06/10/15 12:06:44:664 | [WARN] | 44567 | ACC | Core | ExternalGateway |  | Core | 2541 | Applet ID - AssetsPanel_UI is not loaded for instance ID - 1
+06/10/15 12:06:44:666 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2103 | Inside coreSyncLaunched
+06/10/15 12:06:44:666 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2103 | Inside handleOfflineMode
+06/10/15 12:06:44:666 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2103 | Inside handleOldPreferences
+06/10/15 12:06:44:670 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2103 | handleOfflineMode - Default Sync Off was found to be true..setting disabled state
+06/10/15 12:06:44:670 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2103 | Send Update Preferences to LiveType: OFF
+06/10/15 12:06:44:672 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2103 | Handling updateFontsStateBasedOnPref
+06/10/15 12:06:44:672 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2103 | Returning from updateFontsStateBasedOnPref
+06/10/15 12:06:44:674 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2103 | Handling UpdatePreferencesResponse from Livetype
+06/10/15 12:06:44:674 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2103 | Ignoring UpdatePreferencesResponse from Livetype for OfflineMode
+06/10/15 12:06:44:676 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2541 | Handling UpdatePreferencesResponse from Livetype
+06/10/15 12:06:44:677 | [INFO] | 44567 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2541 | Ignoring UpdatePreferencesResponse from Livetype for OfflineMode
+06/10/15 12:06:46:356 | [INFO] | 44567 | ACC | c3containerBL | SignInStateMachine |  | c3containerBL | 1852 | changeState ~> 2 - 1 - 5
+06/10/15 12:06:46:625 | [INFO] | 44567 | ACC | c3containerBL | SignInStateMachine |  | c3containerBL | 1852 | changeState ~> 3 - 1 - 5
+06/10/15 12:03:29:518 | [WARN] | 44567 | ACC | c3containerBL | SelfUpdateStateMachine |  | c3containerBL | 1852 | GetUserProfileXml: Current User Access-Token is invalid. Ignoring the request
+06/10/15 12:03:29:518 | [INFO] | 44567 | ACC | c3containerUI | UserProfileData |  | c3containerUI | 1852 | setProfileDataFromUI...
+06/10/15 12:03:29:519 | [ERROR] | 44567 | ACC | c3containerUI | UserProfileData |  | c3containerUI | 1852 | Failed while parsing response received - setProfileDataFromUI
+06/10/15 12:03:29:520 | [INFO] | 44567 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 1852 | Dictionary Path: /Applications/Utilities/Adobe Creative Cloud/ACC/resource/Dictionary/en_US/stringTable.zdct
+06/10/15 12:03:29:525 | [INFO] | 44567 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 1852 | Dictionary reading successful.
+06/10/15 12:03:33:582 | [WARN] | 44567 | ACC | c3containerBL | SelfUpdateStateMachine |  | c3containerBL | 3229 | GetUserProfileXml: Current User Access-Token is invalid. Ignoring the request
+06/10/15 12:03:33:582 | [INFO] |  | ACCC | Analytics | ETSFramework |  |  | 3229 | Event Guid generated is: '068975e4-053c-4f20-9403-d259814c9021'
+06/10/15 12:03:33:583 | [INFO] |  | ACCC | Analytics | ETSFramework |  |  | 2423 | Event with guid '068975e4-053c-4f20-9403-d259814c9021' is being sent
+06/10/15 12:03:33:633 | [INFO] | 44567 | ACC | HomePanelUI | HomeAppUIMessageProcessor |  | HomePanelUI | 1852 | Hiding Home App Panel
+06/10/15 12:03:33:635 | [WARN] | 44567 | ACC | ProductsAppsBL | ProductsAppBLManager |  | ProductsAppsBL | 1852 | UI View is not created yet, Adding msg to queue
+06/10/15 12:03:33:635 | [INFO] | 44567 | ACC | AssetsUI | ASSET_PANEL |  | AssetsUI | 1852 | Inside ShowView
+06/10/15 12:03:33:635 | [WARN] | 44567 | ACC | Core | ExternalGateway |  | Core | 1852 | Applet ID - AssetsPanel_UI is not loaded for instance ID - 1
+06/10/15 12:03:33:637 | [INFO] | 44567 | ACC | BehancePanelUI | BehanceAppUIMessageProcessor |  | BehancePanelUI | 1852 | Hiding Behance Panel
+06/10/15 12:03:33:638 | [WARN] | 44567 | ACC | CmdCntr | MessageRouter |  | CmdCntr | 3493 | targetId field is empty. Sending message in broadcast mode
+06/10/15 12:03:35:464 | [INFO] | 44567 | ACC | Core | CoreCommandHandler |  | Core | 3493 | HandleMessage: Message is not defined/implemented in core: ShuttingDown. Broadcasting to core extensions
+06/10/15 12:03:35:464 | [INFO] | 44567 | ACC | ACE | ACE |  | ACE | 3493 | Shutting Down Analytics
+06/10/15 12:03:35:465 | [INFO] |  | ACCC | Analytics | ETSFramework |  |  | 3493 | Waiting for maximum 20 seconds before discarding all queued up events.
+06/10/15 12:03:35:465 | [INFO] |  | ACCC | Analytics | ETSFramework |  |  | 3493 | Waiting for the async thread to get the task completed
+06/10/15 12:03:35:465 | [INFO] |  | ACCC | Analytics | ETSFramework |  |  | 2423 | Async thread is completed. Now exiting from function.
+06/10/15 12:03:35:475 | [INFO] | 44567 | ACC | ACE | Analytics |  | ACE | 3493 | ETS framework is shutdown
+06/10/15 12:03:35:476 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading Applet - BehancePanel_BL for instance ID - 1
+06/10/15 12:03:35:476 | [INFO] | 44567 | ACC | BehancePanelBL |  |  | BehancePanelBL | 1852 | Finalize called: 
+06/10/15 12:03:35:476 | [INFO] | 44567 | ACC | NEX | NEX |  | NEX | 1852 | Inside UnloadUIApplet
+06/10/15 12:03:35:477 | [INFO] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Un-loading Applet - BehancePanel_UI for instance ID - 1
+06/10/15 12:03:35:477 | [INFO] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Callng the finalize function of the applet
+06/10/15 12:03:35:477 | [INFO] | 44567 | ACC | BehancePanelUI |  |  | BehancePanelUI | 1852 | Finalize called: 
+06/10/15 12:03:35:484 | [INFO] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Unloading applet
+06/10/15 12:03:35:484 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading applet library
+06/10/15 12:03:35:486 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading Applet - AssetsPanel_BL for instance ID - 1
+06/10/15 12:03:35:486 | [INFO] | 44567 | ACC | AssetsUI |  |  | AssetsUI | 1852 | Finalize called: 
+06/10/15 12:03:35:492 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading Applet - FilesPanel_BL for instance ID - 1
+06/10/15 12:03:35:492 | [INFO] | 44567 | ACC | FileAppsUI |  |  | FileAppsUI | 1852 | Finalize called: 
+06/10/15 12:03:35:493 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading applet library
+06/10/15 12:03:35:493 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading Applet - FontsPanel_BL for instance ID - 1
+06/10/15 12:03:35:493 | [INFO] | 44567 | ACC | FontsAppBL |  |  | FontsAppBL | 1852 | Finalize called: 
+06/10/15 12:03:35:494 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading applet library
+06/10/15 12:03:35:494 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading Applet - MarketPanel_BL for instance ID - 1
+06/10/15 12:03:35:494 | [INFO] | 44567 | ACC | MarketAppBL |  |  | MarketAppBL | 1852 | Finalize called: 
+06/10/15 12:03:35:494 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading applet library
+06/10/15 12:03:35:494 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading applet library
+06/10/15 12:03:35:495 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading Applet - AppsPanel_BL for instance ID - 1
+06/10/15 12:03:35:495 | [INFO] | 44567 | ACC | ProductsAppsBL |  |  | ProductsAppsBL | 1852 | Finalize called: 
+06/10/15 12:03:35:496 | [INFO] | 44567 | ACC | ProductsAppsBL | ProductsAppUIManager::EnablePreferences |  | ProductsAppsBL | 1852 | false
+06/10/15 12:03:35:497 | [WARN] | 44567 | ACC | Core | ExternalGateway |  | Core | 1852 | Applet ID - AppsPanel_IL is not loaded for instance ID - 1
+06/10/15 12:03:35:497 | [WARN] | 44567 | ACC | Core | ExternalGateway |  | Core | 1852 | Applet ID - AppsPanel_IL is not loaded for instance ID - 1
+06/10/15 12:03:35:497 | [WARN] | 44567 | ACC | Core | ExternalGateway |  | Core | 1852 | Applet ID - AppsPanel_IL is not loaded for instance ID - 1
+06/10/15 12:03:35:497 | [WARN] | 44567 | ACC | Core | ExternalGateway |  | Core | 1852 | Applet ID - AppsPanel_IL is not loaded for instance ID - 1
+06/10/15 12:03:35:497 | [WARN] | 44567 | ACC | Core | ExternalGateway |  | Core | 1852 | Applet ID - AppsPanel_IL is not loaded for instance ID - 1
+06/10/15 12:03:35:497 | [WARN] | 44567 | ACC | Core | ExternalGateway |  | Core | 1852 | Applet ID - AppsPanel_IL is not loaded for instance ID - 1
+06/10/15 12:03:35:497 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading applet library
+06/10/15 12:03:35:498 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading Applet - HomePanel_BL for instance ID - 1
+06/10/15 12:03:35:498 | [INFO] | 44567 | ACC | HomePanelBL |  |  | HomePanelBL | 1852 | Finalize called: 
+06/10/15 12:03:35:499 | [INFO] | 44567 | ACC | NEX | NEX |  | NEX | 1852 | Inside UnloadUIApplet
+06/10/15 12:03:35:499 | [INFO] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Un-loading Applet - HomePanel_UI for instance ID - 1
+06/10/15 12:03:35:499 | [INFO] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Callng the finalize function of the applet
+06/10/15 12:03:35:499 | [INFO] | 44567 | ACC | HomePanelUI |  |  | HomePanelUI | 1852 | Finalize called: 
+06/10/15 12:03:35:499 | [INFO] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Unloading applet
+06/10/15 12:03:35:499 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading applet library
+06/10/15 12:03:35:499 | [INFO] | 44567 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 3493 | Closing IMSSession: AACD9DA7-167D-4020-89ED-0FF9DFC7846E
+06/10/15 12:03:35:501 | [INFO] | 44567 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 3493 | Done closing IMSSession: AACD9DA7-167D-4020-89ED-0FF9DFC7846E
+06/10/15 12:03:35:502 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 3493 | Unloading Applet - LWA_Native for instance ID - 1
+06/10/15 12:03:35:502 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 3493 | Unloading applet library
+06/10/15 12:03:35:503 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading Applet - C3Container_BL for instance ID - 1
+06/10/15 12:03:35:504 | [INFO] | 44567 | ACC | NEX | NEX |  | NEX | 1852 | Inside UnloadUIApplet
+06/10/15 12:03:35:504 | [INFO] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Un-loading Applet - C3Container_UI for instance ID - 1
+06/10/15 12:03:35:504 | [INFO] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Callng the finalize function of the applet
+06/10/15 12:03:35:504 | [INFO] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Unloading applet
+06/10/15 12:03:35:505 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading Applet - NEX_UIX for instance ID - CoreInstance
+06/10/15 12:03:35:505 | [INFO] | 44567 | ACC | NEX | NEX |  | NEX | 1852 | NEX finalize called
+06/10/15 12:03:35:505 | [INFO] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Un-loading Applet - C3Container_UI
+06/10/15 12:03:35:505 | [WARN] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Applet ID - C3Container_UI is not loaded, cannot unload Applet
+06/10/15 12:03:35:505 | [INFO] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Un-loading Applet - HomePanel_UI
+06/10/15 12:03:35:505 | [WARN] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Applet ID - HomePanel_UI is not loaded, cannot unload Applet
+06/10/15 12:03:35:505 | [INFO] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Un-loading Applet - BehancePanel_UI
+06/10/15 12:03:35:505 | [WARN] | 44567 | ACC | NEX | NEXAppletManager |  | NEX | 1852 | Applet ID - BehancePanel_UI is not loaded, cannot unload Applet
+06/10/15 12:03:35:505 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading applet library
+06/10/15 12:03:35:505 | [WARN] | 44567 | ACC | c3containerBL | LBSStateManager |  | c3containerBL | 1852 | Thread is stopped or cancel is already going on so how can it get cancelled
+06/10/15 12:03:35:505 | [ERROR] | 44567 | ACC | c3containerBL | LBSStateManager |  | c3containerBL | 1852 | Could not wait for ipc thread for lbs communication to finish. Error Code 0
+06/10/15 12:03:35:505 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading applet library
+06/10/15 12:03:35:598 | [WARN] | 44567 | ACC | Core | CoreCommandHandler |  | Core | 1852 | Applet cannot unload core extensions or UI engines. They are unloaded automatically.
+06/10/15 12:03:35:598 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading Applet - CmdCntr_CoreExt for instance ID - CoreInstance
+06/10/15 12:03:35:599 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading applet library
+06/10/15 12:03:35:599 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading Applet - Analytics_CoreExt for instance ID - CoreInstance
+06/10/15 12:03:35:599 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading applet library
+06/10/15 12:03:35:599 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading Applet - LocManager_CoreExt for instance ID - CoreInstance
+06/10/15 12:03:35:599 | [INFO] | 44567 | ACC | LocalizationManager |  |  | LocalizationManager | 1852 | LocalizationManager finalize called
+06/10/15 12:03:35:600 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading applet library
+06/10/15 12:03:35:600 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading Applet - C3Prefs_CoreExt for instance ID - CoreInstance
+06/10/15 12:03:35:600 | [INFO] | 44567 | ACC | C3PrefsCoreExt |  |  | C3PrefsCoreExt | 1852 | Finalize called: 
+06/10/15 12:03:35:600 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading applet library
+06/10/15 12:03:35:600 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading Applet - ElevationManager_CoreExt for instance ID - CoreInstance
+06/10/15 12:03:35:600 | [INFO] | 44567 | ACC | ElevationManager |  |  | ElevationManager | 1852 | Finalize called: 
+06/10/15 12:03:36:101 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading applet library
+06/10/15 12:03:36:101 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading Applet - NotificationManager_CoreExt for instance ID - CoreInstance
+06/10/15 12:03:36:101 | [INFO] | 44567 | ACC | NotificationManager |  |  | NotificationManager | 1852 | Finalize called: 
+06/10/15 12:03:36:101 | [INFO] | 44567 | ACC | NotificationManager | NotificationManager |  | NotificationManager | 1852 | PushToDesktopManager::stopProcessing
+06/10/15 12:03:36:101 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading applet library
+06/10/15 12:03:36:101 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading Applet - ANSClient_CoreExt for instance ID - CoreInstance
+06/10/15 12:03:36:101 | [INFO] | 44567 | ACC | ANSClient |  |  | ANSClient | 1852 | Finalize called: 
+06/10/15 12:03:36:317 | [INFO] | 44567 | ACC | Core | Applet |  | Core | 1852 | Unloading applet library
+06/10/15 12:03:36:318 | [INFO] | 44567 | ACC | C3App | CoreManager |  | C3App | 1852 | Unloading Core applet ...
+06/10/15 12:03:36:318 | [INFO] | 44567 | ACC | C3App | CoreManager |  | C3App | 1852 | Unloading Core applet complete.
+06/10/15 12:03:36:318 | [INFO] | 44567 | ACC | C3App | ApplicationContext |  | C3App | 1852 | ************************* END Adobe Creative Cloud. Version: 1.8.0.447 *************************
+06/12/15 13:40:32:170 | [INFO] | 62305 | ACC | C3App | ApplicationContext |  | C3App | 2123 | ************************* START Adobe Creative Cloud. Version: 1.8.0.447 *************************
+06/12/15 13:40:32:275 | [INFO] | 62305 | ACC | Core | AsyncMessageProcessor |  | Core | 2123 | AsyncMessageProcessorMac initialized...
+06/12/15 13:40:32:275 | [INFO] | 62305 | ACC | Core | AsyncMessageProcessor |  | Core | 2123 | AsyncMessageProcessorMac Message Queue initialized...
+06/12/15 13:40:32:329 | [INFO] | 62305 | ACC | Core | AppletManager |  | Core | 2123 | Querying applet database at path: /Applications/Utilities/Adobe Creative Cloud
+06/12/15 13:40:32:329 | [INFO] | 62305 | ACC | Core | AppletManager |  | Core | 2123 | Loading PIM library from path: /Applications/Utilities/Adobe Creative Cloud/utils/AdobePIM.dylib
+06/12/15 13:40:32:377 | [INFO] | 62305 | ACC | Core | AppletManager |  | Core | 2123 | Getting applet data from Applet database.
+06/12/15 13:40:32:381 | [INFO] | 62305 | ACC | Core | AppletManager |  | Core | 2123 | Registering Applets...
+06/12/15 13:40:32:386 | [INFO] | 62305 | ACC | Core | AppletManager |  | Core | 2123 | Getting applet data from Applet database.
+06/12/15 13:40:32:389 | [INFO] | 62305 | ACC | Core | AppletManager |  | Core | 2123 | All installed packages version string: ACCC:2.8.0.447|AppsPanel:2.8.0.447|AssetsPanel:2.8.0.446|BehancePanel:2.8.0.446|CEF:2.8.0.446|Core:2.8.0.446|CoreExt:2.8.0.446|CoreSync:2.8.0.446|CoreSyncExtension:2.8.0.446|DesignLibraryPlugin:2.8.0.446|ExchangePlugin:2.8.0.446|FilesPanel:2.8.0.446|FontsPanel:2.8.0.446|HEX:2.8.0.446|HomePanel:2.8.0.447|LiveType:2.8.0.446|MarketPanel:2.8.0.446|NEX:2.8.0.446|SynKit:2.8.0.446|Utils:2.8.0.447
+06/12/15 13:40:32:389 | [INFO] | 62305 | ACC | Core | AppletManager |  | Core | 2123 | Getting applet relationship info from Applet database.
+06/12/15 13:40:32:391 | [INFO] | 62305 | ACC | Core | AppletManager |  | Core | 2123 | Registering Applets...
+06/12/15 13:40:32:392 | [INFO] | 62305 | ACC | Core | AppletManager |  | Core | 2123 | Identifying applet relationships...
+06/12/15 13:40:32:393 | [INFO] | 62305 | ACC | Core | Applet |  | Core | 2123 | Loading Applet - CmdCntr_CoreExt for InstanceID - CoreInstance
+06/12/15 13:40:33:545 | [INFO] | 62305 | ACC | Core | Applet |  | Core | 2123 | Loading Applet - Analytics_CoreExt for InstanceID - CoreInstance
+06/12/15 13:40:33:565 | [INFO] | 62305 | ACC | ACE | ACE |  | ACE | 2123 | ACE Initialized
+06/12/15 13:40:33:576 | [INFO] | 62305 | ACC | ACE |  |  | ACE | 2123 | ETS environment is: 7
+06/12/15 13:40:33:590 | [INFO] | 62305 | ACC | ACE |  |  | ACE | 2123 | OS Bitness is: 64
+06/12/15 13:40:33:592 | [INFO] | 62305 | ACC | Core | Applet |  | Core | 2123 | Loading Applet - LocManager_CoreExt for InstanceID - CoreInstance
+06/12/15 13:40:33:612 | [INFO] | 62305 | ACC | LocalizationManager |  |  | LocalizationManager | 2123 | LocalizationManager Initialized
+06/12/15 13:40:33:612 | [INFO] | 62305 | ACC | Core | Applet |  | Core | 2123 | Loading Applet - C3Prefs_CoreExt for InstanceID - CoreInstance
+06/12/15 13:40:33:663 | [INFO] | 62305 | ACC | C3PrefsCoreExt |  |  | C3PrefsCoreExt | 2123 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>C3Prefs_CoreExt</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>CoreInstance</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/CoreExt</appletDIR>
+</CommandLineArguments>
+06/12/15 13:40:33:664 | [INFO] | 62305 | ACC | Core | Applet |  | Core | 2123 | Loading Applet - ElevationManager_CoreExt for InstanceID - CoreInstance
+06/12/15 13:40:33:681 | [INFO] | 62305 | ACC | ElevationManager |  |  | ElevationManager | 2123 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>ElevationManager_CoreExt</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>CoreInstance</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/CoreExt</appletDIR>
+</CommandLineArguments>
+06/12/15 13:40:33:682 | [INFO] | 62305 | ACC | Core | Applet |  | Core | 2123 | Loading Applet - NotificationManager_CoreExt for InstanceID - CoreInstance
+06/12/15 13:40:33:711 | [INFO] | 62305 | ACC | NotificationManager |  |  | NotificationManager | 2123 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>NotificationManager_CoreExt</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>CoreInstance</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/CoreExt</appletDIR>
+</CommandLineArguments>
+06/12/15 13:40:33:715 | [INFO] | 62305 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 2123 | Dictionary Path: /Applications/Utilities/Adobe Creative Cloud/CoreExt/Resources/NotificationManager/Dictionary/en_US/stringTable.zdct
+06/12/15 13:40:33:715 | [INFO] | 62305 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 2123 | Dictionary reading successful.
+06/12/15 13:40:33:771 | [WARN] | 62305 | ACC | Core | ExternalGateway |  | Core | 2123 | Applet ID - C3Container_BL is not loaded for instance ID - 1
+06/12/15 13:40:33:771 | [INFO] | 62305 | ACC | Core | Applet |  | Core | 2123 | Loading Applet - ANSClient_CoreExt for InstanceID - CoreInstance
+06/12/15 13:40:33:869 | [INFO] | 62305 | ACC | ANSClient |  |  | ANSClient | 2123 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>ANSClient_CoreExt</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>CoreInstance</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/CoreExt</appletDIR>
+</CommandLineArguments>
+06/12/15 13:40:24:273 | [INFO] | 62305 | ACC | C3App | LocalizationManager |  | C3App | 2123 | Dictionary Path: /Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Resources/Dictionary/en_US/stringTable.zdct
+06/12/15 13:40:24:274 | [INFO] | 62305 | ACC | C3App | LocalizationManager |  | C3App | 2123 | Dictionary reading successful.
+06/12/15 13:40:24:397 | [INFO] | 62305 | ACC | Core | Applet |  | Core | 2123 | Loading Applet - HEX_UIX for InstanceID - CoreInstance
+06/12/15 13:40:24:506 | [INFO] | 62305 | ACC | HEX |  |  | HEX | 2123 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>HEX_UIX</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>CoreInstance</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/HEX</appletDIR>
+</CommandLineArguments>
+06/12/15 13:40:24:541 | [INFO] | 62305 | ACC | Core | Applet |  | Core | 2123 | Loading Applet - C3Container_BL for InstanceID - 1
+06/12/15 13:40:24:640 | [INFO] | 62305 | ACC | Core | CoreCommandHandler |  | Core | 2123 | HandleMessage: Message is not defined/implemented in core: ProcessCommandLine. Broadcasting to core extensions
+06/12/15 13:40:24:647 | [INFO] | 62305 | ACC | Core | Applet |  | Core | 2123 | Loading Applet - NEX_UIX for InstanceID - CoreInstance
+06/12/15 13:40:24:705 | [INFO] | 62305 | ACC | NEX | NEX |  | NEX | 2123 | NEX Initialized
+06/12/15 13:40:24:706 | [INFO] | 62305 | ACC | NEX | NEX |  | NEX | 2123 | Inside LoadUIApplet
+06/12/15 13:40:24:707 | [INFO] | 62305 | ACC | NEX | NEXAppletManager |  | NEX | 2123 | Loading Applet - C3Container_UI for WindowID - 1
+06/12/15 13:40:24:854 | [INFO] | 62305 | ACC | NEX | NEXAppletManager |  | NEX | 2123 | Registering Applet. Type:  ID:C3Container_UI  Version:1.0
+06/12/15 13:40:26:118 | [INFO] | 62305 | ACC | Core | Applet |  | Core | 2123 | Loading Applet - LWA_Native for InstanceID - 1
+06/12/15 13:40:26:215 | [INFO] | 62305 | ACC | C3PrefsCoreExt | C3PrefsMessageProcessor |  | C3PrefsCoreExt | 2123 | Inside GetLocalConfigXmlPath
+06/12/15 13:40:26:244 | [WARN] | 62305 | ACC | C3PrefsCoreExt |  |  | C3PrefsCoreExt | 2123 | Could not initialize C3Config sig file as XML data
+06/12/15 13:40:26:245 | [INFO] | 62305 | ACC | LocalizationManager |  |  | LocalizationManager | 2123 | Inside GetLocaleForApplet
+06/12/15 13:40:26:262 | [INFO] | 62305 | ACC | Core | Applet |  | Core | 2123 | Loading Applet - HomePanel_BL for InstanceID - 1
+06/12/15 13:40:26:365 | [INFO] | 62305 | ACC | HomePanelBL |  |  | HomePanelBL | 2123 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>HomePanel_BL</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>1</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/HomePanel</appletDIR>
+</CommandLineArguments>
+06/12/15 13:40:26:369 | [INFO] | 62305 | ACC | NEX | NEX |  | NEX | 2123 | Inside LoadUIApplet
+06/12/15 13:40:26:370 | [INFO] | 62305 | ACC | NEX | NEXAppletManager |  | NEX | 2123 | Loading Applet - HomePanel_UI for WindowID - 1
+06/12/15 13:40:26:503 | [INFO] | 62305 | ACC | HomePanelUI |  |  | HomePanelUI | 2123 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>HomePanel_UI</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>1</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/HomePanel</appletDIR>
+    <dpi_x>72</dpi_x>
+    <dpi_y>72</dpi_y>
+    <isHighDPI>0</isHighDPI>
+</CommandLineArguments>
+06/12/15 13:40:26:521 | [INFO] | 62305 | ACC | NEX | NEXAppletManager |  | NEX | 2123 | Registering Applet. Type:  ID:HomePanel_UI  Version:1.0
+06/12/15 13:40:26:603 | [INFO] | 62305 | ACC | C3PrefsCoreExt | C3PrefsMessageProcessor |  | C3PrefsCoreExt | 2123 | Inside GetLocalConfigXmlPath
+06/12/15 13:40:26:622 | [WARN] | 62305 | ACC | C3PrefsCoreExt |  |  | C3PrefsCoreExt | 2123 | Could not initialize C3Config sig file as XML data
+06/12/15 13:40:26:628 | [INFO] | 62305 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 2123 | Dictionary Path: /Applications/Utilities/Adobe Creative Cloud/HomePanel/HomePanelUI.bundle/Contents/Resources/Dictionary/en_US/stringTable.zdct
+06/12/15 13:40:26:631 | [INFO] | 62305 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 2123 | Dictionary reading successful.
+06/12/15 13:40:27:020 | [INFO] | 62305 | ACC | Core | Applet |  | Core | 2123 | Loading Applet - AppsPanel_BL for InstanceID - 1
+06/12/15 13:40:27:159 | [INFO] | 62305 | ACC | ProductsAppsBL |  |  | ProductsAppsBL | 2123 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>AppsPanel_BL</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>1</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/AppsPanel/AppsPanelBL.bundle/Contents/MacOS</appletDIR>
+</CommandLineArguments>
+06/12/15 13:40:27:169 | [INFO] | 62305 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 2123 | Dictionary Path: /Applications/Utilities/Adobe Creative Cloud/AppsPanel/AppsPanelBL.bundle/Contents/resource/Dictionary/en_US/stringTable.zdct
+06/12/15 13:40:27:173 | [INFO] | 62305 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 2123 | Dictionary reading successful.
+06/12/15 13:40:27:401 | [INFO] | 62305 | ACC | Core | CoreCommandHandler |  | Core | 2123 | HandleMessage: Message is not defined/implemented in core: LoadBindings. Broadcasting to core extensions
+06/12/15 13:40:27:403 | [INFO] | 62305 | ACC | Core | Applet |  | Core | 2123 | Loading Applet - AssetsPanel_BL for InstanceID - 1
+06/12/15 13:40:27:470 | [INFO] | 62305 | ACC | AssetsUI |  |  | AssetsUI | 2123 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>AssetsPanel_BL</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>1</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/AssetsPanel</appletDIR>
+</CommandLineArguments>
+06/12/15 13:40:27:477 | [INFO] | 62305 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 2123 | Dictionary Path: /Applications/Utilities/Adobe Creative Cloud/AssetsPanel/resource/Dictionary/en_US/stringTable.zdct
+06/12/15 13:40:27:478 | [INFO] | 62305 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 2123 | Dictionary reading successful.
+06/12/15 13:40:27:487 | [INFO] | 62305 | ACC | Core | Applet |  | Core | 2123 | Loading Applet - FilesPanel_BL for InstanceID - 1
+06/12/15 13:40:27:553 | [INFO] | 62305 | ACC | FileAppsUI |  |  | FileAppsUI | 2123 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>FilesPanel_BL</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>1</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/FilesPanel/FilesPanelBL.bundle/Contents/MacOS</appletDIR>
+</CommandLineArguments>
+06/12/15 13:40:27:561 | [INFO] | 62305 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 2123 | Dictionary Path: /Applications/Utilities/Adobe Creative Cloud/FilesPanel/FilesPanelBL.bundle/Contents/MacOS/../Resources/Dictionary/en_US/stringTable.zdct
+06/12/15 13:40:27:564 | [INFO] | 62305 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 2123 | Dictionary reading successful.
+06/12/15 13:40:27:642 | [INFO] | 62305 | ACC | Core | Applet |  | Core | 2123 | Loading Applet - FontsPanel_BL for InstanceID - 1
+06/12/15 13:40:27:714 | [INFO] | 62305 | ACC | FontsAppBL |  |  | FontsAppBL | 2123 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>FontsPanel_BL</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>1</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/FontsPanel/FontsPanelBL.bundle/Contents/MacOS</appletDIR>
+</CommandLineArguments>
+06/12/15 13:40:27:721 | [INFO] | 62305 | ACC | C3PrefsCoreExt | C3PrefsMessageProcessor |  | C3PrefsCoreExt | 2123 | Inside GetLocalConfigXmlPath
+06/12/15 13:40:27:734 | [WARN] | 62305 | ACC | C3PrefsCoreExt |  |  | C3PrefsCoreExt | 2123 | Could not initialize C3Config sig file as XML data
+06/12/15 13:40:27:738 | [INFO] | 62305 | ACC | LocalizationManager |  |  | LocalizationManager | 2123 | Inside GetLocaleForApplet
+06/12/15 13:40:27:739 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2123 | Locale Used for applet: en_US
+06/12/15 13:40:27:741 | [INFO] | 62305 | ACC | Core | Applet |  | Core | 2123 | Loading Applet - MarketPanel_BL for InstanceID - 1
+06/12/15 13:40:27:820 | [INFO] | 62305 | ACC | MarketAppBL |  |  | MarketAppBL | 2123 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>MarketPanel_BL</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>1</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/MarketPanel</appletDIR>
+</CommandLineArguments>
+06/12/15 13:40:27:824 | [INFO] | 62305 | ACC | C3PrefsCoreExt | C3PrefsMessageProcessor |  | C3PrefsCoreExt | 2123 | Inside GetLocalConfigXmlPath
+06/12/15 13:40:27:838 | [WARN] | 62305 | ACC | C3PrefsCoreExt |  |  | C3PrefsCoreExt | 2123 | Could not initialize C3Config sig file as XML data
+06/12/15 13:40:27:862 | [INFO] | 62305 | ACC | Core | Applet |  | Core | 2123 | Loading Applet - BehancePanel_BL for InstanceID - 1
+06/12/15 13:40:27:949 | [INFO] | 62305 | ACC | BehancePanelBL |  |  | BehancePanelBL | 2123 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>BehancePanel_BL</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>1</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/BehancePanel</appletDIR>
+</CommandLineArguments>
+06/12/15 13:40:27:952 | [INFO] | 62305 | ACC | NEX | NEX |  | NEX | 2123 | Inside LoadUIApplet
+06/12/15 13:40:27:952 | [INFO] | 62305 | ACC | NEX | NEXAppletManager |  | NEX | 2123 | Loading Applet - BehancePanel_UI for WindowID - 1
+06/12/15 13:40:28:021 | [INFO] | 62305 | ACC | BehancePanelUI |  |  | BehancePanelUI | 2123 | Initialize called: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommandLineArguments>
+    <appletID>BehancePanel_UI</appletID>
+    <appletVersion>1.0</appletVersion>
+    <appletInstanceID>1</appletInstanceID>
+    <appletDIR>/Applications/Utilities/Adobe Creative Cloud/BehancePanel</appletDIR>
+    <dpi_x>72</dpi_x>
+    <dpi_y>72</dpi_y>
+    <isHighDPI>0</isHighDPI>
+</CommandLineArguments>
+06/12/15 13:40:28:024 | [INFO] | 62305 | ACC | C3PrefsCoreExt | C3PrefsMessageProcessor |  | C3PrefsCoreExt | 2123 | Inside GetLocalConfigXmlPath
+06/12/15 13:40:28:039 | [WARN] | 62305 | ACC | C3PrefsCoreExt |  |  | C3PrefsCoreExt | 2123 | Could not initialize C3Config sig file as XML data
+06/12/15 13:40:28:039 | [INFO] | 62305 | ACC | NEX | NEXAppletManager |  | NEX | 2123 | Registering Applet. Type:  ID:BehancePanel_UI  Version:1.0
+06/12/15 13:40:28:042 | [INFO] | 62305 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 2123 | Dictionary Path: /Applications/Utilities/Adobe Creative Cloud/BehancePanel/BehancePanelUI.bundle/Contents/Resources/Dictionary/en_US/stringTable.zdct
+06/12/15 13:40:28:043 | [INFO] | 62305 | ACC | LocalizationManager | LocalizationManager |  | LocalizationManager | 2123 | Dictionary reading successful.
+06/12/15 13:40:28:044 | [INFO] | 62305 | ACC | c3containerBL | CoreSyncHandler |  | c3containerBL | 2123 | launchCoreSync >> firstLaunch => 1
+06/12/15 13:40:28:045 | [WARN] | 62305 | ACC | CmdCntr | MessageRouter |  | CmdCntr | 2123 | targetId field is empty. Sending message in broadcast mode
+06/12/15 13:40:28:045 | [INFO] | 62305 | ACC | c3containerBL | CoreSyncHandler |  | c3containerBL | 2123 | runCoreSync >> coreSyncBinaryPath => /Applications/Utilities/Adobe Creative Cloud/ACC/../CoreSync/Core Sync.app/Contents/MacOS/Core Sync
+06/12/15 13:40:28:068 | [INFO] | 62305 | ACC | c3containerBL | CoreSyncHandler |  | c3containerBL | 2123 | postLaunchHook
+06/12/15 13:40:28:084 | [INFO] | 62305 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 2123 | Opening OOBELib session for DeviceID...
+06/12/15 13:40:28:844 | [INFO] | 62305 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 2123 | Opened PWASession with session key - 5E98A00C-9401-4307-AB0B-BDD207CD46B9
+06/12/15 13:40:28:844 | [INFO] | 62305 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 2123 | Performing getDeviceID...
+06/12/15 13:40:28:987 | [INFO] | 62305 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 2123 | deviceID => 7B1DA09107E0CB02AD3C1DD5586847837C6088C7A59253A6D06AFC47C6697A9B
+06/12/15 13:40:28:988 | [INFO] | 62305 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 2123 | deviceName => Benjis-MacBook-Air.local
+06/12/15 13:40:28:988 | [INFO] | 62305 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 2123 | Closing OOBELib session : 5E98A00C-9401-4307-AB0B-BDD207CD46B9 commit : 1
+06/12/15 13:40:29:559 | [INFO] | 62305 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 2123 | Done closing PWASession : 5E98A00C-9401-4307-AB0B-BDD207CD46B9
+06/12/15 13:40:29:656 | [WARN] | 62305 | ACC | c3containerBL | MessageHandler |  | c3containerBL | 2123 | Failed in getting value for key in OPMGetValueForKey
+06/12/15 13:40:29:659 | [INFO] | 62305 | ACC | c3containerBL | SignInStateMachine |  | c3containerBL | 2123 | changeState ~> 0 - 0 - 5
+06/12/15 13:40:29:659 | [INFO] | 62305 | ACC | c3containerBL | SignInStateMachine |  | c3containerBL | 2123 | changeState ~> 0 - 1 - 5
+06/12/15 13:40:29:660 | [INFO] | 62305 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 2123 | Opening IMSSession...
+06/12/15 13:40:29:662 | [WARN] | 62305 | ACC | c3containerBL | SelfUpdateStateMachine |  | c3containerBL | 2487 | GetUserProfileXml: Current User Access-Token is invalid. Ignoring the request
+06/12/15 13:40:29:663 | [INFO] |  | ACCC | Analytics | ETSFramework |  |  | 2487 | Event Guid generated is: '8374ec77-cd9d-4cfd-ab85-d86ff32b0a02'
+06/12/15 13:40:29:663 | [INFO] |  | ACCC | Analytics | ETSFramework |  |  | 2584 | Event with guid '8374ec77-cd9d-4cfd-ab85-d86ff32b0a02' is being sent
+06/12/15 13:40:29:742 | [INFO] | 62305 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 2123 | Done opening IMSSession, session key - 4C5583F8-7E95-4F02-8620-2728042E54BA
+06/12/15 13:40:29:742 | [INFO] | 62305 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 2123 | Invoking Register Client ID for Group
+06/12/15 13:40:29:745 | [INFO] | 62305 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 2123 | Fetching default user profile for requested ClientID...
+06/12/15 13:40:29:749 | [INFO] | 62305 | ACC | c3containerBL | UserProfileData |  | c3containerBL | 2123 | Set Profile Data...
+06/12/15 13:40:29:750 | [INFO] | 62305 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 2123 | Retrieved default user profile successfully
+06/12/15 13:40:29:750 | [ERROR] | 62305 | ACC | c3containerBL | IMSLibHelper |  | c3containerBL | 2123 | Invalid Person GUID found!
+06/12/15 13:40:29:750 | [INFO] | 62305 | ACC | c3containerBL | SignInStateMachine |  | c3containerBL | 2123 | changeState ~> 1 - 1 - 5
+06/12/15 13:40:29:807 | [WARN] | 62305 | ACC | FileAppsUI | FilesAppUIContainerMessageProcessor |  | FileAppsUI | 2487 | Ignoring sync status message recieved when user is not signed in or coresynclaunch or panel frozen not recieved: <?xml version="1.0" encoding="utf-8"?>
+<response><status>success</status><type>accc.files.SyncStatusPush</type><requestid>1aa32028-e624-4870-a7bd-4159a878c3d1</requestid><sync><label>-</label><status>11</status><stringstatus>CoreSyncStateSyncDisabled</stringstatus></sync><context/><title><key/><label/><translatable>0</translatable></title><message><key/><label/><translatable>1</translatable></message></response>
+06/12/15 13:40:30:056 | [INFO] | 62305 | ACC | HomePanelUI | HomeAppUIMessageProcessor |  | HomePanelUI | 2123 | Hiding Home App Panel
+06/12/15 13:40:30:057 | [WARN] | 62305 | ACC | ProductsAppsBL | ProductsAppBLManager |  | ProductsAppsBL | 2123 | UI View is not created yet, Adding msg to queue
+06/12/15 13:40:30:057 | [INFO] | 62305 | ACC | AssetsUI | ASSET_PANEL |  | AssetsUI | 2123 | Inside ShowView
+06/12/15 13:40:30:060 | [WARN] | 62305 | ACC | Core | ExternalGateway |  | Core | 2123 | Applet ID - AssetsPanel_UI is not loaded for instance ID - 1
+06/12/15 13:40:30:060 | [INFO] | 62305 | ACC | BehancePanelUI | BehanceAppUIMessageProcessor |  | BehancePanelUI | 2123 | Hiding Behance Panel
+06/12/15 13:40:30:061 | [INFO] | 62305 | ACC | Core | CoreCommandHandler |  | Core | 2123 | HandleMessage: Message is not defined/implemented in core: StartUp. Broadcasting to core extensions
+06/12/15 13:40:31:027 | [WARN] | 62305 | ACC | VulcanWrapper | VulcanInterface |  | VulcanWrapper | 2489 | Refresh of endpoints didnt complete till we waited!
+06/12/15 13:40:31:028 | [INFO] | 62305 | ACC | VulcanWrapper | VulcanInterface |  | VulcanWrapper | 2489 | Received RefreshEndPoints callback:
+06/12/15 13:40:31:029 | [INFO] | 62305 | ACC | c3containerBL | CoreSyncHandler |  | c3containerBL | 2488 | handleCoreSyncStartedUp
+06/12/15 13:40:31:029 | [INFO] | 62305 | ACC | VulcanWrapper | VulcanInterface |  | VulcanWrapper | 2489 | Endpoint (source): AppId = ACCC, EndPointId = 261.1434141632
+06/12/15 13:40:31:029 | [INFO] | 62305 | ACC | VulcanWrapper | VulcanInterface |  | VulcanWrapper | 2489 | Got COSY endpoint info, moving to unicast mode.
+06/12/15 13:40:31:029 | [INFO] | 62305 | ACC | VulcanWrapper | VulcanInterface |  | VulcanWrapper | 2489 | Endpoint: AppId = COSY, EndPointId = 304.1434141629
+06/12/15 13:40:31:030 | [INFO] | 62305 | ACC | Core | CoreCommandHandler |  | Core | 2487 | HandleMessage: Message is not defined/implemented in core: coreSyncLaunched. Broadcasting to core extensions
+06/12/15 13:40:31:035 | [WARN] | 62305 | ACC | Core | ExternalGateway |  | Core | 2487 | Applet ID - AssetsPanel_UI is not loaded for instance ID - 1
+06/12/15 13:40:31:036 | [INFO] | 62305 | ACC | c3containerBL | CoreSyncHandler |  | c3containerBL | 3224 | handleSignInForCoreSyncOnPingResponse >> coreSyncStartedUp => 1
+06/12/15 13:40:31:038 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2488 | Inside coreSyncLaunched
+06/12/15 13:40:31:038 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2488 | Inside handleOfflineMode
+06/12/15 13:40:31:039 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2488 | Inside handleOldPreferences
+06/12/15 13:40:31:043 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2488 | handleOfflineMode - Default Sync Off was found to be true..setting disabled state
+06/12/15 13:40:31:043 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2488 | Send Update Preferences to LiveType: OFF
+06/12/15 13:40:31:044 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2488 | Handling updateFontsStateBasedOnPref
+06/12/15 13:40:31:045 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 2488 | Returning from updateFontsStateBasedOnPref
+06/12/15 13:40:31:051 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 3224 | Handling UpdatePreferencesResponse from Livetype
+06/12/15 13:40:31:051 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 3224 | Ignoring UpdatePreferencesResponse from Livetype for OfflineMode
+06/12/15 13:40:32:741 | [INFO] | 62305 | ACC | c3containerBL | SignInStateMachine |  | c3containerBL | 2123 | changeState ~> 2 - 1 - 5
+06/12/15 13:40:33:007 | [INFO] | 62305 | ACC | c3containerBL | SignInStateMachine |  | c3containerBL | 2123 | changeState ~> 3 - 1 - 5
+06/12/15 15:52:22:060 | [INFO] | 62305 | ACC | Core | CoreCommandHandler |  | Core | 26662 | HandleMessage: Message is not defined/implemented in core: PeriodicRefresh. Broadcasting to core extensions
+06/12/15 15:52:22:073 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 26662 | Inside Periodic Refresh
+06/12/15 15:52:22:074 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 26662 | Refresh Panel
+06/12/15 15:52:22:074 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 26662 | Handling FontsInfoRequest
+06/12/15 15:52:22:074 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 26662 | Request will not be made until view is created
+06/12/15 22:35:44:499 | [INFO] | 62305 | ACC | Core | CoreCommandHandler |  | Core | 29306 | HandleMessage: Message is not defined/implemented in core: PeriodicRefresh. Broadcasting to core extensions
+06/12/15 22:35:45:216 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 29341 | Inside Periodic Refresh
+06/12/15 22:35:45:217 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 29341 | Refresh Panel
+06/12/15 22:35:45:218 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 29341 | Handling FontsInfoRequest
+06/12/15 22:35:45:218 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 29341 | Request will not be made until view is created
+06/13/15 01:37:30:146 | [INFO] | 62305 | ACC | Core | CoreCommandHandler |  | Core | 30764 | HandleMessage: Message is not defined/implemented in core: PeriodicRefresh. Broadcasting to core extensions
+06/13/15 01:37:30:152 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 30730 | Inside Periodic Refresh
+06/13/15 01:37:30:152 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 30730 | Refresh Panel
+06/13/15 01:37:30:152 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 30730 | Handling FontsInfoRequest
+06/13/15 01:37:30:152 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 30730 | Request will not be made until view is created
+06/15/15 09:50:23:913 | [INFO] | 62305 | ACC | Core | CoreCommandHandler |  | Core | 31273 | HandleMessage: Message is not defined/implemented in core: PeriodicRefresh. Broadcasting to core extensions
+06/15/15 09:50:23:978 | [WARN] | 62305 | ACC | c3containerBL | SelfUpdateStateMachine |  | c3containerBL | 3203 | periodicContextDataFetch: Current User Access-Token is invalid. Setting retryable interval
+06/15/15 09:50:24:007 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 31321 | Inside Periodic Refresh
+06/15/15 09:50:24:007 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 31321 | Refresh Panel
+06/15/15 09:50:24:008 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 31321 | Handling FontsInfoRequest
+06/15/15 09:50:24:008 | [INFO] | 62305 | ACC | FontsAppBL | FONTS_PANEL |  | FontsAppBL | 31321 | Request will not be made until view is created
+06/15/15 09:50:38:986 | [WARN] | 62305 | ACC | c3containerBL | SelfUpdateStateMachine |  | c3containerBL | 3203 | periodicContextDataFetch: Current User Access-Token is invalid. Setting retryable interval
+06/15/15 09:50:53:988 | [WARN] | 62305 | ACC | c3containerBL | SelfUpdateStateMachine |  | c3containerBL | 3203 | periodicContextDataFetch: Current User Access-Token is invalid. Setting retryable interval
+06/15/15 09:51:08:991 | [WARN] | 62305 | ACC | c3containerBL | SelfUpdateStateMachine |  | c3containerBL | 3203 | periodicContextDataFetch: Current User Access-Token is invalid. Setting retryable interval

@@ -1,0 +1,100 @@
+20150612-134029.419: OSVer: Version 10.10.1 (Build 14B25); Arch: x86_64h; AppVer: 1.3.1.405;
+20150612-134029.552: ACCController::Init
+20150612-134029.655: ACCController::Init: init fileState cache
+20150612-134029.670: Info: ipc: Begin VulcanMessageAdapter initialization (VulcanMessageAdapter.cpp.VulcanMessageAdapter.169)
+20150612-134029.672: Always: ipc: VulcanMessageAdapter configuring IVulcanMessageDispatcher (VulcanMessageAdapter.cpp.VulcanMessageAdapter.171)
+20150612-134029.678: Always: ipc: VulcanMessageAdapter not ready, wait (VulcanMessageAdapter.cpp.VulcanMessageAdapter.217)
+20150612-134029.732: Always: ipc: VulcanMessageAdapter refreshing endpoints (VulcanMessageAdapter.cpp.VulcanMessageAdapter.226)
+20150612-134029.733: Always: ipc: VulcanMessageAdapter refresh pending, wait... (VulcanMessageAdapter.cpp.VulcanMessageAdapter.234)
+20150612-134029.734: Always: ipc: VulcanMessageAdapter switching to point to point (VulcanMessageAdapter.cpp.refreshEndPointsCallback.110)
+20150612-134029.790: Always: ipc: VulcanMessageAdapter initialization done (VulcanMessageAdapter.cpp.VulcanMessageAdapter.249)
+20150612-134029.791: Info: ipc: End VulcanMessageAdapter initialization (VulcanMessageAdapter.cpp.VulcanMessageAdapter.169)
+20150612-134029.793: Info: setTargetDataRates: 0 upload, 0 download
+20150612-134029.794: WorkerThreads: 8
+20150612-134029.795: Info: setTargetDataRates: 0 upload, 0 download
+20150612-134029.797: ACCController::Init: add notification observers
+20150612-134029.799: MControllerDelegate::quota empty user name found
+20150612-134029.800: MControllerDelegate::quota {storageFree:-1, storageTotal:-1}
+20150612-134029.805: BaseControllerDelegate::pushSyncStatus: sent CoreSyncStateSyncDisabled (11)
+20150612-134029.806: ACCController::updateWithState: 11
+20150612-134029.806: Info: Loading plugins from folder: '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins'
+20150612-134029.807: Info: Loading plugins from folder: '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins/DesignLibraryPlugin'
+20150612-134029.826: Info: Plugin loaded: '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins/DesignLibraryPlugin/DesignLibraryPlugin.framework'
+20150612-134029.826: Info: Loading plugins from folder: '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins/ExchangePlugin'
+20150612-134029.850: Info: Plugin loaded: '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins/ExchangePlugin/ExchangePlugin.framework'
+20150612-134029.851: Info: Loading plugins from folder: '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins/LiveType'
+20150612-134029.887: Info: Plugin loaded: '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins/LiveType/LiveType.framework'
+20150612-134029.888: Info: Loading plugins from folder: '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins/SynKit'
+20150612-134029.911: Error: Plugin not loaded (Incompatible host version, expecting 27, plugin had 26): '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins/SynKit/SynKit.framework'
+20150612-134029.919: Error: Plugin not loaded (Incompatible host version, expecting 27, plugin had 26): '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins/SynKit/SynKit.framework'
+20150612-134029.920: Info: AppHookControllerImpl::onStartup in
+20150612-134029.920: Info: [DesignLibraryPlugin] [DesignLibraryAppHook.cpp:onStartup:53] onStartup +++
+20150612-134029.921: Info: [DesignLibraryPlugin] [DesignLibraryAppHook.cpp:onStartup:56] Init plugin-mgr...
+20150612-134029.921: Info: [DesignLibraryPlugin] [DesignLibraryManager.cpp:Init:95] Init file system...
+20150612-134029.926: Info: [DesignLibraryPlugin] [DesignLibraryManager.cpp:InitFileSystem:168] DesignLibraryPlugin version is "1.0.0.21"
+20150612-134029.927: Info: [DesignLibraryPlugin] [DesignLibraryManager.cpp:Init:102] Register msg handler...
+20150612-134029.928: Info: [DesignLibraryPlugin] [DesignLibraryManager.cpp:Init:106] Init done.
+20150612-134029.929: Info: [DesignLibraryPlugin] [DesignLibraryAppHook.cpp:onStartup:72] add sync path filter "/assets/adobe-libraries"...
+20150612-134029.930: Info: [DesignLibraryPlugin] [DesignLibraryAppHook.cpp:onStartup:79] register interest path "/assets/adobe-libraries/"...
+20150612-134029.933: Info: [ExchangePlugin] (EPTaskManager.cpp, 393 ) --initMainloop: initMainloop begin, and begin check if core lib is loaded..., version is 1.3.0.38
+20150612-134029.933: Info: [livetype] onStartup
+20150612-134029.936: Info: [livetype] onStartup => success
+20150612-134029.936: Info: AppHookControllerImpl::onStartup out
+20150612-134029.983: ACCController::injectFinderExt
+20150612-134029.987: ACCController::doInjectFinderExt: injectExt = 1
+20150612-134029.987: ACCController::doInjectFinderExt: appIdentifier: com.apple.finder
+20150612-134030.060: ACCController::doInjectFinderExt: launch helper tool at path:/Applications/Utilities/Adobe Creative Cloud/CoreSyncExtension/ACCFinderBundleLoader_64.app/Contents/MacOS/ACCFinderBundleLoader_64
+20150612-134030.091: Error: [ExchangePlugin] (EPTaskManager.cpp, 504 ) --createEntitlementFileFolder: makeWritableForAllUsers() failed for "/Library/Application Support/Adobe/Extension Manager CC/Configuration/Entitlement", status is -47!
+20150612-134030.218: mach_inject: found threadEntry image at: 0x10ceba000 with size: 19936
+20150612-134030.237: mach_inject::get_offset: lib : /usr/lib/system/libsystem_pthread.dylib, finder addr:0x7fff832f4000
+20150612-134030.238: mach_inject::get_offset: lib : /usr/lib/system/libdyld.dylib, finder addr:0x7fff8c7e8000
+20150612-134030.239: mach_inject::get_offset: lib : /usr/lib/system/libsystem_kernel.dylib, finder addr:0x7fff8e20e000
+20150612-134030.247: mach_inject::get_offset: lib : /usr/lib/system/libsystem_pthread.dylib, self addr:0x7fff832f4000
+20150612-134030.247: mach_inject::get_offset: lib : /usr/lib/system/libdyld.dylib, self addr:0x7fff8c7e8000
+20150612-134030.250: mach_inject::get_offset: lib : /usr/lib/system/libsystem_kernel.dylib, self addr:0x7fff8e20e000
+20150612-134030.250: mach_inject::get_offset: offset 0, 0x0
+20150612-134030.251: mach_inject::get_offset: offset 1, 0x0
+20150612-134030.252: mach_inject::get_offset: offset 2, 0x0
+20150612-134030.253: ACCFinderBundleLoader: Finder Extension injected succsessfully
+20150612-134030.259: ACCFinderExtenson::loadBundle: path = /Applications/Utilities/Adobe Creative Cloud/CoreSyncExtension/ACCFinderBundleLoader_64.app/Contents/Frameworks/ACCFinderInnerExtesion.bundle
+20150612-134030.316: ACCController::finderInitSuccessfull: injectExt:YES
+20150612-134030.319: ACCController::finderInitSuccessfull: injectExt:YES
+20150612-134030.321: ACCFinderExtensionController::init: intialization succsessfull
+20150612-134031.046: Info: [livetype] onTextReceived cosy.fonts.UpdatePreferencesRequest
+20150612-134031.048: Info: [livetype]  sendText accc.fonts.UpdatePreferencesResponse (success)
+20150612-134031.049: Info: [livetype] syncStatus: OFF
+20150612-134131.616: ACCController::doInjectFinderExt: injectExt = 1
+20150612-134131.617: ACCController::doInjectFinderExt: appIdentifier: com.google.Chrome
+20150612-134131.618: ACCController::doInjectFinderExt: app identifier: com.google.Chrome not equal to com.apple.finder
+20150612-134228.219: ACCController::doInjectFinderExt: injectExt = 1
+20150612-134228.220: ACCController::doInjectFinderExt: appIdentifier: com.apple.systempreferences
+20150612-134228.220: ACCController::doInjectFinderExt: app identifier: com.apple.systempreferences not equal to com.apple.finder
+20150612-134341.038: ACCController::doInjectFinderExt: injectExt = 1
+20150612-134341.039: ACCController::doInjectFinderExt: appIdentifier: com.apple.FaceTime
+20150612-134341.039: ACCController::doInjectFinderExt: app identifier: com.apple.FaceTime not equal to com.apple.finder
+20150612-134418.504: ACCController::doInjectFinderExt: injectExt = 1
+20150612-134418.504: ACCController::doInjectFinderExt: appIdentifier: com.apple.FaceTime
+20150612-134418.504: ACCController::doInjectFinderExt: app identifier: com.apple.FaceTime not equal to com.apple.finder
+20150612-134836.275: ACCController::doInjectFinderExt: injectExt = 1
+20150612-134836.276: ACCController::doInjectFinderExt: appIdentifier: com.apple.iCal
+20150612-134836.276: ACCController::doInjectFinderExt: app identifier: com.apple.iCal not equal to com.apple.finder
+20150612-140046.130: ACCController::doInjectFinderExt: injectExt = 1
+20150612-140046.130: ACCController::doInjectFinderExt: appIdentifier: com.apple.Preview
+20150612-140046.131: ACCController::doInjectFinderExt: app identifier: com.apple.Preview not equal to com.apple.finder
+20150612-141013.891: ACCController::doInjectFinderExt: injectExt = 1
+20150612-141013.900: ACCController::doInjectFinderExt: appIdentifier: com.apple.archiveutility
+20150612-141013.900: ACCController::doInjectFinderExt: app identifier: com.apple.archiveutility not equal to com.apple.finder
+20150612-143433.698: ACCController::osSleepWake: NSConcreteNotification 0x7ff4a2d833e0 {name = NSWorkspaceWillSleepNotification; object = <NSWorkspace: 0x7ff4a2f52200>}
+20150612-143433.720: ACCSync::stopJob: forced: 1, reason: Mac goes to sleep
+20150612-143433.724: 2015-06-12 14:34:33: File Monitoring was asked to stop on: : Mac goes to sleep
+20150612-143433.724: 2015-06-12 14:34:33: File Monitoring was asked to stop on: : Mac goes to sleep
+20150612-155213.777: ACCController::osSleepWake: NSConcreteNotification 0x7ff4a2e32010 {name = NSWorkspaceDidWakeNotification; object = <NSWorkspace: 0x7ff4a2f52200>}
+20150612-155520.023: ACCController::osSleepWake: NSConcreteNotification 0x7ff4a2d64db0 {name = NSWorkspaceWillSleepNotification; object = <NSWorkspace: 0x7ff4a2f52200>}
+20150612-155520.024: ACCSync::stopJob: forced: 1, reason: Mac goes to sleep
+20150612-155520.025: 2015-06-12 15:55:20: File Monitoring was asked to stop on: : Mac goes to sleep
+20150612-155520.026: 2015-06-12 15:55:20: File Monitoring was asked to stop on: : Mac goes to sleep
+20150612-223548.751: ACCController::osSleepWake: NSConcreteNotification 0x7ff4a2f71320 {name = NSWorkspaceDidWakeNotification; object = <NSWorkspace: 0x7ff4a2f52200>}
+20150612-223657.387: ACCController::osSleepWake: NSConcreteNotification 0x7ff4a2ca2320 {name = NSWorkspaceWillSleepNotification; object = <NSWorkspace: 0x7ff4a2f52200>}
+20150612-223657.396: ACCSync::stopJob: forced: 1, reason: Mac goes to sleep
+20150612-223657.436: 2015-06-12 22:36:57: File Monitoring was asked to stop on: : Mac goes to sleep
+20150612-223657.437: 2015-06-12 22:36:57: File Monitoring was asked to stop on: : Mac goes to sleep

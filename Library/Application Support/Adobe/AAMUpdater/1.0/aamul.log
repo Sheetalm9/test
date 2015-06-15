@@ -1,0 +1,16 @@
+06/10/15 12:06:34:375 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 1857 | >>> Adobe Updater Log Begin >>>
+06/10/15 12:06:34:376 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 1857 | Application Version: 8.0.0.24
+06/10/15 12:06:34:376 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 1857 | cmdline option: -logFile = /Users/sheetal/Library/Application Support/Adobe/AAMUpdater/1.0/aamul.log
+06/10/15 12:06:34:376 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 1857 | cmdline option: -logLevel = 2
+06/10/15 12:06:34:376 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 1857 | StartupUtility : Loaded at startup/logon.
+06/10/15 12:06:34:376 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 1857 | UCIsUpdaterEnabled : UpdaterIsEnabled.
+06/10/15 12:06:34:376 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 1857 | Updater has never been run on the machine.
+06/10/15 12:06:34:376 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 1857 | StartupUtility : Window is NOT Elapsed.
+06/12/15 13:40:32:170 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 2129 | >>> Adobe Updater Log Begin >>>
+06/12/15 13:40:32:171 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 2129 | Application Version: 8.0.0.24
+06/12/15 13:40:32:171 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 2129 | cmdline option: -logFile = /Users/sheetal/Library/Application Support/Adobe/AAMUpdater/1.0/aamul.log
+06/12/15 13:40:32:171 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 2129 | cmdline option: -logLevel = 2
+06/12/15 13:40:32:171 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 2129 | StartupUtility : Loaded at startup/logon.
+06/12/15 13:40:32:171 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 2129 | UCIsUpdaterEnabled : UpdaterIsEnabled.
+06/12/15 13:40:32:171 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 2129 | Updater has never been run on the machine.
+06/12/15 13:40:32:171 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 2129 | StartupUtility : Window is NOT Elapsed.

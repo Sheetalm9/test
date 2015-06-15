@@ -1,0 +1,67 @@
+06/10/15 12:06:43:032 | [INFO] |  |  |  | OOBELib |  |  | 1852 | __OOBELIB_LOG_FILE__
+06/10/15 12:06:43:032 | [INFO] |  |  |  | OOBELib |  |  | 1852 | *************OOBELib Session Starts*************
+06/10/15 12:06:43:032 | [INFO] |  |  |  | OOBELib |  |  | 1852 | Version 8.0.0.160,7.0
+
+06/10/15 12:06:43:032 | [INFO] |  |  |  | PCDService |  |  | 1852 | PCD Service in non-threaded mode
+06/10/15 12:06:43:034 | [INFO] |  |  |  | DispatchClientLib |  |  | 1852 | Dispatch table loaded from path: /Applications/Utilities/Adobe Application Manager/P7/dispatchtable.xml 
+06/10/15 12:06:43:037 | [INFO] |  |  |  | DispatchClientLib |  |  | 1852 | (re)load Local Dispatch Table status-[0].
+06/10/15 12:06:43:037 | [INFO] |  |  |  | DispatchClientLib |  |  | 1852 | Scope : [2]
+06/10/15 12:06:43:037 | [INFO] |  |  |  | DispatchClientLib |  |  | 1852 | Setting scope to GM
+06/10/15 12:06:43:050 | [ERROR] |  |  |  | OPMWrapper |  |  | 1852 | Failed in getting value for key in OPMGetValueForKey
+06/10/15 12:06:43:050 | [INFO] |  |  |  | OOBELib |  |  | 1852 | Failed to get Proxy username in OPM DB
+06/10/15 12:06:43:072 | [INFO] |  |  |  | AXFBLicensing |  |  | 1852 | All function pointers successfully retrieved
+06/10/15 12:06:43:099 | [INFO] |  |  |  | OOBELib |  |  | 1852 | OOBELibImpl::CommitPCD STARTED
+06/10/15 12:06:43:110 | [DEBUG] |  |  |  | ServiceLoader |  |  | 1852 | looking for library /Applications/Utilities/Adobe Application Manager/P7/adobe_upgrade.framework/adobe_upgrade
+06/10/15 12:06:43:110 | [DEBUG] |  |  |  | ServiceLoader |  |  | 1852 | Found library /Applications/Utilities/Adobe Application Manager/P7/adobe_upgrade.dylib
+06/10/15 12:06:43:134 | [INFO] |  |  |  | OOBELib |  |  | 1852 | SN not validated in this session
+06/10/15 12:06:43:134 | [INFO] |  |  |  | OOBELib |  |  | 1852 | No SN to be remembered
+06/10/15 12:06:43:134 | [INFO] |  |  |  | OOBELib |  |  | 1852 | User hasn't registered
+06/10/15 12:06:43:135 | [INFO] |  |  |  | OOBELib |  |  | 1852 | OOBELibImpl::CommitPCD ENDED
+06/10/15 12:06:43:135 | [INFO] |  |  |  | OOBELib |  |  | 1852 | Closing AdobeIALClient 1.0 Release (build 1.0.6.3) session.
+06/10/15 12:06:43:135 | [INFO] |  |  |  | OOBELib |  |  | 1852 | *************OOBELib Session Ends*************
+06/10/15 12:06:43:193 | [INFO] |  |  |  | DispatchClientLib |  |  | 1852 | Dispatch table Not found parallel to binary, looking into P7 folder
+06/10/15 12:06:43:193 | [INFO] |  |  |  | DispatchClientLib |  |  | 1852 | Dispatch table file doesnot in parallel to binary or inside the binary, falling back to ACF path.
+06/10/15 12:06:43:193 | [INFO] |  |  |  | DispatchClientLib |  |  | 1852 | Dispatch table loaded from path: /Library/Application Support/Adobe/OOBE/PDApp/P7/dispatchtable.xml 
+06/10/15 12:06:43:194 | [INFO] |  |  |  | DispatchClientLib |  |  | 1852 | (re)load Local Dispatch Table status-[0].
+06/10/15 12:06:43:194 | [INFO] |  |  |  | DispatchClientLib |  |  | 1852 | Scope : [2]
+06/10/15 12:06:43:194 | [INFO] |  |  |  | DispatchClientLib |  |  | 1852 | Setting scope to GM
+06/10/15 12:06:43:194 | [INFO] |  |  |  | DispatchClientLib |  |  | 1852 | EndPoint requested: [IdentityManagement]
+06/10/15 12:06:43:194 | [INFO] |  |  |  | DispatchClientLib |  |  | 1852 | Length of the URL: [33]
+06/10/15 12:06:43:194 | [INFO] |  |  |  | DispatchClientLib |  |  | 1852 | Returning from getEndpointAddr: [0]
+06/10/15 12:06:43:194 | [INFO] |  |  |  | DispatchClientLib |  |  | 1852 | EndPoint requested: [IdentityManagement]
+06/10/15 12:06:43:194 | [INFO] |  |  |  | DispatchClientLib |  |  | 1852 | Length of the URL: [33]
+06/10/15 12:06:43:194 | [INFO] |  |  |  | DispatchClientLib |  |  | 1852 | URL found [https://ims-prod06.adobelogin.com]
+06/10/15 12:06:43:194 | [INFO] |  |  |  | DispatchClientLib |  |  | 1852 | Returning from getEndpointAddr: [0]
+06/12/15 13:40:28:172 | [INFO] |  |  |  | OOBELib |  |  | 2123 | *************OOBELib Session Starts*************
+06/12/15 13:40:28:172 | [INFO] |  |  |  | OOBELib |  |  | 2123 | Version 8.0.0.160,7.0
+
+06/12/15 13:40:28:172 | [INFO] |  |  |  | PCDService |  |  | 2123 | PCD Service in non-threaded mode
+06/12/15 13:40:28:173 | [INFO] |  |  |  | DispatchClientLib |  |  | 2123 | Dispatch table loaded from path: /Applications/Utilities/Adobe Application Manager/P7/dispatchtable.xml 
+06/12/15 13:40:28:486 | [INFO] |  |  |  | DispatchClientLib |  |  | 2123 | (re)load Local Dispatch Table status-[0].
+06/12/15 13:40:28:487 | [INFO] |  |  |  | DispatchClientLib |  |  | 2123 | Scope : [2]
+06/12/15 13:40:28:487 | [INFO] |  |  |  | DispatchClientLib |  |  | 2123 | Setting scope to GM
+06/12/15 13:40:28:707 | [ERROR] |  |  |  | OPMWrapper |  |  | 2123 | Failed in getting value for key in OPMGetValueForKey
+06/12/15 13:40:28:714 | [INFO] |  |  |  | OOBELib |  |  | 2123 | Failed to get Proxy username in OPM DB
+06/12/15 13:40:28:842 | [INFO] |  |  |  | AXFBLicensing |  |  | 2123 | All function pointers successfully retrieved
+06/12/15 13:40:28:990 | [INFO] |  |  |  | OOBELib |  |  | 2123 | OOBELibImpl::CommitPCD STARTED
+06/12/15 13:40:29:184 | [DEBUG] |  |  |  | ServiceLoader |  |  | 2123 | looking for library /Applications/Utilities/Adobe Application Manager/P7/adobe_upgrade.framework/adobe_upgrade
+06/12/15 13:40:29:184 | [DEBUG] |  |  |  | ServiceLoader |  |  | 2123 | Found library /Applications/Utilities/Adobe Application Manager/P7/adobe_upgrade.dylib
+06/12/15 13:40:29:558 | [INFO] |  |  |  | OOBELib |  |  | 2123 | SN not validated in this session
+06/12/15 13:40:29:558 | [INFO] |  |  |  | OOBELib |  |  | 2123 | No SN to be remembered
+06/12/15 13:40:29:558 | [INFO] |  |  |  | OOBELib |  |  | 2123 | User hasn't registered
+06/12/15 13:40:29:559 | [INFO] |  |  |  | OOBELib |  |  | 2123 | OOBELibImpl::CommitPCD ENDED
+06/12/15 13:40:29:559 | [INFO] |  |  |  | OOBELib |  |  | 2123 | Closing AdobeIALClient 1.0 Release (build 1.0.6.3) session.
+06/12/15 13:40:29:559 | [INFO] |  |  |  | OOBELib |  |  | 2123 | *************OOBELib Session Ends*************
+06/12/15 13:40:29:740 | [INFO] |  |  |  | DispatchClientLib |  |  | 2123 | Dispatch table Not found parallel to binary, looking into P7 folder
+06/12/15 13:40:29:740 | [INFO] |  |  |  | DispatchClientLib |  |  | 2123 | Dispatch table file doesnot in parallel to binary or inside the binary, falling back to ACF path.
+06/12/15 13:40:29:740 | [INFO] |  |  |  | DispatchClientLib |  |  | 2123 | Dispatch table loaded from path: /Library/Application Support/Adobe/OOBE/PDApp/P7/dispatchtable.xml 
+06/12/15 13:40:29:740 | [INFO] |  |  |  | DispatchClientLib |  |  | 2123 | (re)load Local Dispatch Table status-[0].
+06/12/15 13:40:29:741 | [INFO] |  |  |  | DispatchClientLib |  |  | 2123 | Scope : [2]
+06/12/15 13:40:29:741 | [INFO] |  |  |  | DispatchClientLib |  |  | 2123 | Setting scope to GM
+06/12/15 13:40:29:741 | [INFO] |  |  |  | DispatchClientLib |  |  | 2123 | EndPoint requested: [IdentityManagement]
+06/12/15 13:40:29:741 | [INFO] |  |  |  | DispatchClientLib |  |  | 2123 | Length of the URL: [33]
+06/12/15 13:40:29:741 | [INFO] |  |  |  | DispatchClientLib |  |  | 2123 | Returning from getEndpointAddr: [0]
+06/12/15 13:40:29:741 | [INFO] |  |  |  | DispatchClientLib |  |  | 2123 | EndPoint requested: [IdentityManagement]
+06/12/15 13:40:29:741 | [INFO] |  |  |  | DispatchClientLib |  |  | 2123 | Length of the URL: [33]
+06/12/15 13:40:29:741 | [INFO] |  |  |  | DispatchClientLib |  |  | 2123 | URL found [https://ims-prod06.adobelogin.com]
+06/12/15 13:40:29:741 | [INFO] |  |  |  | DispatchClientLib |  |  | 2123 | Returning from getEndpointAddr: [0]

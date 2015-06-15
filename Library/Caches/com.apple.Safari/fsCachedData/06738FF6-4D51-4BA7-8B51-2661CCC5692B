@@ -1,0 +1,2338 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/QAPage">
+<head>
+
+<title>graph - Generating statistics from Git repository - Stack Overflow</title>
+    <link rel="shortcut icon" href="//cdn.sstatic.net/stackoverflow/img/favicon.ico?v=6cd6089ee7f6">
+    <link rel="apple-touch-icon image_src" href="//cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=41f6e13ade69">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon@2.png?v=ea71a5211a91&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Generating statistics from Git repository" />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="I&#39;m looking for some good tools/scripts that allow me to generate a few statistics from a git repository. I&#39;ve seen this feature on some code hosting sites, and they contained information like...
+
+
+" />
+    <meta property="og:url" content="http://stackoverflow.com/questions/1828874/generating-statistics-from-git-repository"/>
+    <link rel="canonical" href="http://stackoverflow.com/questions/1828874/generating-statistics-from-git-repository" />
+
+    
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="//cdn.sstatic.net/Js/stub.en.js?v=6306ecd044c2"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.sstatic.net/stackoverflow/all.css?v=2c84cd0078af">
+
+            <meta name="twitter:app:country" content="US" />
+            <meta name="twitter:app:name:iphone" content="Stack Exchange iOS" />
+            <meta name="twitter:app:id:iphone" content="871299723" />
+            <meta name="twitter:app:url:iphone" content="se-zaphod://stackoverflow.com/questions/1828874/generating-statistics-from-git-repository" />
+            <meta name="twitter:app:name:ipad" content="Stack Exchange iOS" />
+            <meta name="twitter:app:id:ipad" content="871299723" />
+            <meta name="twitter:app:url:ipad" content="se-zaphod://stackoverflow.com/questions/1828874/generating-statistics-from-git-repository" />
+            <meta name="twitter:app:name:googleplay" content="Stack Exchange Android">
+            <meta name="twitter:app:url:googleplay" content="http://stackoverflow.com/questions/1828874/generating-statistics-from-git-repository">
+            <meta name="twitter:app:id:googleplay" content="com.stackexchange.marvin">
+        <script>
+        
+            StackExchange.ready(function () {
+                    
+                    StackExchange.using("snippets", function () {
+                        StackExchange.snippets.initSnippetRenderer();
+                    });
+                    
+
+                StackExchange.using("postValidation", function () {
+                    StackExchange.postValidation.initOnBlurAndSubmit($('#post-form'), 2, 'answer');
+                });
+
+                
+                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:5,shownCommentCount:5,highlightColor:'#F4A83D',backgroundColor:'#FFF',questionId:1828874});
+
+                styleCode();
+
+                    StackExchange.realtime.subscribeToQuestion('1', '1828874');
+                                                                    StackExchange.using("gps", function () { StackExchange.gps.trackOutboundClicks('#content', '.post-text'); });
+
+            });
+        </script>
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1434141996,"networkMetaHostname":"meta.stackexchange.com","routeName":"Questions/Show","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"nonAsciiTags":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"81d14ed8388cb9f430941ba758aa6a31","isAnonymous":true}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"8ef506ff3705","js/moderator.en.js":"ab2aabcee6b3","js/full-anon.en.js":"027218a90e97","js/full.en.js":"e5f41febbb2c","js/wmd.en.js":"40f8a49366e4","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"a07d3df1c245","js/help.en.js":"22bebedfcd9c","js/tageditor.en.js":"260ae44a356d","js/tageditornew.en.js":"efdc89546cf6","js/inline-tag-editing.en.js":"48f13b102998","js/revisions.en.js":"6c7265ea9fa1","js/review.en.js":"51907c749d4a","js/tagsuggestions.en.js":"b278f9a0b23b","js/post-validation.en.js":"f25019da602c","js/explore-qlist.en.js":"4e6f969d97ee","js/events.en.js":"93739508e02d","js/keyboard-shortcuts.en.js":"f25ef0a01247","js/external-editor.en.js":"1eb5c5c11526","js/external-editor.en.js":"1eb5c5c11526","js/snippet-javascript.en.js":"0a1fe2946ff5","js/snippet-javascript-codemirror.en.js":"e0fd4fe3a405"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+    
+    
+</head>
+<body class="question-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="//stackoverflow.com">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+            <a href="http://chat.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+                    <a href="http://blog.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:7 })"
+>blog</a>
+            </div>
+
+
+
+
+    <a href="//stackoverflow.com"
+       class="current-site-link site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="552"
+       data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link js-gps-track"
+                       href="//careers.stackoverflow.com?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider"
+                            data-gps-track="site_switcher.click({ item_type:9 })"
+>
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Stack Overflow Careers
+                    </a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f1828874%2fgenerating-statistics-from-git-repository" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:10 })"
+>Sign up</a> or <a href="https://stackoverflow.com/users/login?returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f1828874%2fgenerating-statistics-from-git-repository" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:11 })"
+>log in</a> to customize your list.
+            </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="//stackexchange.com/sites">more stack exchange communities</a></h3>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="//stackexchange.com"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 145 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                <a href="https://stackoverflow.com/users/signup?returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f1828874%2fgenerating-statistics-from-git-repository" class="login-link">sign up</a>
+                                <a href="https://stackoverflow.com/users/login?returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f1828874%2fgenerating-statistics-from-git-repository" class="login-link">log in</a>
+
+                        <a href="/tour">tour</a>
+                            <a href="#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="//meta.stackoverflow.com" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                            <a href="//careers.stackoverflow.com?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=anon-topbar">stack overflow careers</a>
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="search" value="" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="/">
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="/questions">Questions</a></li>
+                        <li><a id="nav-tags" href="/tags">Tags</a></li>
+                        <li><a id="nav-users" href="/users">Users</a></li>
+                        <li><a id="nav-badges" href="/help/badges">Badges</a></li>
+                        <li><a id="nav-unanswered" href="/unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="/questions/ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+<div itemscope itemtype="http://schema.org/Question">
+    <link itemprop="image" href="//cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=41f6e13ade69">
+			<!--googleoff: all-->
+
+<div id="herobox-mini">
+    <div id="hero-content">
+        <span id="controls">
+            <a href="/tour" id="tell-me-more" class="button">Take the 2-minute tour</a>
+            <span id="close"><a title="click to dismiss">&times;</a></span>
+        </span>
+        <div id="blurb">
+            Stack Overflow is a question and answer site for professional and enthusiast programmers. It&#39;s 100% free, no registration required.
+        </div>        
+    </div>
+    <script>
+        $('#tell-me-more').click(function () {
+            var clickSource = $("body").attr("class") + '-mini';
+            if ($("body").hasClass("questions-page")) {
+                clickSource = 'questionpagemini';
+            } else if ($("body").hasClass("question-page")) {
+                clickSource = 'questionpagemini';
+            } else if ($("body").hasClass("home-page")) {
+                clickSource = 'homepagemini';
+            }
+
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("aboutpage.click", { aboutclick_location: clickSource } , true);
+            });
+        });
+        $('#herobox-mini #close').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("hero.action", { hero_action_type: "close" }, true);
+            });
+            $.cookie("hero", "none", { path: "/", expires: 365 });
+            var $hero = $("#herobox-mini");
+            $hero.slideUp('fast', function () { $hero.remove(); });
+            return false;
+        });
+    </script>
+</div>
+			<!--googleon: all-->
+			<div id="question-header">
+                <h1 itemprop="name"><a href="/questions/1828874/generating-statistics-from-git-repository" class="question-hyperlink">Generating statistics from Git repository [closed]</a></h1>
+		</div>
+			<div id="mainbar">
+
+			
+
+<div class="question" data-questionid="1828874"  id="question">
+
+    <div class="everyonelovesstackoverflow" id="careers1">
+        </div>    <table>
+        <tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="1828874">
+        <a class="vote-up-off" title="This question shows research effort; it is useful and clear">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">133</span>
+        <a class="vote-down-off" title="This question does not show any research effort; it is unclear or not useful">down vote</a>
+
+        <a class="star-off" href="#" title="This is a favorite question (click again to undo)">favorite</a>
+        <div class="favoritecount"><b>69</b></div>
+
+
+</div>
+
+            </td>
+            
+<td class="postcell">
+<div>
+    <div class="post-text" itemprop="text">
+
+<p>I'm looking for some good tools/scripts that allow me to generate a few statistics from a git repository. I've seen this feature on some code hosting sites, and they contained information like...</p>
+
+<ul>
+<li>commits per author</li>
+<li>commits per day/week/year/etc.</li>
+<li>lines of code over time</li>
+<li>graphs</li>
+<li>... much more</li>
+</ul>
+
+<p>Basically I just want to get an idea how much my project grows over time, which developer commits most code, and so on.</p>
+    </div>
+    <div class="post-taglist">
+        <a href="/questions/tagged/git" class="post-tag" title="show questions tagged &#39;git&#39;" rel="tag">git</a> <a href="/questions/tagged/graph" class="post-tag" title="show questions tagged &#39;graph&#39;" rel="tag">graph</a> <a href="/questions/tagged/statistics" class="post-tag" title="show questions tagged &#39;statistics&#39;" rel="tag">statistics</a> 
+    </div>
+    <table class="fw">
+    <tr>
+    <td class="vt">
+<div class="post-menu"><a href="/q/1828874" title="short permalink to this question" class="short-link" id="link-post-1828874">share</a><span class="lsep">|</span><a href="/posts/1828874/edit" class="suggest-edit-post" title="">improve this question</a></div>        
+    </td>
+    <td align="right" class="post-signature">
+<div class="user-info user-hover">
+    <div class="user-action-time">
+        <a href="/posts/1828874/revisions" title="show all edits to this post">edited <span title="2014-05-29 14:23:13Z" class="relativetime">May 29 '14 at 14:23</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/321731/tshepang"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/88e60659e997d36af3ff348b3251e1a6?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/321731/tshepang">Tshepang</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3,592</span><span title="9 gold badges"><span class="badge1"></span><span class="badgecount">9</span></span><span title="47 silver badges"><span class="badge2"></span><span class="badgecount">47</span></span><span title="91 bronze badges"><span class="badge3"></span><span class="badgecount">91</span></span>
+    </div>
+</div>    </td>
+    <td class="post-signature owner">
+        <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2009-12-01 20:57:24Z" class="relativetime">Dec 1 '09 at 20:57</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/195347/badcat"><div class="gravatar-wrapper-32"><img src="http://i.stack.imgur.com/nk1XC.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/195347/badcat">badcat</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">7,676</span><span title="4 gold badges"><span class="badge1"></span><span class="badgecount">4</span></span><span title="33 silver badges"><span class="badge2"></span><span class="badgecount">33</span></span><span title="64 bronze badges"><span class="badge3"></span><span class="badgecount">64</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </table>
+</div>
+</td>
+        </tr>
+                    <tr>
+            <td class="special-status" colspan="2">
+                <div class="question-status">
+        <h2>                    <b>closed</b> as not constructive by <a href="/users/1149495/wouter-j">Wouter J</a>, <a href="/users/45786/thehippo">TheHippo</a>, <a href="/users/802791/mario">Mario</a>, <a href="/users/610979/frank-schmitt">Frank Schmitt</a>, <a href="/users/717341/lukas-knuth">Lukas Knuth</a> <span dir="ltr"><span title="2013-04-21 21:09:24Z" class="relativetime">Apr 21 '13 at 21:09</span></span>
+</h2>
+        <p>As it currently stands, this question is not a good fit for our Q&amp;A format. We expect answers to be supported by facts, references,   or expertise, but this question will likely solicit debate, arguments, polling, or extended discussion. If you feel that this question   can be improved and possibly reopened, <a href="http://stackoverflow.com/help/reopen-questions">visit the help center</a> for guidance.<span class="close-status-suffix">
+If this question can be reworded to fit the rules in the <a href="/help/closed-questions">help center</a>, please <a href="/posts/1828874/edit">edit the question</a>.</span></p>
+    </div>
+            </td>
+        </tr>
+    
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-1828874" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0"
+                       data-canpost="false"
+                       data-cansee="true"
+                       data-comments-unavailable="false"
+                       data-addlink-disabled="true">
+
+
+
+    <tr id="comment-1723112" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received"
+                                      class="cool">4</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">He who commits the most line of code can be both your best and your worst programmer. Maybe your best programmer rebases a lot ?</span>
+                &ndash;&nbsp;
+                    <a href="/users/23691/krosenvold"
+                       title="39080 reputation"
+                       class="comment-user">krosenvold</a>
+                <span class="comment-date" dir="ltr"><span title="2009-12-02 08:03:10Z" class="relativetime-clean">Dec 2 '09 at 8:03</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-1723431" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received"
+                                      class="warm">12</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">I know. I tend to write compact code myself, sometimes I have commits where I just removed/optimized a large piece of code and simplified it. My purpose is just curiosity in how the repository develops/grows over time. :)</span>
+                &ndash;&nbsp;
+                    <a href="/users/195347/badcat"
+                       title="7676 reputation"
+                       class="comment-user owner">badcat</a>
+                <span class="comment-date" dir="ltr"><span title="2009-12-02 09:01:29Z" class="relativetime-clean">Dec 2 '09 at 9:01</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-31608808" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received"
+                                      class="warm">6</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">I found this question to be very helpful and relevant to my work, and am at a loss to understand why it was closed by the moderators.  If there is another StackExchange site where it would better server, they should indicate that.</span>
+                &ndash;&nbsp;
+                    <a href="/users/270511/lsiden"
+                       title="1837 reputation"
+                       class="comment-user">lsiden</a>
+                <span class="comment-date" dir="ltr"><span title="2014-01-09 17:49:45Z" class="relativetime-clean">Jan 9 '14 at 17:49</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-31637592" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received"
+                                      class="cool">3</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">@lsiden: I guess it&#39;s in the slightly annoying nature of the crowdsourced moderation system here (there are only few &#39;real&#39; mods). Most people just clickedy-click without actually checking if it&#39;s the correct action or not - just to gain some karma and badges. Seen it quite often - pretty annoying if you ask me. Also, you can vote to re-open.</span>
+                &ndash;&nbsp;
+                    <a href="/users/195347/badcat"
+                       title="7676 reputation"
+                       class="comment-user owner">badcat</a>
+                <span class="comment-date" dir="ltr"><span title="2014-01-10 12:06:40Z" class="relativetime-clean">Jan 10 '14 at 12:06</span></span>
+                    <span class="edited-yes" title="this comment was edited 1 time"></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-42121442" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Another quite interesting tool is <a href="http://gitminer.com" rel="nofollow">gitminer.com</a></span>
+                &ndash;&nbsp;
+                    <a href="/users/1033239/deadrunk"
+                       title="5325 reputation"
+                       class="comment-user">deadrunk</a>
+                <span class="comment-date" dir="ltr"><span title="2014-11-06 02:05:50Z" class="relativetime-clean">Nov 6 '14 at 2:05</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-1828874" data-rep=50 data-anon=true>
+
+                <a class="js-add-link comments-link disabled-link "
+                   title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments."
+                   >add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href=# onclick=""></a>
+        </div>         
+    </td>
+</tr>        </table>
+</div>
+
+			<div id="answers">
+
+				<a name="tab-top"></a>
+				<div id="answers-header">
+					<div class="subheader answers-subheader">
+						<h2>
+								7 Answers
+                                <span style="display:none;" itemprop="answerCount">7</span>
+						</h2>
+						<div>
+							<div id="tabs">
+        <a href="/questions/1828874/generating-statistics-from-git-repository?answertab=active#tab-top" title="Answers with the latest activity first">active</a>
+        <a href="/questions/1828874/generating-statistics-from-git-repository?answertab=oldest#tab-top" title="Answers in the order they were provided">oldest</a>
+        <a class="youarehere" href="/questions/1828874/generating-statistics-from-git-repository?answertab=votes#tab-top" title="Answers with the highest score first">votes</a>
+</div>
+						</div>
+					</div>    
+				</div>    
+
+
+
+
+  
+<a name="1829302"></a>
+<div id="answer-1829302" class="answer accepted-answer" data-answerid="1829302"  itemscope itemtype="http://schema.org/Answer" itemprop="acceptedAnswer">
+
+    <table>
+        <tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="1829302">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">88</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+        <span class="vote-accepted-on load-accepted-answer-date" title="loading when this answer was accepted...">accepted</span>
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>Beside <a href="http://gitstats.sourceforge.net">GitStats</a> (<em>git history statistics generator</em>) mentioned by <a href="http://stackoverflow.com/questions/1828874/generating-statistics-from-git-repository/1828903#1828903">xyld</a>, written in Python and requiring Gnuplot for graphs, there is also </p>
+
+<ul>
+<li><a href="http://mirror.celinuxforum.org/gitstat/">gitstat</a> (<a href="http://sourceforge.net/projects/gitstat">SourceForge</a>) project (<em>web-based git statistics interface</em>), written in PHP and Perl, </li>
+<li><a href="http://repo.or.cz/w/git-stats.git">Git Statistics</a>, aka gitstats (<em>metrics framework designed to gather statistics on git repositories</em>), written in Python, result of <a href="http://sites.google.com/site/alturin2/gsoc2008">git-statistics project at Google Summer of Code 2008</a> This is not a web app</li>
+<li><a href="http://code.google.com/p/gitinspector/">gitinspector</a> Is a rather new, CLI based Python tool for generating nice reports</li>
+</ul>
+    </div>
+    <table class="fw">
+    <tr>
+    <td class="vt">
+<div class="post-menu"><a href="/a/1829302" title="short permalink to this answer" class="short-link" id="link-post-1829302">share</a><span class="lsep">|</span><a href="/posts/1829302/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+    <td align="right" class="post-signature">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="/posts/1829302/revisions" title="show all edits to this post">edited <span title="2014-03-11 03:23:33Z" class="relativetime">Mar 11 '14 at 3:23</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/27678/andyg"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/7496124d499d578df1e3a6ff85e7ae03?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/27678/andyg">AndyG</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">4,963</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="21 silver badges"><span class="badge2"></span><span class="badgecount">21</span></span><span title="34 bronze badges"><span class="badge3"></span><span class="badgecount">34</span></span>
+    </div>
+</div>    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2009-12-01 22:11:25Z" class="relativetime">Dec 1 '09 at 22:11</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/46058/jakub-nar%c4%99bski"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/672aa8b373071ef9f06db563d1c08d77?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/46058/jakub-nar%c4%99bski">Jakub Narębski</a><br>
+        <span class="reputation-score" title="reputation score 108498" dir="ltr">108k</span><span title="37 gold badges"><span class="badge1"></span><span class="badgecount">37</span></span><span title="152 silver badges"><span class="badge2"></span><span class="badgecount">152</span></span><span title="197 bronze badges"><span class="badge3"></span><span class="badgecount">197</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-1829302" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="3"
+                       data-canpost="false"
+                       data-cansee="true"
+                       data-comments-unavailable="false"
+                       data-addlink-disabled="true">
+
+
+
+    <tr id="comment-3627779" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">see xyld&#39;s answer. gitstats (not gitstat) is probably your best bet.</span>
+                &ndash;&nbsp;
+                    <a href="/users/160709/jay-paroline"
+                       title="1099 reputation"
+                       class="comment-user">Jay Paroline</a>
+                <span class="comment-date" dir="ltr"><span title="2010-08-13 11:37:52Z" class="relativetime-clean">Aug 13 '10 at 11:37</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-9463202" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received"
+                                      class="warm">12</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Thanks for mentioning my GSoC project :)</span>
+                &ndash;&nbsp;
+                    <a href="/users/87279/sverre-rabbelier"
+                       title="707 reputation"
+                       class="comment-user">Sverre Rabbelier</a>
+                <span class="comment-date" dir="ltr"><span title="2011-10-14 18:29:42Z" class="relativetime-clean">Oct 14 '11 at 18:29</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-20838698" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">I got gitstats to install after installing readline-6.2.tar.gz and gnuplot. But then found it was missing the libraries necessary to produce the stat images, resulting in missing pngs when viewing gitstats output. So pretty much followed this to get it working correctly: <a href="http://www.dansanderson.com/blog/2011/03/installing-gnuplot-on-mac-os-x-106.html" rel="nofollow">dansanderson.com/blog/2011/03/&hellip;</a></span>
+                &ndash;&nbsp;
+                    <a href="/users/297201/davethekiwi"
+                       title="1058 reputation"
+                       class="comment-user">DaveTheKiwi</a>
+                <span class="comment-date" dir="ltr"><span title="2013-02-13 23:11:59Z" class="relativetime-clean">Feb 13 '13 at 23:11</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-24130059" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">For reference, this set of tools is really nice and simple : <a href="https://github.com/dustin/bindir" rel="nofollow">github.com/dustin/bindir</a>. They are based on <a href="http://pygooglechart.slowchop.com/pygooglechart/wiki" rel="nofollow">google pithon chart</a> and are simple to use : <a href="http://dustin.github.io/2009/01/11/timecard.html" rel="nofollow">dustin.github.io/2009/01/11/timecard.html</a></span>
+                &ndash;&nbsp;
+                    <a href="/users/693752/snicolas"
+                       title="22960 reputation"
+                       class="comment-user">Snicolas</a>
+                <span class="comment-date" dir="ltr"><span title="2013-05-25 16:44:52Z" class="relativetime-clean">May 25 '13 at 16:44</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-32534369" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received"
+                                      class="cool">1</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">There&#39;s even a Mac App for it: <a href="https://itunes.apple.com/us/app/gitstatx/id592679713?mt=12" rel="nofollow">itunes.apple.com/us/app/gitstatx/id592679713?mt=12</a></span>
+                &ndash;&nbsp;
+                    <a href="/users/400544/pgpb-padilla"
+                       title="597 reputation"
+                       class="comment-user">pgpb.padilla</a>
+                <span class="comment-date" dir="ltr"><span title="2014-02-04 05:00:16Z" class="relativetime-clean">Feb 4 '14 at 5:00</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-1829302" data-rep=50 data-anon=true>
+
+                <a class="js-add-link comments-link  dno"
+                   title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."
+                   ></a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link " title="expand to show all comments on this post" href=# onclick="">show <b>3</b> more comments</a>
+        </div>         
+    </td>
+</tr>    </table>
+</div>
+<div class="everyonelovesstackoverflow" id="careers3">
+        </div>
+  
+<a name="3708098"></a>
+<div id="answer-3708098" class="answer" data-answerid="3708098"  itemscope itemtype="http://schema.org/Answer">
+
+    <table>
+        <tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="3708098">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">111</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<blockquote>
+  <p>commits per author</p>
+</blockquote>
+
+<pre><code>git shortlog -s -n 
+</code></pre>
+    </div>
+    <table class="fw">
+    <tr>
+    <td class="vt">
+<div class="post-menu"><a href="/a/3708098" title="short permalink to this answer" class="short-link" id="link-post-3708098">share</a><span class="lsep">|</span><a href="/posts/3708098/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+    <td align="right" class="post-signature">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="/posts/3708098/revisions" title="show all edits to this post">edited <span title="2012-07-03 13:00:45Z" class="relativetime">Jul 3 '12 at 13:00</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/142162/tim-cooper"><div class="gravatar-wrapper-32"><img src="http://i.stack.imgur.com/F5xn2.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/142162/tim-cooper">Tim Cooper</a><br>
+        <span class="reputation-score" title="reputation score 65352" dir="ltr">65.4k</span><span title="17 gold badges"><span class="badge1"></span><span class="badgecount">17</span></span><span title="126 silver badges"><span class="badge2"></span><span class="badgecount">126</span></span><span title="152 bronze badges"><span class="badge3"></span><span class="badgecount">152</span></span>
+    </div>
+</div>    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info user-hover">
+    <div class="user-action-time">
+        answered <span title="2010-09-14 10:40:20Z" class="relativetime">Sep 14 '10 at 10:40</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/447249/ruslan-kabalin"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/eaff142a017b561a4fa43065157c3582?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/447249/ruslan-kabalin">Ruslan Kabalin</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,929</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="9 silver badges"><span class="badge2"></span><span class="badgecount">9</span></span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-3708098" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0"
+                       data-canpost="false"
+                       data-cansee="true"
+                       data-comments-unavailable="false"
+                       data-addlink-disabled="true">
+
+
+
+    <tr id="comment-45021001" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received"
+                                      class="cool">4</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">exclude merges: <code>git shortlog -sn --no-merges</code></span>
+                &ndash;&nbsp;
+                    <a href="/users/127027/doblak"
+                       title="1738 reputation"
+                       class="comment-user">doblak</a>
+                <span class="comment-date" dir="ltr"><span title="2015-02-05 06:42:30Z" class="relativetime-clean">Feb 5 at 6:42</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-3708098" data-rep=50 data-anon=true>
+
+                <a class="js-add-link comments-link disabled-link "
+                   title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."
+                   >add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href=# onclick=""></a>
+        </div>         
+    </td>
+</tr>    </table>
+</div>
+
+  
+<a name="13145658"></a>
+<div id="answer-13145658" class="answer" data-answerid="13145658"  itemscope itemtype="http://schema.org/Answer">
+
+    <table>
+        <tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="13145658">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">37</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>I'm doing a git repository statistics generator in ruby, it's called <a href="https://github.com/tomgi/git_stats">git_stats</a>.</p>
+
+<p>You can find examples generated for some repositories on <a href="https://github.com/tomgi/git_stats">project page</a>.</p>
+
+<p>Here is a list of what it can do:</p>
+
+<ul>
+<li>General statistics
+<ul>
+<li>Total files (text and binary)</li>
+<li>Total lines (added and deleted)</li>
+<li>Total commits</li>
+<li>Authors</li>
+</ul></li>
+<li>Activity (total and per author)
+<ul>
+<li>Commits by date</li>
+<li>Commits by hour of day</li>
+<li>Commits by day of week</li>
+<li>Commits by hour of week</li>
+<li>Commits by month of year</li>
+<li>Commits by year</li>
+<li>Commits by year and month</li>
+</ul></li>
+<li>Authors
+<ul>
+<li>Commits by author</li>
+<li>Lines added by author</li>
+<li>Lines deleted by author</li>
+<li>Lines changed by author</li>
+</ul></li>
+<li>Files and lines
+<ul>
+<li>By date</li>
+<li>By extension</li>
+</ul></li>
+</ul>
+
+<p>If you have any idea what to add or improve please let me know, I would appreciate any feedback.</p>
+    </div>
+    <table class="fw">
+    <tr>
+    <td class="vt">
+<div class="post-menu"><a href="/a/13145658" title="short permalink to this answer" class="short-link" id="link-post-13145658">share</a><span class="lsep">|</span><a href="/posts/13145658/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2012-10-30 18:43:38Z" class="relativetime">Oct 30 '12 at 18:43</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/1155892/tomgi"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/4b0e99368e9e73b881a00f6e328c578e?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/1155892/tomgi">tomgi</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,067</span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-13145658" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0"
+                       data-canpost="false"
+                       data-cansee="true"
+                       data-comments-unavailable="false"
+                       data-addlink-disabled="true">
+
+
+
+    <tr id="comment-18199215" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received"
+                                      class="cool">1</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Thanks, it is great.</span>
+                &ndash;&nbsp;
+                    <a href="/users/898649/alexey"
+                       title="720 reputation"
+                       class="comment-user">Alexey</a>
+                <span class="comment-date" dir="ltr"><span title="2012-11-12 01:03:33Z" class="relativetime-clean">Nov 12 '12 at 1:03</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-19838264" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Object count and repo size would be nice additions to the General statistics</span>
+                &ndash;&nbsp;
+                    <a href="/users/475884/pdeschen"
+                       title="661 reputation"
+                       class="comment-user">pdeschen</a>
+                <span class="comment-date" dir="ltr"><span title="2013-01-11 20:29:51Z" class="relativetime-clean">Jan 11 '13 at 20:29</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-13145658" data-rep=50 data-anon=true>
+
+                <a class="js-add-link comments-link disabled-link "
+                   title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."
+                   >add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href=# onclick=""></a>
+        </div>         
+    </td>
+</tr>    </table>
+</div>
+
+  
+<a name="6339896"></a>
+<div id="answer-6339896" class="answer" data-answerid="6339896"  itemscope itemtype="http://schema.org/Answer">
+
+    <table>
+        <tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="6339896">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">21</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>I tried <a href="http://gitstats.sourceforge.net/">http://gitstats.sourceforge.net/</a>, starts are very interesting.</p>
+
+<p>Once <code>git clone git://repo.or.cz/gitstats.git</code> is done, go to that folder and say <code>gitstats &lt;git repo location&gt; &lt;report output folder&gt;</code> (create a new folder for report as this generates lots of files)</p>
+
+<p>Here is a quick list of stats from this:</p>
+
+<ul>
+<li>activity
+<ul>
+<li>hour of the day</li>
+<li>day of week</li>
+</ul></li>
+<li>authors
+<ul>
+<li>List of Authors</li>
+<li>Author of Month</li>
+<li>Author of Year</li>
+</ul></li>
+<li>files
+<ul>
+<li>File count by date</li>
+<li>Extensions</li>
+</ul></li>
+<li>lines
+<ul>
+<li>Lines of Code</li>
+</ul></li>
+<li>tags</li>
+</ul>
+    </div>
+    <table class="fw">
+    <tr>
+    <td class="vt">
+<div class="post-menu"><a href="/a/6339896" title="short permalink to this answer" class="short-link" id="link-post-6339896">share</a><span class="lsep">|</span><a href="/posts/6339896/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2011-06-14 06:32:13Z" class="relativetime">Jun 14 '11 at 6:32</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/234359/jeevan-pingali"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/046913cff0f38ed2a704b416ee02a155?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/234359/jeevan-pingali">Jeevan Pingali</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">543</span><span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-6339896" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0"
+                       data-canpost="false"
+                       data-cansee="true"
+                       data-comments-unavailable="false"
+                       data-addlink-disabled="true">
+
+
+
+    <tr id="comment-15739901" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received"
+                                      class="cool">2</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">it needs GnuPlot. To install Gnuplot, on Mac grab the dmg  from here <a href="http://www.miscdebris.net/blog/2009/09/16/install-gnuplot-on-mac-os-x/" rel="nofollow">miscdebris.net/blog/2009/09/16/install-gnuplot-on-mac-os-x</a> the apply this fix to the gnuplot bin, <a href="http://www.leancrew.com/all-this/2012/02/fixing-gnuplot-on-os-x-10-7-3/" rel="nofollow">leancrew.com/all-this/2012/02/fixing-gnuplot-on-os-x-10-7-3</a></span>
+                &ndash;&nbsp;
+                    <a href="/users/758836/loretoparisi"
+                       title="2112 reputation"
+                       class="comment-user">loretoparisi</a>
+                <span class="comment-date" dir="ltr"><span title="2012-08-06 22:49:29Z" class="relativetime-clean">Aug 6 '12 at 22:49</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-17330201" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">@Loretoparisi, the first link doesnt work anymore, I have created a tutorial on how to use Gitstats on Mac OSX 10.8.2 here: <a href="http://www.softwarepassion.com/quick-peek-into-your-git-repo-with-gitstats/" rel="nofollow">softwarepassion.com/quick-peek-into-your-git-repo-with-gitstats</a></span>
+                &ndash;&nbsp;
+                    <a href="/users/266956/kris"
+                       title="3992 reputation"
+                       class="comment-user">Kris</a>
+                <span class="comment-date" dir="ltr"><span title="2012-10-10 06:56:27Z" class="relativetime-clean">Oct 10 '12 at 6:56</span></span>
+                    <span class="edited-yes" title="this comment was edited 1 time"></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-18505513" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">also &quot;sudo port install gnuplot&quot; works very well.</span>
+                &ndash;&nbsp;
+                    <a href="/users/527935/hariseldon78"
+                       title="352 reputation"
+                       class="comment-user">hariseldon78</a>
+                <span class="comment-date" dir="ltr"><span title="2012-11-22 18:07:57Z" class="relativetime-clean">Nov 22 '12 at 18:07</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-21908709" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received"
+                                      class="cool">3</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">And for brew addicts, <code>brew install gnuplot</code> works too.</span>
+                &ndash;&nbsp;
+                    <a href="/users/394013/james"
+                       title="3414 reputation"
+                       class="comment-user">James</a>
+                <span class="comment-date" dir="ltr"><span title="2013-03-18 14:25:29Z" class="relativetime-clean">Mar 18 '13 at 14:25</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-39313351" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">In ubuntu,  sudo apt-get install gnuplot</span>
+                &ndash;&nbsp;
+                    <a href="/users/1271412/okwap"
+                       title="562 reputation"
+                       class="comment-user">okwap</a>
+                <span class="comment-date" dir="ltr"><span title="2014-08-11 05:23:21Z" class="relativetime-clean">Aug 11 '14 at 5:23</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-6339896" data-rep=50 data-anon=true>
+
+                <a class="js-add-link comments-link disabled-link "
+                   title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."
+                   >add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href=# onclick=""></a>
+        </div>         
+    </td>
+</tr>    </table>
+</div>
+
+  
+<a name="1828903"></a>
+<div id="answer-1828903" class="answer" data-answerid="1828903"  itemscope itemtype="http://schema.org/Answer">
+
+    <table>
+        <tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="1828903">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">13</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>A quick google search lead me to: <a href="http://gitstats.sourceforge.net/">http://gitstats.sourceforge.net/</a></p>
+
+<p>Have you tried this project?  I'm sure there are similar projects.</p>
+    </div>
+    <table class="fw">
+    <tr>
+    <td class="vt">
+<div class="post-menu"><a href="/a/1828903" title="short permalink to this answer" class="short-link" id="link-post-1828903">share</a><span class="lsep">|</span><a href="/posts/1828903/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2009-12-01 21:02:14Z" class="relativetime">Dec 1 '09 at 21:02</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/23327/dlamotte"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/44e84224223b2c7c11bd5d83eac7ba4f?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/23327/dlamotte">dlamotte</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3,066</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="15 silver badges"><span class="badge2"></span><span class="badgecount">15</span></span><span title="36 bronze badges"><span class="badge3"></span><span class="badgecount">36</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-1828903" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0"
+                       data-canpost="false"
+                       data-cansee="true"
+                       data-comments-unavailable="false"
+                       data-addlink-disabled="true">
+
+
+
+    <tr id="comment-3627771" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received"
+                                      class="cool">4</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Quick note for anyone who finds this via Google: gitstats is <i>not</i> the same thing as gitstat above. Zomg gitstats is much better, insomuchas it has no dependency hell. It&#39;s self contained and just works.</span>
+                &ndash;&nbsp;
+                    <a href="/users/160709/jay-paroline"
+                       title="1099 reputation"
+                       class="comment-user">Jay Paroline</a>
+                <span class="comment-date" dir="ltr"><span title="2010-08-13 11:37:31Z" class="relativetime-clean">Aug 13 '10 at 11:37</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-7289226" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Except gnuplot-py and company seems to wants to drag in 40MB of deps on Fedora on my webserver :(</span>
+                &ndash;&nbsp;
+                    <a href="/users/104040/aiden-bell"
+                       title="20862 reputation"
+                       class="comment-user">Aiden Bell</a>
+                <span class="comment-date" dir="ltr"><span title="2011-06-06 10:46:58Z" class="relativetime-clean">Jun 6 '11 at 10:46</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-1828903" data-rep=50 data-anon=true>
+
+                <a class="js-add-link comments-link disabled-link "
+                   title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."
+                   >add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href=# onclick=""></a>
+        </div>         
+    </td>
+</tr>    </table>
+</div>
+
+  
+<a name="16098116"></a>
+<div id="answer-16098116" class="answer" data-answerid="16098116"  itemscope itemtype="http://schema.org/Answer">
+
+    <table>
+        <tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="16098116">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">3</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>If your project is on GitHub, you now (April 2013) have <strong><a href="https://github.com/zmoazeni/csscss/pulse" rel="nofollow">Pulse</a></strong> (see "<a href="https://github.com/blog/1476-get-up-to-speed-with-pulse" rel="nofollow">Get up to speed with Pulse</a>"):</p>
+
+<p>It is more limited, and won't display <em>all</em> the stats you might need, but is readily available for any GitHub project.</p>
+
+<blockquote>
+  <p>Pulse is a great way to discover recent activity on projects.<br>
+  <strong>Pulse will show you who has been actively committing and what has changed in a project's default branch</strong>:</p>
+</blockquote>
+
+<p><img src="http://i.stack.imgur.com/V4GNd.jpg" alt="Pulse"></p>
+
+<blockquote>
+  <p><strong>You can find the link to the left of the nav bar</strong>.</p>
+</blockquote>
+
+<p><img src="http://i.stack.imgur.com/IZ3l1.png" alt="Link"></p>
+
+<p>Note that there isn't (yet) an API to extract that information.</p>
+    </div>
+    <table class="fw">
+    <tr>
+    <td class="vt">
+<div class="post-menu"><a href="/a/16098116" title="short permalink to this answer" class="short-link" id="link-post-16098116">share</a><span class="lsep">|</span><a href="/posts/16098116/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+    <td align="right" class="post-signature">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="/posts/16098116/revisions" title="show all edits to this post">edited <span title="2013-04-19 07:47:35Z" class="relativetime">Apr 19 '13 at 7:47</span></a>
+    </div>
+    <div class="user-gravatar32">
+        
+    </div>
+    <div class="user-details">
+        <br>
+        
+    </div>
+</div>    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info user-hover">
+    <div class="user-action-time">
+        answered <span title="2013-04-19 05:54:29Z" class="relativetime">Apr 19 '13 at 5:54</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/6309/vonc"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/7aa22372b695ed2b26052c340f9097eb?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/6309/vonc">VonC</a><br>
+        <span class="reputation-score" title="reputation score 498871" dir="ltr">499k</span><span title="121 gold badges"><span class="badge1"></span><span class="badgecount">121</span></span><span title="1299 silver badges"><span class="badge2"></span><span class="badgecount">1299</span></span><span title="1396 bronze badges"><span class="badge3"></span><span class="badgecount">1396</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-16098116" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0"
+                       data-canpost="false"
+                       data-cansee="true"
+                       data-comments-unavailable="false"
+                       data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-16098116" data-rep=50 data-anon=true>
+
+                <a class="js-add-link comments-link disabled-link "
+                   title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."
+                   >add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href=# onclick=""></a>
+        </div>         
+    </td>
+</tr>    </table>
+</div>
+
+  
+<a name="6409490"></a>
+<div id="answer-6409490" class="answer" data-answerid="6409490"  itemscope itemtype="http://schema.org/Answer">
+
+    <table>
+        <tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="6409490">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">0</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>And if you prefer hosted solution, you should check out <a href="http://www.ohloh.net" rel="nofollow">http://www.ohloh.net</a>. It is nice, but don't expect large statistics.</p>
+    </div>
+    <table class="fw">
+    <tr>
+    <td class="vt">
+<div class="post-menu"><a href="/a/6409490" title="short permalink to this answer" class="short-link" id="link-post-6409490">share</a><span class="lsep">|</span><a href="/posts/6409490/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2011-06-20 09:52:53Z" class="relativetime">Jun 20 '11 at 9:52</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/299204/lzap"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/76b76089c6a9c79573f07123b8050303?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/299204/lzap">lzap</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6,371</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="34 silver badges"><span class="badge2"></span><span class="badgecount">34</span></span><span title="63 bronze badges"><span class="badge3"></span><span class="badgecount">63</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-6409490" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0"
+                       data-canpost="false"
+                       data-cansee="true"
+                       data-comments-unavailable="false"
+                       data-addlink-disabled="true">
+
+
+
+    <tr id="comment-13248019" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">If you are ok with a bit clumsy interface and updates on a ~24h basis, ohlohis good choice, otherwise I&#39;d go for DIY approach.</span>
+                &ndash;&nbsp;
+                    <a href="/users/188533/drahnr"
+                       title="3983 reputation"
+                       class="comment-user">drahnr</a>
+                <span class="comment-date" dir="ltr"><span title="2012-04-24 09:58:47Z" class="relativetime-clean">Apr 24 '12 at 9:58</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-14444978" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">ohloh is cool, but it only works on public repos. Also, it works with lots of VCSs, not just git.</span>
+                &ndash;&nbsp;
+                    <a href="/users/210945/naught101"
+                       title="3224 reputation"
+                       class="comment-user">naught101</a>
+                <span class="comment-date" dir="ltr"><span title="2012-06-15 01:53:10Z" class="relativetime-clean">Jun 15 '12 at 1:53</span></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-6409490" data-rep=50 data-anon=true>
+
+                <a class="js-add-link comments-link disabled-link "
+                   title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."
+                   >add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href=# onclick=""></a>
+        </div>         
+    </td>
+</tr>    </table>
+</div>
+				
+
+
+						<h2 class="bottom-notice" data-loc="1">
+Not the answer you&#39;re looking for?							Browse other questions tagged <a href="/questions/tagged/git" class="post-tag" title="show questions tagged &#39;git&#39;" rel="tag">git</a> <a href="/questions/tagged/graph" class="post-tag" title="show questions tagged &#39;graph&#39;" rel="tag">graph</a> <a href="/questions/tagged/statistics" class="post-tag" title="show questions tagged &#39;statistics&#39;" rel="tag">statistics</a>  or <a href="/questions/ask">ask your own question</a>.						</h2>
+			</div>
+		</div>
+				<div id="sidebar" class="show-votes">
+						    <div class="module question-stats">
+			        <table id="qinfo">
+			            <tr>
+			                <td>
+			                    <p class="label-key">asked</p>
+			                </td>
+			                <td style="padding-left: 10px">
+			                    <p class="label-key" title="2009-12-01 20:57:24Z"><b>5 years ago</b></p>
+			                </td>
+			            </tr>
+			            <tr>
+			                <td>
+			                    <p class="label-key">viewed</p>
+			                </td>
+
+			                <td style="padding-left: 10px">
+			                    <p class="label-key">
+			                        <b>59140 times</b>
+			                    </p>
+			                </td>
+			            </tr>
+			                <tr>
+			                    <td>
+			                        <p class="label-key">active</p>
+			                    </td>
+			                    <td style="padding-left: 10px">
+			                        <p class="label-key"><b><a href="?lastactivity" class="lastactivity-link" title="2014-05-29 14:23:13Z">1 year ago</a></b></p>
+			                    </td>
+			                </tr>
+			        </table>
+			    </div>
+			<div class="module community-bulletin" data-tracker="cb=1">
+    <div class="related">
+                <div class="bulletin-title">
+                    Blog
+                </div>
+                <hr />
+    <div class="spacer">
+        <div class="bulletin-item-type">
+                <a href="http://blog.stackoverflow.com/2015/06/welcome-nicolas-chabanovsky-and-stack-overflow-in-russian/" class="question-hyperlink">
+<div class="favicon favicon-stackexchangemeta" title="Meta Stack Exchange"></div>                </a>
+            </div>
+                <div class="bulletin-item-content">
+                    <a href="http://blog.stackoverflow.com/2015/06/welcome-nicolas-chabanovsky-and-stack-overflow-in-russian/" class="question-hyperlink">Welcome, Nicolas Chabanovsky and Stack Overflow in Russian!</a>
+                </div>
+                <br class="cbt" />
+            </div>
+    </div>
+</div>			
+			<div class="everyonelovesstackoverflow" id="careers2">
+        </div>
+        <div id="hireme">
+            <script>
+window.careers_adurl="//careers.stackoverflow.com/gethired/companyjs",window.careers_cssurl="//cdn-careers.sstatic.net/careers/gethired/company.min.css?v=cace662f1716",window.careers_cssurl2="//cdn-careers.sstatic.net/careers/gethired/sidebar.min.css?v=19f7c7921388",window.careers_adselector="#hireme",StackExchange.ready(function(){var e=window.StackExchange,t=e&&e.options&&e.options.user&&e.options.user.accountId,n="//cdn-careers.sstatic.net/careers/gethired/company-loader.min.js?v=5de06e302fd6";$.ajax({url:n+(t?(-1===n.indexOf("?")?"?":"&")+"accountId="+t:""),dataType:"script",cache:!1})});            </script>
+        </div>
+			<div class="module" id="chat-feature">
+    
+
+    
+<h4><a href="http://chat.stackoverflow.com" id="h-chat-link">Visit Chat</a></h4>
+
+<div class="related" id="ad502-rooms"></div>
+<script>
+// <!--
+    StackExchange.ready(
+    function () {
+        var options = {
+            chatUrl: 'http://chat.stackoverflow.com',
+            reloadUrl: '/api/recent-chat',
+            preloadData: {"activeUsers":112,"activeRooms":49,"rooms":[{"name":"JavaScript","id":17,"lastPost":1434131500,"posts":2660968,"users":[{"name":"Caprica Six","id":1839506,"emailhash":"!http://i.stack.imgur.com/Sej2t.jpg?s=128\u0026g=1","lastPost":1434131453},{"name":"ssube","id":129032,"emailhash":"e8bea8f9e6972dfd3113d67da68e6933","lastPost":1434131447},{"name":"Benjamin Gruenbaum","id":1348195,"emailhash":"f6dca2295546af21e1cde8e68f2d49bd","lastPost":1434131271},{"name":"Mosho","id":345257,"emailhash":"!http://i.stack.imgur.com/KpeP3.jpg?s=128\u0026g=1","lastPost":1434131142},{"name":"Awal Garg","id":3459110,"emailhash":"55df9170ae5f3f085f8ea17dbfde2b93","lastPost":1434131104},{"name":"Loktar","id":322395,"emailhash":"!http://i.stack.imgur.com/Uo2j4.png?s=128\u0026g=1","lastPost":1434131049},{"name":"Jan Dvorak","id":499214,"emailhash":"!http://i.stack.imgur.com/PObJM.png?s=128\u0026g=1","lastPost":1434131048}],"messages":[{"date":1434131500,"user":"Awal Garg","userid":3459110}],"singleImage":false,"tags":["ecmascript","es6","iojs","javascript","nodejs","promises"]},{"name":"Lounge\u003cC++\u003e","id":10,"lastPost":1434131455,"posts":3778465,"users":[{"name":"rightfold","id":1804599,"emailhash":"6b3212a024165ac48d0e5cda6c33e552","lastPost":1434131455},{"name":"Puppy","id":298661,"emailhash":"3445f56229632874a44596385ed6d40c","lastPost":1434131437},{"name":"nabijaczleweli","id":2851815,"emailhash":"!http://i.stack.imgur.com/tMbLc.png?s=128\u0026g=1","lastPost":1434131432},{"name":"milleniumbug","id":1012936,"emailhash":"!http://i.stack.imgur.com/lVX7j.jpg?s=128\u0026g=1","lastPost":1434131339},{"name":"wilx","id":341065,"emailhash":"8e57fe4b0f7381288a8e1e4c6cd77a8e","lastPost":1434130859},{"name":"Mr. kbok","id":361535,"emailhash":"072972927ced123af3164764258ec186","lastPost":1434130584},{"name":"Alex M.","id":932887,"emailhash":"!http://i.stack.imgur.com/ytFUM.png?s=128\u0026g=1","lastPost":1434129810}],"messages":[{"date":1434131455,"user":"rightfold","userid":1804599}],"singleImage":false,"tags":["c++","c++11","c++14","c++-faq"]}]} 
+        };
+
+        StackExchange.chatAd.init(options);
+    });
+// -->
+</script>
+
+</div>  
+    
+            <div class="module sidebar-linked">
+	<h4 id="h-linked">Linked</h4>
+	<div class="linked" data-tracker="lq=1">
+<div class="spacer">
+	<a href="/q/9239653" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">1</div>
+	</a>
+	<a href="/questions/9239653/git-accounting" class="question-hyperlink">Git &ldquo;accounting&rdquo;</a>
+</div><div class="spacer">
+	<a href="/q/1486819" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">47</div>
+	</a>
+	<a href="/questions/1486819/which-git-commit-stats-are-easy-to-pull" class="question-hyperlink">Which Git commit stats are easy to pull</a>
+</div><div class="spacer">
+	<a href="/q/882160" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">38</div>
+	</a>
+	<a href="/questions/882160/subversion-repository-statistics-other-than-statsvn" class="question-hyperlink">Subversion repository statistics, other than StatSVN?</a>
+</div><div class="spacer">
+	<a href="/q/5073148" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">7</div>
+	</a>
+	<a href="/questions/5073148/git-who-pushed-wrote-most-code" class="question-hyperlink">GIT - who pushed/wrote most code</a>
+</div><div class="spacer">
+	<a href="/q/11251941" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">1</div>
+	</a>
+	<a href="/questions/11251941/how-can-i-see-github-style-things-such-as-punchcards-and-timeline-of-git-repo" class="question-hyperlink">How can I see Github -style things such as punchcards and timeline of git -repo?</a>
+</div><div class="spacer">
+	<a href="/q/5528916" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">2</div>
+	</a>
+	<a href="/questions/5528916/graphs-for-changes-amount-of-git-repo" class="question-hyperlink">graphs for changes amount of git repo</a>
+</div><div class="spacer">
+	<a href="/q/9067837" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">2</div>
+	</a>
+	<a href="/questions/9067837/visualize-git-logs-to-people-who-dont-understand-version-control" class="question-hyperlink">Visualize Git logs to people who don&#39;t understand version control</a>
+</div><div class="spacer">
+	<a href="/q/18199491" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">1</div>
+	</a>
+	<a href="/questions/18199491/how-to-git-blame-to-see-what-code-from-a-single-committer-before-x-date-has-surv" class="question-hyperlink">How to git blame to see what code from a single committer before X date has survived?</a>
+</div><div class="spacer">
+	<a href="/q/27875231" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">0</div>
+	</a>
+	<a href="/questions/27875231/report-on-participants-in-a-git-project-for-specific-folder-and-date-range" class="question-hyperlink">Report on participants in a git project, for specific folder, and date range</a>
+</div>			</div>
+</div>
+
+				<div class="module sidebar-related">
+					<h4 id="h-related">Related</h4>
+                    <div class="related js-gps-related-questions" data-tracker="rq=1">
+                        <div class="spacer">
+<a href="/q/61212" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes answered-accepted extra-large">2482
+    </div>
+</a><a href="/questions/61212/how-do-i-remove-local-untracked-files-from-my-current-git-branch" class="question-hyperlink">How do I remove local (untracked) files from my current Git branch?</a>
+</div>
+<div class="spacer">
+<a href="/q/115983" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes answered-accepted extra-large">1687
+    </div>
+</a><a href="/questions/115983/how-can-i-add-an-empty-directory-to-a-git-repository" class="question-hyperlink">How can I add an empty directory to a Git repository?</a>
+</div>
+<div class="spacer">
+<a href="/q/179123" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes answered-accepted extra-large">7619
+    </div>
+</a><a href="/questions/179123/edit-an-incorrect-commit-message-in-git" class="question-hyperlink">Edit an incorrect commit message in Git</a>
+</div>
+<div class="spacer">
+<a href="/q/292357" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes answered-accepted extra-large">4361
+    </div>
+</a><a href="/questions/292357/what-are-the-differences-between-git-pull-and-git-fetch" class="question-hyperlink">What are the differences between &#39;git pull&#39; and &#39;git fetch&#39;?</a>
+</div>
+<div class="spacer">
+<a href="/q/348170" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes answered-accepted extra-large">3392
+    </div>
+</a><a href="/questions/348170/undo-git-add-before-commit" class="question-hyperlink">Undo &#39;git add&#39; before commit</a>
+</div>
+<div class="spacer">
+<a href="/q/1143796" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes answered-accepted extra-large">1054
+    </div>
+</a><a href="/questions/1143796/remove-a-file-from-a-git-repository-without-deleting-it-from-the-local-filesyste" class="question-hyperlink">Remove a file from a Git repository without deleting it from the local filesystem</a>
+</div>
+<div class="spacer">
+<a href="/q/1338728" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes answered-accepted extra-large">1261
+    </div>
+</a><a href="/questions/1338728/delete-commits-from-a-branch-in-git" class="question-hyperlink">Delete commits from a branch in Git</a>
+</div>
+<div class="spacer">
+<a href="/q/2003505" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes answered-accepted extra-large">4981
+    </div>
+</a><a href="/questions/2003505/delete-a-git-branch-both-locally-and-remotely" class="question-hyperlink">Delete a Git branch both locally and remotely</a>
+</div>
+<div class="spacer">
+<a href="/q/2432764" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes answered-accepted extra-large">1363
+    </div>
+</a><a href="/questions/2432764/change-the-uri-url-for-a-remote-git-repository" class="question-hyperlink">Change the URI (URL) for a remote Git repository</a>
+</div>
+<div class="spacer">
+<a href="/q/18767669" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes default">0
+    </div>
+</a><a href="/questions/18767669/generating-statistics-from-git-repository-for-subdirs" class="question-hyperlink">Generating statistics from Git repository for subdirs</a>
+</div>
+
+                    </div>
+				</div>
+            
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="//stackexchange.com/questions?tab=hot" 
+           class="js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:1, location:11 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li >
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/47069/applying-to-work-where-i-said-no-in-the-past" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Applying to work where I said &quot;no&quot; in the past?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-gaming" title="Arqade"></div><a href="http://gaming.stackexchange.com/questions/223370/how-to-get-the-steam-monster-mini-game-started" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:41 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How to get the Steam Monster mini game started?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-space" title="Space Exploration Stack Exchange"></div><a href="http://space.stackexchange.com/questions/9504/how-can-i-intuitively-understand-gravity-assists" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:508 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How can I intuitively understand gravity assists?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-emacs" title="Emacs Stack Exchange"></div><a href="http://emacs.stackexchange.com/questions/13116/how-to-find-out-which-function-is-bound-to-c-u-c-spc" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:583 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How to find out which function is bound to C-u C-SPC?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="http://security.stackexchange.com/questions/91476/how-is-gmail-susceptible-to-brute-force-attacks" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:162 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How is Gmail susceptible to brute-force attacks?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-earthscience" title="Earth Science Stack Exchange"></div><a href="http://earthscience.stackexchange.com/questions/4987/how-can-daily-brightness-be-quantified-or-measured" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:553 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How can daily brightness be quantified or measured?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-chemistry" title="Chemistry Stack Exchange"></div><a href="http://chemistry.stackexchange.com/questions/32809/on-adding-sugar-to-water-does-the-entropy-increase-or-decrease" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:431 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    On adding sugar to water, does the entropy increase or decrease?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="http://electronics.stackexchange.com/questions/175219/lm324-for-10-000x-gain" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    LM324 for 10,000x gain?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="http://security.stackexchange.com/questions/91446/why-is-google-still-using-a-sha1-certificate-on-its-own-site-when-they-are-phasi" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:162 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why is Google still using a sha1 certificate on its own site when they are phasing them out in Chrome?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange"></div><a href="http://puzzling.stackexchange.com/questions/16275/the-fewest-strokes-golfer" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:559 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    The Fewest Strokes Golfer
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="http://mathematica.stackexchange.com/questions/85774/cutting-away-points-that-are-not-resonances" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:387 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Cutting away points that are not resonances
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange"></div><a href="http://unix.stackexchange.com/questions/209183/compressing-1tb" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:106 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Compressing 1TB
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange"></div><a href="http://puzzling.stackexchange.com/questions/16290/you-cannot-destroy-me-who-am-i" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:559 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    You Cannot Destroy Me. Who am I?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="http://workplace.stackexchange.com/questions/48046/is-it-okay-to-ask-for-respect-from-interviewer" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Is it okay to ask for respect from interviewer?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/47098/costs-of-being-an-ms-student-in-germany" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Costs of being an MS student in Germany
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-salesforce" title="Salesforce Stack Exchange"></div><a href="http://salesforce.stackexchange.com/questions/79715/avoiding-exposing-sensitive-information-in-class" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:459 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Avoiding exposing sensitive information in class
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="http://electronics.stackexchange.com/questions/175121/rf-energy-harvesting" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    RF Energy Harvesting
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="http://rpg.stackexchange.com/questions/63387/as-a-group-unfamiliar-with-rpgs-how-do-i-encourage-my-players-to-read-the-ruleb" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    As a group unfamiliar with RPGs, how do I encourage my players to read the rulebook?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-blender" title="Blender Stack Exchange"></div><a href="http://blender.stackexchange.com/questions/32345/how-to-model-a-mushroom-shape" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:502 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How to Model a Mushroom shape?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-ell" title="English Language Learners Stack Exchange"></div><a href="http://ell.stackexchange.com/questions/59084/is-it-grammatically-correct-to-say-or-to-write-some-brain" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:481 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Is it grammatically correct to say or to write &quot;some brain&quot;?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="http://mathematica.stackexchange.com/questions/85758/findminimum-and-whenevent" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:387 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    FindMinimum and WhenEvent
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-salesforce" title="Salesforce Stack Exchange"></div><a href="http://salesforce.stackexchange.com/questions/79763/how-to-display-a-selectlist-in-the-title-portion-of-a-pageblock" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:459 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How to display a selectlist in the title portion of a pageblock
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/51471/pointers-pointers-pointers" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:200 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Pointers, pointers, pointers!
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-askubuntu" title="Ask Ubuntu"></div><a href="http://askubuntu.com/questions/635574/how-do-i-prevent-a-folder-inside-of-tmp-from-being-cleaned-up" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:89 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How do I prevent a folder inside of /tmp from being cleaned up?
+                </a>
+
+            </li>
+    </ul>
+
+        <a href="#" 
+           class="show-more js-show-more js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:3, location:11 })">
+            more hot questions
+        </a>
+</div>
+		</div>
+		<script>
+StackExchange.ready(function(){$.get('/posts/1828874/ivc/e5ac');});
+</script>
+<noscript>
+    <div><img src="/posts/1828874/ivc/e5ac" class="dno" alt="" width="0" height="0"></div>
+</noscript><div style="display:none" id="prettify-lang"></div></div>
+
+
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="/tour">tour</a>
+                    <a href="/help">help</a>
+                    <a href="http://blog.stackoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="//stackoverflow.com" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="//serverfault.com" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="//superuser.com" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="//webapps.stackexchange.com" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="//askubuntu.com" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="//webmasters.stackexchange.com" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="//gamedev.stackexchange.com" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="//tex.stackexchange.com" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="//programmers.stackexchange.com" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="//unix.stackexchange.com" title="users of Linux, FreeBSD and other Un*x-like operating systems.">Unix &amp; Linux</a></li>
+                        <li><a href="//apple.stackexchange.com" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="//wordpress.stackexchange.com" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="//gis.stackexchange.com" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="//electronics.stackexchange.com" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="//android.stackexchange.com" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="//security.stackexchange.com" title="Information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="//dba.stackexchange.com" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="//drupal.stackexchange.com" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="//sharepoint.stackexchange.com" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="//ux.stackexchange.com" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="//mathematica.stackexchange.com" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="//salesforce.stackexchange.com" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (14)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//photo.stackexchange.com" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="//scifi.stackexchange.com" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="//graphicdesign.stackexchange.com" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="//cooking.stackexchange.com" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="//diy.stackexchange.com" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="//money.stackexchange.com" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="//academia.stackexchange.com" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (10)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//english.stackexchange.com" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="//skeptics.stackexchange.com" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="//judaism.stackexchange.com" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="//travel.stackexchange.com" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="//christianity.stackexchange.com" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="//gaming.stackexchange.com" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="//bicycles.stackexchange.com" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="//rpg.stackexchange.com" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//math.stackexchange.com" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="//stats.stackexchange.com" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="//cstheory.stackexchange.com" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="//physics.stackexchange.com" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="//mathoverflow.net" title="professional mathematicians">MathOverflow</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (7)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//stackapps.com" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="//meta.stackexchange.com" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="//area51.stackexchange.com" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="//careers.stackoverflow.com">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &#169; 2015 stack exchange inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2015.6.12.2653
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-1');        
+        
+        ga('set', 'dimension2', '|git|graph|statistics|');         
+        ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>            
+    </body>
+</html>

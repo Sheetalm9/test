@@ -1,0 +1,6 @@
+06/10/15 12:06:43:516 | [INFO] |  | ANSClient |  | NEGlobalData |  |  | 1852 | Build Version - 2.8.0.446
+06/10/15 12:03:36:101 | [INFO] |  | ANSClient |  | NEManager |  |  | 1852 | Handling shutdown event
+06/10/15 12:03:36:101 | [INFO] |  | ANSClient |  | NEGlobalData |  |  | 1852 | Mode is offline
+06/10/15 12:03:36:101 | [INFO] |  | ANSClient |  | NEGlobalData |  |  | 1852 | Clearing Request Queue
+06/10/15 12:03:36:317 | [INFO] |  | ANSClient |  | NEManager |  |  | 1852 | Handling shutdown event finished
+06/12/15 13:40:30:063 | [INFO] |  | ANSClient |  | NEGlobalData |  |  | 2123 | Build Version - 2.8.0.446

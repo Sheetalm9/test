@@ -1,0 +1,588 @@
+//////////////////////////////////////////////////////////////////////
+// General Javascript utilities common to all pages.
+//////////////////////////////////////////////////////////////////////
+// Author: Alexander M Kasprzyk
+// $Revision: 34389 $
+// $Date: 2011-07-15 17:55:25 +1000 (Fri, 15 Jul 2011) $
+// $LastChangedBy: kasprzyk $
+//////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////
+// Constants
+//////////////////////////////////////////////////////////////////////
+
+// Common key codes
+var BACKSPACE_KC = 8;   var TAB_KC = 9;         var ENTER_KC = 13;
+var ESC_KC = 27;        var KEYLEFT_KC = 37;    var KEYUP_KC = 38;
+var KEYRIGHT_KC = 39;   var KEYDOWN_KC = 40;
+
+//////////////////////////////////////////////////////////////////////
+// Add stripes to tables and lists of class "striped"
+//////////////////////////////////////////////////////////////////////
+
+// addStripes - Adds the stripes to tables of class 'striped-table' and
+// lists of class 'striped-list'. Even row numbers are given class 'evenrow',
+// and odd row numbers 'oddrow'.
+// If obj is specified then only children of that node will be checked,
+// otherwise the entire document will be searched.
+function addStripes( obj )
+{
+    var objs = getElementsByTagNames( 'OL,UL,TABLE', obj );
+    for( var i = 0; i < objs.length; i++ )
+        if( objs[i].className == 'striped' )
+        {
+            if( objs[i].nodeName.toUpperCase() == 'TABLE' )
+                _addTableStripes( objs[i] );
+            else
+                _addListStripes( objs[i] );
+        }
+}
+
+// _addListStripes - Adds the stripes to the given list.
+// Note: This function is intended for internal use only.
+function _addListStripes( obj )
+{
+    var item = obj.childNodes;
+    var counter = 0;
+    var started = false;
+    var num = item.length;
+    for( var i = 0; i < num; i++ )
+        if( item[i].nodeName.toUpperCase() == 'LI' &&
+            !item[i].getElementsByTagName( 'LI' ).length )
+        {
+            if( !started && item[i].className.length == 0 )
+                started = true;
+            if( started )
+                item[i].className = counter++ % 2 ? 'oddrow' : 'evenrow';
+        }
+}
+
+// _addTableStripes - Adds the stripes to the given table.
+// Note: This function is intended for internal use only.
+function _addTableStripes( obj )
+{
+    for( var i = 0; i < obj.tBodies.length; i++ )
+    {
+        var row = obj.tBodies[i].childNodes;
+        var counter = 0;
+        var started = false;
+        var num = row.length;
+        for( var j = 0; j < num; j++ )
+            if( row[j].nodeName.toUpperCase() == 'TR' )
+            {
+                if( !started && row[j].className.length == 0 )
+                    started = true;
+                if( started )
+                    row[j].className = counter++ % 2 ? 'oddrow' : 'evenrow';
+            }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////
+// String functions
+//////////////////////////////////////////////////////////////////////
+
+// Add a trim() method to remove white space
+if( typeof( String.prototype.trim ) == 'undefined' )
+{
+    String.prototype.trim = function()
+    {
+        return this.replace( /^\s*/, '' ).replace( /\s*$/, '' );
+    };
+}
+
+// stringBeginningMatches - Returns true iff the beginning of str1 is equal
+// to str2. Case insensitive.
+function stringBeginningMatches( str1, str2 )
+{
+    if( str2.length > str1.length ) return false;
+    return str1.substring( 0, str2.length ).toLowerCase() == str2.toLowerCase();
+}
+
+// stringMatches - Returns true iff str1 equals str2. Case insensitive.
+function stringMatches( str1, str2 )
+{
+    return str1.length == str2.length ?
+                               str1.toLowerCase() == str2.toLowerCase() : false;
+}
+
+//////////////////////////////////////////////////////////////////////
+// Array functions
+//////////////////////////////////////////////////////////////////////
+
+// Add pop() method
+// These methods are provided for older browse support
+if( typeof( Array.prototype.pop ) == 'undefined' )
+{
+	Array.prototype.pop = function()
+	{
+        if( this.length )
+        {
+            var value = this[this.length - 1];
+            this.length--;
+            return value;
+        }
+        return undefined;
+    };
+}
+
+// Add push() method
+// These methods are provided for older browse support
+if( typeof( Array.prototype.push ) == 'undefined' )
+{
+	Array.prototype.push = function()
+	{
+        for( var i = 0; i < arguments.length; i++ )
+            this[this.length] = arguments[i];
+        return this.length;
+    };
+}
+
+// Add shift() method
+// These methods are provided for older browse support
+if( typeof( Array.prototype.shift ) == 'undefined' )
+{
+	Array.prototype.shift = function()
+	{
+        var response = this[0];
+        for( var i = 0; i < this.length - 1; i++ )
+            this[i] = this[i + 1];
+        this.length--;
+        return response;
+	};
+}
+
+// Add remove() method to remove a specified index or range of indices
+if( typeof( Array.prototype.remove ) == 'undefined' )
+{
+    Array.prototype.remove = function( from, to )
+    {
+        var rest = this.slice( (to || from) + 1 || this.length );
+        this.length = from < 0 ? this.length + from : from;
+        return this.push.apply( this, rest );
+    };
+}
+
+// Add indexOf() method to retrieve the index of a given object
+if( typeof( Array.prototype.indexOf ) == 'undefined' )
+{
+    Array.prototype.indexOf = function( obj )
+    {
+        for( var i = 0; i < this.length; i++ )
+            if( this[i] == obj ) return i;
+        return -1;
+    }
+}
+
+//////////////////////////////////////////////////////////////////////
+// Custom 'onload' and 'unload' handlers
+//////////////////////////////////////////////////////////////////////
+
+// addLoadEvent - Registers the given function with the onload handler.
+function addLoadEvent( func )
+{
+    var oldonload = window.onload;
+    window.onload = function()
+    {
+        if( typeof( oldonload ) == 'function' ) oldonload();
+        func();
+    }
+}
+
+// addUnloadEvent - Registers the given function with the unload handler.
+function addUnloadEvent( func )
+{
+    var oldonunload = window.onunload;
+    window.onunload = function()
+    {
+        if( typeof( oldonunload ) == 'function' ) oldonunload();
+        func();
+    }
+}
+
+//////////////////////////////////////////////////////////////////////
+// DOM/node functions
+//////////////////////////////////////////////////////////////////////
+
+// getElementsByTagNames - Returns all child nodes of the given node whose tag
+// names are contained in the given comma-seperated list.
+// If obj is not specified then the entire document is searched.
+function getElementsByTagNames( taglist, obj )
+{
+    if( !obj ) var obj = document;
+    var taglist = taglist.split( ',' );
+    var results = new Array();
+    for( var i = 0; i < taglist.length; i++ )
+    {
+        var objs = obj.getElementsByTagName( taglist[i] );
+        for( var j = 0; j < objs.length; j++ )
+            results.push( objs[j] );
+    }
+    return results;
+}
+
+// getElementsByClassName - Returns all child nodes of the given node whose
+// class is equal to the given class name.
+// If obj is not specified then the entire document is searched.
+function getElementsByClassName( classname, obj )
+{
+    if( !obj ) var obj = document;
+    if( obj.getElementsByClassName )
+        return obj.getElementsByClassName( classname );
+    var results = new Array();
+    var objs = obj.getElementsByTagName( '*' );
+    for( var i = 0; i < objs.length; i++ )
+        if( objs[i].className == classname )
+            results.push( objs[i] );
+    return results;
+}
+
+// getStyle - Returns the value of the given style property for the element with
+// the given id.
+function getStyle( id, styleProp )
+{
+    var obj = document.getElementById( id );
+    if( obj.currentStyle )
+        var style = obj.currentStyle[styleProp];
+    else if( window.getComputedStyle )
+        var style = document.defaultView.getComputedStyle( obj, null ).getPropertyValue( styleProp );
+    return style;
+}
+
+// showHideNode - Shows/hides the given node.
+function showHideNode( node, show )
+{
+    var action = show ? 'visible' : 'hidden';
+    if( node.visibility )
+        node.visibility = action;
+    else
+       node.style.visibility = action;
+}
+
+//////////////////////////////////////////////////////////////////////
+// Table functions
+//////////////////////////////////////////////////////////////////////
+
+// insertRowInTable - Inserts a row into the given table at the given index
+// (starting from 0). If the index is undefined then the row is appended to the
+// end of the table. If the index is negative then the row is inserted that
+// many rows from the end (i.e. -1 will be inserted before the final row, -2
+// before the penultimate row, etc.).
+// Returns the row.
+function insertRowInTable( table, idx )
+{
+    var tBody = table.tBodies[0];
+    // Make sense of the index
+    if( typeof( idx ) === 'undefined' )
+        idx = tBody.rows.length;
+    else if( idx < 0 )
+        idx = tBody.rows.length + idx;
+    // We'll correct for user errors
+    if( idx < 0 ) idx = 0;
+    else if( idx > tBody.rows.length ) idx = tBody.rows.length;
+    // Insert the row
+    return tBody.insertRow( idx );
+}
+
+// rowIndex - Returns the index of the row containing the given element in its
+// containing table.
+// Returns -1 if the element is not in a table.
+function rowIndex( obj )
+{
+    // Get the row
+    var row = containingRow( obj );
+    if( !row ) return -1;
+    // Get the table body
+    var tBody = containingTbody( row );
+    if( !tBody ) return -1;
+    // Which row is it?
+    for( var i = 0; i < tBody.rows.length; i++ )
+        if( tBody.rows[i] == row ) return i;
+    return -1;
+}
+
+// containingTbody - Returns the tbody containing the given element, if there
+// is one, null otherwise.
+function containingTbody( obj )
+{
+    while( obj && obj.nodeName.toUpperCase() != 'TBODY' )
+        obj = obj.parentNode;
+    return obj;
+}
+
+// containingTable - Returns the table containing the given element, if there
+// is one, null otherwise.
+function containingTable( obj )
+{
+    while( obj && obj.nodeName.toUpperCase() != 'TABLE' )
+        obj = obj.parentNode;
+    return obj;
+}
+
+// containingRow - Returns the row containing the given element, if there
+// is one, null otherwise.
+function containingRow( obj )
+{
+    while( obj && obj.nodeName.toUpperCase() != 'TR' )
+        obj = obj.parentNode;
+    return obj;
+}
+
+// appendToRow - Appends the content to the end of the given table row.
+// Returns the new cell.
+function appendToRow( row, content )
+{
+    var cell = row.insertCell( row.cells.length );
+    if( typeof( content ) !== 'undefined' ) cell.appendChild( content );
+    return cell;
+}
+
+//////////////////////////////////////////////////////////////////////
+// Miscellaneous functions
+//////////////////////////////////////////////////////////////////////
+
+// getAbsolutePosition - Returns the absolute position in the document of the
+// node's top-left corner.
+// Returns an object with .x equal to the x-position, and .y the y-position.
+function getAbsolutePosition( obj )
+{
+    // Walk up the DOM and add up all of the offset positions
+    var pos = new Object();
+    pos.x = 0;
+    pos.y = 0;
+    while( obj.offsetParent && obj.nodeName.toUpperCase() != 'BODY')
+    {
+        pos.x += obj.offsetLeft;
+        pos.y += obj.offsetTop;
+        obj = obj.offsetParent;
+    }
+    pos.x += obj.offsetLeft;
+    pos.y += obj.offsetTop;
+    // Return the result
+    return pos;
+}
+
+// insertAtCursor - Inserts the given string into the given object's text value
+// at the current cursor position.
+function insertAtCursor( obj, str )
+{
+    // IE version
+    if( document.selection )
+    {
+        obj.focus();
+        var sel = document.selection.createRange();
+        sel.text = str;
+    }
+    // Everybody else
+    else if( obj.selectionStart || obj.selectionStart == '0' )
+    {
+        var startPos = obj.selectionStart;
+        var endPos = obj.selectionEnd;
+        obj.value = obj.value.substring(0,startPos) + str +
+                    obj.value.substring(endPos,obj.value.length);
+        obj.selectionStart = obj.selectionEnd = startPos + str.length;
+    }
+    else
+        obj.value += str;
+}
+
+// getKeyCode - Determine the keycode pressed in a browser-independent way
+function getKeyCode( ev )
+{
+    if( ev ) return ev.keyCode;
+    if( window.event ) return window.event.keyCode;
+    return undefined;
+}
+
+// getEventSource - Determine the event source element in a browser-independent
+// way
+function getEventSource( ev )
+{
+    if( ev ) return ev.target;
+    if( window.event ) return window.event.srcElement;
+    return undefined;
+}
+
+// cancelEvent - Cancel an event in a browser-independent way
+function cancelEvent( ev )
+{
+    if( ev )
+    {
+        ev.preventDefault();
+        ev.stopPropagation();
+    }
+    if( window.event ) window.event.returnValue = false;
+    return false;
+}
+
+//////////////////////////////////////////////////////////////////////
+// Fixes for IE behaviour
+//////////////////////////////////////////////////////////////////////
+
+// getInternetExplorerVersion - Returns the version of Internet Explorer or -1.
+function getInternetExplorerVersion()
+{
+    var rv = -1;
+    if( navigator.appName == 'Microsoft Internet Explorer' )
+    {
+        var ua = navigator.userAgent;
+        var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+        if( re.exec(ua) != null )
+            rv = parseFloat( RegExp.$1 );
+    }
+    return rv;
+}
+
+if( /msie/i.test( navigator.userAgent ) )
+{
+	document.nativeGetElementById = document.getElementById;
+	document.getElementById = function( id )
+	{
+		var elem = document.nativeGetElementById( id );
+		if( elem )
+		{
+			// Make sure that it is a valid match on id
+			if( elem.attributes['id'].value == id )
+				return elem;
+			else
+				for( var i = 1; i < document.all[id].length; i++ )
+					if( document.all[id][i].attributes['id'].value == id )
+						return document.all[id][i];
+		}
+		return null;
+	};
+}
+
+//////////////////////////////////////////////////////////////////////
+// Detect mobile browser agents
+//////////////////////////////////////////////////////////////////////
+
+// isMobileAgent - Returns true iff this browser is a mobile device.
+function isMobileAgent()
+{
+    return navigator.userAgent.match( /iphone|ipad|ipod|android|blackberry/i );
+}
+
+//////////////////////////////////////////////////////////////////////
+// URL manipulation
+//////////////////////////////////////////////////////////////////////
+
+// gup - Returns the value of the url parameter 'key'. Like PHP's $_GET['key'].
+function gup( key )
+{
+    key = key.replace( /[\[]/, '\\\[' ).replace( /[\]]/, '\\\]' );
+    var regexS = '[\\?&]' + encodeURI(key) + '=([^&#]*)';
+    var regex = new RegExp( regexS );
+    var results = regex.exec( window.location.href );
+    if( results == null ) return '';
+    else return decodeURI(results[1]);
+}
+
+// guparray - Returns an associative array of the url parameters.
+// Like PHP's $_GET array.
+// Note: Does not attempt to unencode any special characters.
+function guparray()
+{
+    var results = new Object();
+    var idx = window.location.href.indexOf( '?' );
+    if( idx >= 0 )
+    {
+        var gets = window.location.href.substring( idx + 1 ).split( '&' );
+        for( var i = 0; i < gets.length; i++ )
+        {
+            var pair = gets[i].split('=');
+            results[decodeURI(pair[0])] = pair.length > 1 ?
+                                        decodeURI(pair[1]) : null;
+        }
+    }
+    return results;
+}
+
+// urlparams - Creates the url parameters from the given associative array.
+// Note: Does _NOT_ prefix with a '?'.
+function urlparams( values )
+{
+    var params = new Array();
+    for( var key in values )
+        if( key.length && values[key] && values[key].length )
+            params.push( key + '=' + values[key] );
+    return params.join( '&' );
+}
+
+// pagename - Returns the page name. For example, if the current url is
+// "http://somewhere/here/page.html?id=2" then returns "page.html".
+function pagename()
+{
+    var pathname = window.location.pathname;
+    return pathname.substring( pathname.lastIndexOf('/') + 1 );
+}
+
+// windowHeight - Returns the height of the user's window
+function windowHeight()
+{
+    if( window.innerHeight )
+        return window.innerHeight;
+    if( document.body.clientHeight )
+        return document.body.clientHeight;
+    return( null );
+}
+
+//////////////////////////////////////////////////////////////////////
+// Simplifies creating the drop-down navbar menus
+//////////////////////////////////////////////////////////////////////
+
+// createNavbarMenuList - Adds the given array of links to a new list
+function createNavbarMenuList( menu, names, links )
+{
+    // Is there anything to do?
+    if( !names.length || isMobileAgent() ) return;
+    // Create the drop-down list
+    var list = document.createElement( 'ul' );
+    // Set the style defaults
+    list.className = 'dropdown';
+    list.style.display = 'none';
+    list.style.marginLeft = (-menu.offsetWidth) + 'px';
+    list.style.marginTop = (menu.offsetHeight - 3) + 'px';
+    // Add the on-hover handler
+    menu.onmouseover = function( e )
+    {
+        list.style.display = 'inherit';
+    };
+    menu.onmouseout = function( e )
+    {
+        list.style.display = 'none';
+    };
+    // Add the links
+    var num = names.length;
+    var first = null;
+    var last = null;
+    for( var i = 0; i < num; i++ )
+    {
+        var item = addNavbarListLink( list, names[i], links[i] );
+        if( i == 0 )       first = item;
+        if( i == num - 1 ) last = item;
+    }
+    // Mark the first and last item
+    if( first ) first.setAttribute( 'class', 'first' );
+    if( last )  last.setAttribute( 'class', 'last' );
+    // Install the list
+    menu.appendChild( list );
+}
+
+// addNavbarListLink - Adds the given link to the given list
+function addNavbarListLink( list, title, href )
+{
+    // Create the item and link nodes
+    var item = document.createElement( 'li' );
+    if( !item ) return;
+    var link = document.createElement( 'a' );
+    if( !link ) return;
+    // Add the link details
+    link.setAttribute( 'href', href );
+    link.appendChild( document.createTextNode( title ) );
+    // Add the link to the item and the item to the list
+    item.appendChild( link );
+    list.appendChild( item );
+    // Return the list item
+    return item;
+}

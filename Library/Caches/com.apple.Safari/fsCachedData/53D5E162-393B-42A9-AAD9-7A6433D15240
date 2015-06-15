@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="ROBOTS" content="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><script type="text/javascript" charset="utf-8">window.startTime = (new Date()).getTime();</script></head><body dir="ltr"><div id="adBlock"></div><script type="text/javascript">
+        function populate(el) { var adBlock = document.getElementById("adBlock");adBlock.innerHTML += el;}
+        var caps_ = {
+"clicktracking": true, "customAdIcons": true, "isLtr": true, "isRtl": false, "isDesktop": true, "nessieIcon": true, "nessieIconType": "arrowbox", "nessieIconLocation": "rightcenter", "popstripeRs": "#1F8A70,#BEDB39,#FFE11A,#FD7400,#004358", "sellerFirstBoxLeft": true
+};
+        var IS_GOOGLE_AFS_IFRAME_ = true;
+        var ad_json = {
+          "ads": [],
+          "ias": [],
+          "rss": [{
+            "t": "Stack Overflow",
+            "tr": {
+              "c": "Stack Overflow",
+              "rtl": false
+            },
+            "afdt": "Co0CChMIn5Gb0v6KxgIVphdFCh14WAAcGAEgAFDA2J4BUN3lpAFQ98n_C1C13qAOUNia1A5Q4prUDlC0z_wPULD19BFQ6LyoE1DG7_8TUL2hvRZQjZ-FG1CCo6gcUIyFnB9QjYWcH1Ci57AqUMbymS1QqMfWLVCOhKMvUPzgpFRQys6EaVDe9MOAAVDh9MOAAVC6-8OAAVDI-ZSVAVDTiu6XAVDOkO6XAVD1kO6XAVDh4NW5AVCFpYq2AlCGq-e8A1CmiYDHA1D3_f3BBGjA2J4BaN3lpAFxk6eJhrFACteCARMI7fGb0v6KxgIVbs9ECh1JyQB8jQFkonJRkQH09VT2udJ1hJEBFN3kLtDqZNMSGQBtOoqQZW2Ghx2Ypg2xLRSwoZf1tjLtgSY",
+            "fn": "slave-1",
+            "sls": []},{
+            "t": "Programming Code",
+            "tr": {
+              "c": "Programming Code",
+              "rtl": false
+            },
+            "afdt": "Co0CChMIn5Gb0v6KxgIVphdFCh14WAAcGAEgAVDA2J4BUN3lpAFQ98n_C1C13qAOUNia1A5Q4prUDlC0z_wPULD19BFQ6LyoE1DG7_8TUL2hvRZQjZ-FG1CCo6gcUIyFnB9QjYWcH1Ci57AqUMbymS1QqMfWLVCOhKMvUPzgpFRQys6EaVDe9MOAAVDh9MOAAVC6-8OAAVDI-ZSVAVDTiu6XAVDOkO6XAVD1kO6XAVDh4NW5AVCFpYq2AlCGq-e8A1CmiYDHA1D3_f3BBGjA2J4BaN3lpAFxk6eJhrFACteCARMI7fGb0v6KxgIVbs9ECh1JyQB8jQGZu41pkQH09VT2udJ1hJEBFN3kLtDqZNMSGQBtOoqQb1HbcIxKx0ZPj-vj0go2Xttd_Lg",
+            "fn": "slave-1",
+            "sls": []},{
+            "t": "Computer Programming Courses",
+            "tr": {
+              "c": "Computer Programming Courses",
+              "rtl": false
+            },
+            "afdt": "Co0CChMIn5Gb0v6KxgIVphdFCh14WAAcGAEgAlDA2J4BUN3lpAFQ98n_C1C13qAOUNia1A5Q4prUDlC0z_wPULD19BFQ6LyoE1DG7_8TUL2hvRZQjZ-FG1CCo6gcUIyFnB9QjYWcH1Ci57AqUMbymS1QqMfWLVCOhKMvUPzgpFRQys6EaVDe9MOAAVDh9MOAAVC6-8OAAVDI-ZSVAVDTiu6XAVDOkO6XAVD1kO6XAVDh4NW5AVCFpYq2AlCGq-e8A1CmiYDHA1D3_f3BBGjA2J4BaN3lpAFxk6eJhrFACteCARMI7fGb0v6KxgIVbs9ECh1JyQB8jQHN8SYKkQH09VT2udJ1hJEBFN3kLtDqZNMSGQBtOoqQvVNpyFvVqZnTLp180oWBUNYLwiA",
+            "fn": "slave-1",
+            "sls": []},{
+            "t": "Stackoverflow",
+            "tr": {
+              "c": "Stackoverflow",
+              "rtl": false
+            },
+            "afdt": "Co0CChMIn5Gb0v6KxgIVphdFCh14WAAcGAEgA1DA2J4BUN3lpAFQ98n_C1C13qAOUNia1A5Q4prUDlC0z_wPULD19BFQ6LyoE1DG7_8TUL2hvRZQjZ-FG1CCo6gcUIyFnB9QjYWcH1Ci57AqUMbymS1QqMfWLVCOhKMvUPzgpFRQys6EaVDe9MOAAVDh9MOAAVC6-8OAAVDI-ZSVAVDTiu6XAVDOkO6XAVD1kO6XAVDh4NW5AVCFpYq2AlCGq-e8A1CmiYDHA1D3_f3BBGjA2J4BaN3lpAFxk6eJhrFACteCARMI7fGb0v6KxgIVbs9ECh1JyQB8jQEbYGP2kQH09VT2udJ1hJEBFN3kLtDqZNMSGQBtOoqQ96gIihUG_Hj9hi5eHjk5sWNn5zU",
+            "fn": "slave-1",
+            "sls": []},{
+            "t": "Software Developer Companies",
+            "tr": {
+              "c": "Software Developer Companies",
+              "rtl": false
+            },
+            "afdt": "Co0CChMIn5Gb0v6KxgIVphdFCh14WAAcGAEgBFDA2J4BUN3lpAFQ98n_C1C13qAOUNia1A5Q4prUDlC0z_wPULD19BFQ6LyoE1DG7_8TUL2hvRZQjZ-FG1CCo6gcUIyFnB9QjYWcH1Ci57AqUMbymS1QqMfWLVCOhKMvUPzgpFRQys6EaVDe9MOAAVDh9MOAAVC6-8OAAVDI-ZSVAVDTiu6XAVDOkO6XAVD1kO6XAVDh4NW5AVCFpYq2AlCGq-e8A1CmiYDHA1D3_f3BBGjA2J4BaN3lpAFxk6eJhrFACteCARMI7fGb0v6KxgIVbs9ECh1JyQB8jQFeyvzzkQH09VT2udJ1hJEBFN3kLtDqZNMSGQBtOoqQRjOzP8cP2F_fbsikrC6dZu60n-I",
+            "fn": "slave-1",
+            "sls": []},{
+            "t": "Software Developer Companies",
+            "tr": {
+              "c": "Software Developer Companies",
+              "rtl": false
+            },
+            "afdt": "Co0CChMIn5Gb0v6KxgIVphdFCh14WAAcGAEgBVDA2J4BUN3lpAFQ98n_C1C13qAOUNia1A5Q4prUDlC0z_wPULD19BFQ6LyoE1DG7_8TUL2hvRZQjZ-FG1CCo6gcUIyFnB9QjYWcH1Ci57AqUMbymS1QqMfWLVCOhKMvUPzgpFRQys6EaVDe9MOAAVDh9MOAAVC6-8OAAVDI-ZSVAVDTiu6XAVDOkO6XAVD1kO6XAVDh4NW5AVCFpYq2AlCGq-e8A1CmiYDHA1D3_f3BBGjA2J4BaN3lpAFxk6eJhrFACteCARMI7fGb0v6KxgIVbs9ECh1JyQB8jQFeyvzzkQH09VT2udJ1hJEBFN3kLtDqZNMSGQBtOoqQkyCyup5CiR_-Mlj_LvksKQw9XI8",
+            "fn": "slave-1",
+            "sls": []},{
+            "t": "Mobile Software Development",
+            "tr": {
+              "c": "Mobile Software Development",
+              "rtl": false
+            },
+            "afdt": "Co0CChMIn5Gb0v6KxgIVphdFCh14WAAcGAEgBlDA2J4BUN3lpAFQ98n_C1C13qAOUNia1A5Q4prUDlC0z_wPULD19BFQ6LyoE1DG7_8TUL2hvRZQjZ-FG1CCo6gcUIyFnB9QjYWcH1Ci57AqUMbymS1QqMfWLVCOhKMvUPzgpFRQys6EaVDe9MOAAVDh9MOAAVC6-8OAAVDI-ZSVAVDTiu6XAVDOkO6XAVD1kO6XAVDh4NW5AVCFpYq2AlCGq-e8A1CmiYDHA1D3_f3BBGjA2J4BaN3lpAFxk6eJhrFACteCARMI7fGb0v6KxgIVbs9ECh1JyQB8jQFeKo5JkQH09VT2udJ1hJEBFN3kLtDqZNMSGQBtOoqQURY2xFSpbaSwzkevy0nop18mQNw",
+            "fn": "slave-1",
+            "sls": []},{
+            "t": "Best Web Development Software",
+            "tr": {
+              "c": "Best Web Development Software",
+              "rtl": false
+            },
+            "afdt": "Co0CChMIn5Gb0v6KxgIVphdFCh14WAAcGAEgB1DA2J4BUN3lpAFQ98n_C1C13qAOUNia1A5Q4prUDlC0z_wPULD19BFQ6LyoE1DG7_8TUL2hvRZQjZ-FG1CCo6gcUIyFnB9QjYWcH1Ci57AqUMbymS1QqMfWLVCOhKMvUPzgpFRQys6EaVDe9MOAAVDh9MOAAVC6-8OAAVDI-ZSVAVDTiu6XAVDOkO6XAVD1kO6XAVDh4NW5AVCFpYq2AlCGq-e8A1CmiYDHA1D3_f3BBGjA2J4BaN3lpAFxk6eJhrFACteCARMI7fGb0v6KxgIVbs9ECh1JyQB8jQEGRlMIkQH09VT2udJ1hJEBFN3kLtDqZNMSGQBtOoqQu3oQaiF1VDaIBBMlXfb6Z33LEko",
+            "fn": "slave-1",
+            "sls": []},{
+            "t": "App Development Companies",
+            "tr": {
+              "c": "App Development Companies",
+              "rtl": false
+            },
+            "afdt": "Co0CChMIn5Gb0v6KxgIVphdFCh14WAAcGAEgCFDA2J4BUN3lpAFQ98n_C1C13qAOUNia1A5Q4prUDlC0z_wPULD19BFQ6LyoE1DG7_8TUL2hvRZQjZ-FG1CCo6gcUIyFnB9QjYWcH1Ci57AqUMbymS1QqMfWLVCOhKMvUPzgpFRQys6EaVDe9MOAAVDh9MOAAVC6-8OAAVDI-ZSVAVDTiu6XAVDOkO6XAVD1kO6XAVDh4NW5AVCFpYq2AlCGq-e8A1CmiYDHA1D3_f3BBGjA2J4BaN3lpAFxk6eJhrFACteCARMI7fGb0v6KxgIVbs9ECh1JyQB8jQEkH8dekQH09VT2udJ1hJEBFN3kLtDqZNMSGQBtOoqQdmUvAXC-VWwt4K_ZP-iTK6mTEKw",
+            "fn": "slave-1",
+            "sls": []},{
+            "t": "Stack",
+            "tr": {
+              "c": "Stack",
+              "rtl": false
+            },
+            "afdt": "Co0CChMIn5Gb0v6KxgIVphdFCh14WAAcGAEgCVDA2J4BUN3lpAFQ98n_C1C13qAOUNia1A5Q4prUDlC0z_wPULD19BFQ6LyoE1DG7_8TUL2hvRZQjZ-FG1CCo6gcUIyFnB9QjYWcH1Ci57AqUMbymS1QqMfWLVCOhKMvUPzgpFRQys6EaVDe9MOAAVDh9MOAAVC6-8OAAVDI-ZSVAVDTiu6XAVDOkO6XAVD1kO6XAVDh4NW5AVCFpYq2AlCGq-e8A1CmiYDHA1D3_f3BBGjA2J4BaN3lpAFxk6eJhrFACteCARMI7fGb0v6KxgIVbs9ECh1JyQB8jQHD-i6ukQH09VT2udJ1hJEBFN3kLtDqZNMSGQBtOoqQmBLBCGvHRqWXKm-6-S9ZdExn66M",
+            "fn": "slave-1",
+            "sls": []}],
+          "sbs": [{
+            "fn": "master",
+            "afdt": "CvEBChMIn5Gb0v6KxgIVphdFCh14WAAcGAMgAFDA2J4BUN3lpAFQ98n_C1C13qAOUNia1A5Q4prUDlC0z_wPULD19BFQ6LyoE1DG7_8TUL2hvRZQjZ-FG1CCo6gcUIyFnB9QjYWcH1Ci57AqUMbymS1QqMfWLVCOhKMvUPzgpFRQys6EaVDe9MOAAVDh9MOAAVC6-8OAAVDI-ZSVAVDTiu6XAVDOkO6XAVD1kO6XAVDh4NW5AVCFpYq2AlCGq-e8A1CmiYDHA1D3_f3BBGjA2J4BaN3lpAFxk6eJhrFACteRAfT1VPa50nWEkQEU3eQu0Opk0xIZAG06ipCHxCLwWX43XolpkvQ47WoKxemPZg",
+            "label": "Search Ads",
+            "sls": []}],
+          "attr":{"t":"Sponsored Listings","u":"https://www.google.com/adsense/support/bin/request.py?contact=abg_afc&url=http://stackover.com/&hl=en&client=dp-demandmedia01&gl=US",
+            "alt_t":{
+              
+            }
+          },
+          "rs_attr":{"t":"Related Links","u":"https://www.google.com/adsense/support/bin/request.py?contact=abg_afc&url=http://stackover.com/&hl=en&client=dp-demandmedia01&gl=US"}
+        };
+        var status_ = {
+          "feed": "afc"
+        };
+      </script><script src="//www.google.com/adsense/domains/caf.js" type="text/javascript"> </script></body></html>

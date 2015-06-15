@@ -1,0 +1,200 @@
+06/10/15 12:06:34:889 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | Build Version - 2.8.0.447
+06/10/15 12:06:34:889 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | Logging Level verbosity Set  to 4
+06/10/15 12:06:34:890 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | Creating PIM instance for path: /Applications/Utilities/Adobe Application Manager/
+06/10/15 12:06:34:951 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | trying to createOrUpdatePIMDbSchema.
+06/10/15 12:06:35:217 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | Current db schema version on machine 2.
+06/10/15 12:06:35:217 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | Current db schema version to install 2.
+06/10/15 12:06:35:217 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | PIM DB Schema is up to date. Current schema version is 2.
+06/10/15 12:06:35:218 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | PIM Database is Up To Date.
+06/10/15 12:06:35:318 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | PIMSqlite closeDB status 0 
+06/10/15 12:06:35:318 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | sqlite(pim.db) at path /Applications/Utilities/Adobe Application Manager is already closed
+06/10/15 12:06:35:318 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | FREE PIM Instance ...
+06/10/15 12:06:35:342 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | Build Version - 2.8.0.447
+06/10/15 12:06:35:342 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | Logging Level verbosity Set  to 4
+06/10/15 12:06:35:342 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | Creating PIM instance for path: /Applications/Utilities/Adobe Creative Cloud
+06/10/15 12:06:35:348 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | trying to createOrUpdatePIMDbSchema.
+06/10/15 12:06:35:380 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | Current db schema version on machine 2.
+06/10/15 12:06:35:380 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | Current db schema version to install 2.
+06/10/15 12:06:35:380 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | PIM DB Schema is up to date. Current schema version is 2.
+06/10/15 12:06:35:380 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | PIM Database is Up To Date.
+06/10/15 12:06:35:421 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | PIMSqlite closeDB status 0 
+06/10/15 12:06:35:421 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | sqlite(pim.db) at path /Applications/Utilities/Adobe Creative Cloud is already closed
+06/10/15 12:06:35:421 | [INFO] |  | ASU | PIM | PIM |  |  | 1852 | FREE PIM Instance ...
+06/10/15 12:06:40:907 | [INFO] |  | ASU | LWANative | LWANative |  |  | 1852 | Build Version - 8.0.0.156
+06/10/15 12:06:40:908 | [INFO] |  | ASU | LWANative | LWANative |  |  | 1852 | Logging Level verbosity Set  to 4
+06/10/15 12:06:42:992 | [INFO] |  | ASU | LWANative | P7Native |  |  | 1852 | Start : pwa_openSession
+06/10/15 12:06:42:992 | [INFO] |  | ASU | LWANative | P7Native |  |  | 1852 | pwa_openSession Session key : 76460A17-BFB0-4A51-9F09-CC1DF0E6EE7A
+06/10/15 12:06:43:038 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | Build Version - 8.0.0.143
+06/10/15 12:06:43:039 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | Logging Level verbosity Set  to 4
+06/10/15 12:06:43:050 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | _opm_handle_OPDReturnedStatus called with opdStatus as:0
+06/10/15 12:06:43:050 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | No Record found for the input fields in opm_getValueForKey
+06/10/15 12:06:43:050 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | Released OPM refrence successfully in opm_freeLibRef
+06/10/15 12:06:43:072 | [INFO] |  | ASU | LWANative | P7Native |  |  | 1852 | End : pwa_openSession
+06/10/15 12:06:43:076 | [INFO] |  | ASU | LWANative | P7Native |  |  | 1852 | Start : pwa_getDeviceID
+06/10/15 12:06:43:076 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | Build Version - 8.0.0.156
+06/10/15 12:06:43:076 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | Logging Level verbosity Set  to 4
+06/10/15 12:06:43:084 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | Schema version and schema compatibility version are same or greater than current
+
+06/10/15 12:06:43:087 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | _opm_handle_OPDReturnedStatus called with opdStatus as:0
+06/10/15 12:06:43:087 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | No Record found for the input fields in opm_getValueForKey
+06/10/15 12:06:43:087 | [WARN] |  | ASU | OPM | OPMWrapper |  |  | 1852 | Failed in getting value for key in OPMGetValueForKey
+06/10/15 12:06:43:087 | [INFO] |  | ASU | OPM | P7Native |  |  | 1852 | OOBELibSessionForDeviceID : DeviceId not present in local db generating it from scratch in pwa_getDeviceID
+06/10/15 12:06:43:087 | [INFO] |  | ASU | OPM | P7Native |  |  | 1852 | Start : generateDeviceID
+06/10/15 12:06:43:096 | [INFO] |  | ASU | OPM | P7Native |  |  | 1852 | End : generateDeviceID
+06/10/15 12:06:43:096 | [INFO] |  | ASU | OPM | P7Native |  |  | 1852 | End : pwa_getDeviceID
+06/10/15 12:06:43:096 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | Released OPM refrence successfully in opm_freeLibRef
+06/10/15 12:06:43:099 | [INFO] |  | ASU | OPM | P7Native |  |  | 1852 | Start : pwa_closeSession
+06/10/15 12:06:43:135 | [INFO] |  | ASU | OPM | P7Native |  |  | 1852 | End : pwa_closeSession
+06/10/15 12:06:43:137 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | Build Version - 8.0.1.12
+06/10/15 12:06:43:137 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | Logging Level verbosity Set  to 4
+06/10/15 12:06:43:146 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | Schema version and schema compatibility version are same or greater than current
+
+06/10/15 12:06:43:147 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | _opm_handle_OPDReturnedStatus called with opdStatus as:0
+06/10/15 12:06:43:148 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | No Record found for the input fields in opm_getValueForKey
+06/10/15 12:06:43:148 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | Released OPM refrence successfully in opm_freeLibRef
+06/10/15 12:06:43:154 | [INFO] |  | ASU | OPM | P7Native |  |  | 1852 | Performing openIMSLibSessionWithXMLParams...
+06/10/15 12:06:43:154 | [INFO] |  | ASU | OPM | P7Native |  |  | 1852 | pwa_openIMSLibSessionWithXMLParams Session key : AACD9DA7-167D-4020-89ED-0FF9DFC7846E
+06/10/15 12:06:43:182 | [INFO] |  | ASU | IMSLib | IMSLib |  |  | 1852 | Build Version - 8.0.0.17
+06/10/15 12:06:43:182 | [INFO] |  | ASU | IMSLib | IMSLib |  |  | 1852 | Logging Level verbosity Set  to 4
+06/10/15 12:06:43:183 | [INFO] |  | ASU | IMSLib | IMSLib |  |  | 1852 | Creating IMSLib instance WithXMLParams ...
+06/10/15 12:06:43:183 | [INFO] |  | ASU | IMSLib | IMSLib |  |  | 1852 | Failed to retreive locale from the input xml in IMS_createRefExWithXMLParams
+06/10/15 12:06:43:184 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | Build Version - 8.0.0.17
+06/10/15 12:06:43:184 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | Logging Level verbosity Set  to 4
+06/10/15 12:06:43:191 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | Schema version and schema compatibility version are same or greater than current
+
+06/10/15 12:06:43:193 | [INFO] |  | ASU | OPM | IMSLibHelper |  |  | 1852 | OPMWrapper allocation succeeded
+06/10/15 12:06:43:193 | [INFO] |  | ASU | OPM | IMSLib |  |  | 1852 | This product version is for GM
+06/10/15 12:06:43:194 | [INFO] |  | ASU | OPM | IMSLib |  |  | 1852 | URL retreived from dispatchlib https://ims-prod06.adobelogin.com
+06/10/15 12:06:43:194 | [INFO] |  | ASU | OPM | IMSLib |  |  | 1852 | Created IMSLib instance with endpoint:https://ims-prod06.adobelogin.com in IMS_createRefExWithXMLParams
+06/10/15 12:06:43:195 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | _opm_handle_OPDReturnedStatus called with opdStatus as:0
+06/10/15 12:06:43:195 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | No Record found for the input fields in opm_getValueForKey
+06/10/15 12:06:43:195 | [INFO] |  | ASU | OPM | IMSLib_OPMWrapper |  |  | 1852 | Failed in getting value for key in OPMGetValueForKey domain:OOBE subDomain:ProxyCredentials key:ProxyUsername
+06/10/15 12:06:43:195 | [INFO] |  | ASU | OPM | IMSLibHelper |  |  | 1852 | Failed to get proxy user name from local db in getProxyCredentialsFromLocalStore
+06/10/15 12:06:43:195 | [INFO] |  | ASU | OPM | IMSLib |  |  | 1852 | Failed to get proxy credentials from local store in IMS_createRefExWithXMLParams
+06/10/15 12:06:43:197 | [INFO] |  | ASU | OPM | P7Native |  |  | 1852 | Performing registeration of client to group
+06/10/15 12:06:43:198 | [INFO] |  | ASU | OPM | IMSLib |  |  | 1852 | Performing IMS_registerClientToGroup..
+06/10/15 12:06:43:198 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | Performing opm_getRecords...
+06/10/15 12:06:43:198 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | _opm_handle_OPDReturnedStatus called with opdStatus as:0
+06/10/15 12:06:43:198 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | No Record found for the input fields in opm_getRecords
+06/10/15 12:06:43:198 | [WARN] |  | ASU | OPM | IMSLib_OPMWrapper |  |  | 1852 | Failed in getting list of keys in OPMGetKeyList
+06/10/15 12:06:43:198 | [WARN] |  | ASU | OPM | IMSLibHelper |  |  | 1852 | Failed in getting buddy groupList in getBuddyClients
+06/10/15 12:06:43:198 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | _opm_handle_OPDReturnedStatus called with opdStatus as:0
+06/10/15 12:06:43:198 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | No Record found for the input fields in opm_getValueForKey
+06/10/15 12:06:43:198 | [INFO] |  | ASU | OPM | IMSLib_OPMWrapper |  |  | 1852 | Failed in getting value for key in OPMGetValueForKey domain:IMSLib subDomain:BuddyGroup key:0
+06/10/15 12:06:43:199 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | _opm_handle_OPDReturnedStatus called with opdStatus as:0
+06/10/15 12:06:43:199 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | Successfully updated opm.db for fields domain:IMSLib subdomain:BuddyGroup key:0 in opm_setValueForKey
+06/10/15 12:06:43:199 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | _opm_handle_OPDReturnedStatus called with opdStatus as:0
+06/10/15 12:06:43:199 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | No Record found for the input fields in opm_getValueForKey
+06/10/15 12:06:43:199 | [INFO] |  | ASU | OPM | IMSLib_OPMWrapper |  |  | 1852 | Failed in getting value for key in OPMGetValueForKey domain:IMSLib subDomain:CSServiceMap key:CreativeCloud_v1_8
+06/10/15 12:06:43:199 | [WARN] |  | ASU | OPM | IMSLibHelper |  |  | 1852 | Failed in fetching default user id for the service, while processing fetchDefaultUserGUIDForClientID
+06/10/15 12:06:43:199 | [INFO] |  | ASU | OPM | IMSLib |  |  | 1852 | Not duplicating the DUC entry - fetchDefaultUserGUIDForClientID failed in IMS_registerClientToGroup
+06/10/15 12:06:43:199 | [INFO] |  | ASU | OPM | P7Native |  |  | 1852 | Registered Client to group successfully!
+06/10/15 12:06:43:201 | [INFO] |  | ASU | OPM | P7Native |  |  | 1852 | Performing fetch default user for clientID...
+06/10/15 12:06:43:201 | [INFO] |  | ASU | OPM | IMSLib |  |  | 1852 | Performing fetchDefaultUserInfoForClientId...
+06/10/15 12:06:43:202 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | _opm_handle_OPDReturnedStatus called with opdStatus as:0
+06/10/15 12:06:43:202 | [INFO] |  | ASU | OPM | OPM |  |  | 1852 | No Record found for the input fields in opm_getValueForKey
+06/10/15 12:06:43:202 | [INFO] |  | ASU | OPM | IMSLib_OPMWrapper |  |  | 1852 | Failed in getting value for key in OPMGetValueForKey domain:IMSLib subDomain:CSServiceMap key:CreativeCloud_v1_8
+06/10/15 12:06:43:202 | [WARN] |  | ASU | OPM | IMSLibHelper |  |  | 1852 | Failed in fetching default user id for the service, while processing fetchDefaultUserGUIDForClientID
+06/10/15 12:06:43:202 | [INFO] |  | ASU | OPM | IMSLib |  |  | 1852 | Failed to get default user for clientId in fetchDefaultUserInfoForClientId...
+06/10/15 12:06:43:202 | [WARN] |  | ASU | OPM | P7Native |  |  | 1852 | failed in IMSLib's fetchDefaultUserInfoForClientId function, in getDefaultUserForClientId
+06/10/15 12:06:43:202 | [INFO] |  | ASU | OPM | IMSLib |  |  | 1852 | Performing releaseData...
+06/10/15 12:06:43:202 | [INFO] |  | ASU | OPM | P7Native |  |  | 1852 | Unable to find default user for client_id: CreativeCloud_v1_8
+06/10/15 12:03:35:501 | [INFO] |  | ASU | OPM | P7Native |  |  | 3493 | Performing closeIMSLibSession...
+06/10/15 12:03:35:501 | [INFO] |  | ASU | OPM | IMSLib |  |  | 3493 | Releasing IMSLib instance ...
+06/10/15 12:03:35:501 | [INFO] |  | ASU | OPM | OPM |  |  | 3493 | Released OPM refrence successfully in opm_freeLibRef
+06/10/15 12:03:35:501 | [INFO] |  | ASU | OPM | IMSLibHelper |  |  | 3493 | OPM reference freed
+06/10/15 12:03:35:501 | [WARN] |  | ASU | OPM | IMSLibData |  |  | 3493 | IMSLibData destructor completed
+06/12/15 13:40:32:372 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | Build Version - 2.8.0.447
+06/12/15 13:40:32:372 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | Logging Level verbosity Set  to 4
+06/12/15 13:40:32:372 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | Creating PIM instance for path: /Applications/Utilities/Adobe Application Manager/
+06/12/15 13:40:32:374 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | trying to createOrUpdatePIMDbSchema.
+06/12/15 13:40:32:377 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | Current db schema version on machine 2.
+06/12/15 13:40:32:377 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | Current db schema version to install 2.
+06/12/15 13:40:32:377 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | PIM DB Schema is up to date. Current schema version is 2.
+06/12/15 13:40:32:377 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | PIM Database is Up To Date.
+06/12/15 13:40:32:381 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | PIMSqlite closeDB status 0 
+06/12/15 13:40:32:381 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | sqlite(pim.db) at path /Applications/Utilities/Adobe Application Manager is already closed
+06/12/15 13:40:32:381 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | FREE PIM Instance ...
+06/12/15 13:40:32:385 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | Build Version - 2.8.0.447
+06/12/15 13:40:32:385 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | Logging Level verbosity Set  to 4
+06/12/15 13:40:32:385 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | Creating PIM instance for path: /Applications/Utilities/Adobe Creative Cloud
+06/12/15 13:40:32:386 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | trying to createOrUpdatePIMDbSchema.
+06/12/15 13:40:32:386 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | Current db schema version on machine 2.
+06/12/15 13:40:32:386 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | Current db schema version to install 2.
+06/12/15 13:40:32:386 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | PIM DB Schema is up to date. Current schema version is 2.
+06/12/15 13:40:32:386 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | PIM Database is Up To Date.
+06/12/15 13:40:32:390 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | PIMSqlite closeDB status 0 
+06/12/15 13:40:32:391 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | sqlite(pim.db) at path /Applications/Utilities/Adobe Creative Cloud is already closed
+06/12/15 13:40:32:391 | [INFO] |  | ASU | PIM | PIM |  |  | 2123 | FREE PIM Instance ...
+06/12/15 13:40:26:214 | [INFO] |  | ASU | LWANative | LWANative |  |  | 2123 | Build Version - 8.0.0.156
+06/12/15 13:40:26:214 | [INFO] |  | ASU | LWANative | LWANative |  |  | 2123 | Logging Level verbosity Set  to 4
+06/12/15 13:40:28:106 | [INFO] |  | ASU | LWANative | P7Native |  |  | 2123 | Start : pwa_openSession
+06/12/15 13:40:28:106 | [INFO] |  | ASU | LWANative | P7Native |  |  | 2123 | pwa_openSession Session key : 5E98A00C-9401-4307-AB0B-BDD207CD46B9
+06/12/15 13:40:28:488 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | Build Version - 8.0.0.143
+06/12/15 13:40:28:488 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | Logging Level verbosity Set  to 4
+06/12/15 13:40:28:705 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | Schema version and schema compatibility version are same or greater than current
+
+06/12/15 13:40:28:707 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | _opm_handle_OPDReturnedStatus called with opdStatus as:0
+06/12/15 13:40:28:707 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | No Record found for the input fields in opm_getValueForKey
+06/12/15 13:40:28:714 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | Released OPM refrence successfully in opm_freeLibRef
+06/12/15 13:40:28:843 | [INFO] |  | ASU | LWANative | P7Native |  |  | 2123 | End : pwa_openSession
+06/12/15 13:40:28:860 | [INFO] |  | ASU | LWANative | P7Native |  |  | 2123 | Start : pwa_getDeviceID
+06/12/15 13:40:28:860 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | Build Version - 8.0.0.156
+06/12/15 13:40:28:860 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | Logging Level verbosity Set  to 4
+06/12/15 13:40:28:948 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | Schema version and schema compatibility version are same or greater than current
+
+06/12/15 13:40:28:950 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | _opm_handle_OPDReturnedStatus called with opdStatus as:0
+06/12/15 13:40:28:950 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | No Record found for the input fields in opm_getValueForKey
+06/12/15 13:40:28:950 | [WARN] |  | ASU | OPM | OPMWrapper |  |  | 2123 | Failed in getting value for key in OPMGetValueForKey
+06/12/15 13:40:28:950 | [INFO] |  | ASU | OPM | P7Native |  |  | 2123 | OOBELibSessionForDeviceID : DeviceId not present in local db generating it from scratch in pwa_getDeviceID
+06/12/15 13:40:28:951 | [INFO] |  | ASU | OPM | P7Native |  |  | 2123 | Start : generateDeviceID
+06/12/15 13:40:28:987 | [INFO] |  | ASU | OPM | P7Native |  |  | 2123 | End : generateDeviceID
+06/12/15 13:40:28:987 | [INFO] |  | ASU | OPM | P7Native |  |  | 2123 | End : pwa_getDeviceID
+06/12/15 13:40:28:987 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | Released OPM refrence successfully in opm_freeLibRef
+06/12/15 13:40:28:989 | [INFO] |  | ASU | OPM | P7Native |  |  | 2123 | Start : pwa_closeSession
+06/12/15 13:40:29:559 | [INFO] |  | ASU | OPM | P7Native |  |  | 2123 | End : pwa_closeSession
+06/12/15 13:40:29:562 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | Build Version - 8.0.1.12
+06/12/15 13:40:29:562 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | Logging Level verbosity Set  to 4
+06/12/15 13:40:29:654 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | Schema version and schema compatibility version are same or greater than current
+
+06/12/15 13:40:29:656 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | _opm_handle_OPDReturnedStatus called with opdStatus as:0
+06/12/15 13:40:29:656 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | No Record found for the input fields in opm_getValueForKey
+06/12/15 13:40:29:656 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | Released OPM refrence successfully in opm_freeLibRef
+06/12/15 13:40:29:664 | [INFO] |  | ASU | OPM | P7Native |  |  | 2123 | Performing openIMSLibSessionWithXMLParams...
+06/12/15 13:40:29:664 | [INFO] |  | ASU | OPM | P7Native |  |  | 2123 | pwa_openIMSLibSessionWithXMLParams Session key : 4C5583F8-7E95-4F02-8620-2728042E54BA
+06/12/15 13:40:29:699 | [INFO] |  | ASU | IMSLib | IMSLib |  |  | 2123 | Build Version - 8.0.0.17
+06/12/15 13:40:29:699 | [INFO] |  | ASU | IMSLib | IMSLib |  |  | 2123 | Logging Level verbosity Set  to 4
+06/12/15 13:40:29:699 | [INFO] |  | ASU | IMSLib | IMSLib |  |  | 2123 | Creating IMSLib instance WithXMLParams ...
+06/12/15 13:40:29:700 | [INFO] |  | ASU | IMSLib | IMSLib |  |  | 2123 | Failed to retreive locale from the input xml in IMS_createRefExWithXMLParams
+06/12/15 13:40:29:701 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | Build Version - 8.0.0.17
+06/12/15 13:40:29:701 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | Logging Level verbosity Set  to 4
+06/12/15 13:40:29:736 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | Schema version and schema compatibility version are same or greater than current
+
+06/12/15 13:40:29:738 | [INFO] |  | ASU | OPM | IMSLibHelper |  |  | 2123 | OPMWrapper allocation succeeded
+06/12/15 13:40:29:738 | [INFO] |  | ASU | OPM | IMSLib |  |  | 2123 | This product version is for GM
+06/12/15 13:40:29:741 | [INFO] |  | ASU | OPM | IMSLib |  |  | 2123 | URL retreived from dispatchlib https://ims-prod06.adobelogin.com
+06/12/15 13:40:29:741 | [INFO] |  | ASU | OPM | IMSLib |  |  | 2123 | Created IMSLib instance with endpoint:https://ims-prod06.adobelogin.com in IMS_createRefExWithXMLParams
+06/12/15 13:40:29:741 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | _opm_handle_OPDReturnedStatus called with opdStatus as:0
+06/12/15 13:40:29:741 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | No Record found for the input fields in opm_getValueForKey
+06/12/15 13:40:29:741 | [INFO] |  | ASU | OPM | IMSLib_OPMWrapper |  |  | 2123 | Failed in getting value for key in OPMGetValueForKey domain:OOBE subDomain:ProxyCredentials key:ProxyUsername
+06/12/15 13:40:29:741 | [INFO] |  | ASU | OPM | IMSLibHelper |  |  | 2123 | Failed to get proxy user name from local db in getProxyCredentialsFromLocalStore
+06/12/15 13:40:29:741 | [INFO] |  | ASU | OPM | IMSLib |  |  | 2123 | Failed to get proxy credentials from local store in IMS_createRefExWithXMLParams
+06/12/15 13:40:29:744 | [INFO] |  | ASU | OPM | P7Native |  |  | 2123 | Performing registeration of client to group
+06/12/15 13:40:29:744 | [INFO] |  | ASU | OPM | IMSLib |  |  | 2123 | Performing IMS_registerClientToGroup..
+06/12/15 13:40:29:744 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | Performing opm_getRecords...
+06/12/15 13:40:29:744 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | _opm_handle_OPDReturnedStatus called with opdStatus as:0
+06/12/15 13:40:29:744 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | _opm_handle_OPDReturnedStatus called with opdStatus as:0
+06/12/15 13:40:29:745 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | returning size of value as:22 in opm_getValueForKey
+06/12/15 13:40:29:745 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | _opm_handle_OPDReturnedStatus called with opdStatus as:0
+06/12/15 13:40:29:745 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | Successfully retreived value from opm domain:IMSLib subdomain:BuddyGroup key:0 in opm_getValueForKey
+06/12/15 13:40:29:745 | [INFO] |  | ASU | OPM | P7Native |  |  | 2123 | Registered Client to group successfully!
+06/12/15 13:40:29:748 | [INFO] |  | ASU | OPM | P7Native |  |  | 2123 | Performing fetch default user for clientID...
+06/12/15 13:40:29:749 | [INFO] |  | ASU | OPM | IMSLib |  |  | 2123 | Performing fetchDefaultUserInfoForClientId...
+06/12/15 13:40:29:749 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | _opm_handle_OPDReturnedStatus called with opdStatus as:0
+06/12/15 13:40:29:749 | [INFO] |  | ASU | OPM | OPM |  |  | 2123 | No Record found for the input fields in opm_getValueForKey
+06/12/15 13:40:29:749 | [INFO] |  | ASU | OPM | IMSLib_OPMWrapper |  |  | 2123 | Failed in getting value for key in OPMGetValueForKey domain:IMSLib subDomain:CSServiceMap key:CreativeCloud_v1_8
+06/12/15 13:40:29:749 | [WARN] |  | ASU | OPM | IMSLibHelper |  |  | 2123 | Failed in fetching default user id for the service, while processing fetchDefaultUserGUIDForClientID
+06/12/15 13:40:29:749 | [INFO] |  | ASU | OPM | IMSLib |  |  | 2123 | Failed to get default user for clientId in fetchDefaultUserInfoForClientId...
+06/12/15 13:40:29:749 | [WARN] |  | ASU | OPM | P7Native |  |  | 2123 | failed in IMSLib's fetchDefaultUserInfoForClientId function, in getDefaultUserForClientId
+06/12/15 13:40:29:749 | [INFO] |  | ASU | OPM | IMSLib |  |  | 2123 | Performing releaseData...
+06/12/15 13:40:29:749 | [INFO] |  | ASU | OPM | P7Native |  |  | 2123 | Unable to find default user for client_id: CreativeCloud_v1_8

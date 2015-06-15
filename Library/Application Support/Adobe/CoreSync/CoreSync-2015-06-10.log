@@ -1,0 +1,88 @@
+20150610-120643.218: OSVer: Version 10.10.1 (Build 14B25); Arch: x86_64h; AppVer: 1.3.1.405;
+20150610-120643.239: ACCController::Init
+20150610-120643.254: ACCController::Init: init fileState cache
+20150610-120643.258: ACCSyncJob::loadSettings CsLoadSettings error: Cannot open file '/Users/sheetal/Library/Application Support/Adobe/CoreSync/options.tix' for read: No such file or directory (error 2)
+20150610-120643.262: Info: ipc: Begin VulcanMessageAdapter initialization (VulcanMessageAdapter.cpp.VulcanMessageAdapter.169)
+20150610-120643.263: Always: ipc: VulcanMessageAdapter configuring IVulcanMessageDispatcher (VulcanMessageAdapter.cpp.VulcanMessageAdapter.171)
+20150610-120643.268: Always: ipc: VulcanMessageAdapter not ready, wait (VulcanMessageAdapter.cpp.VulcanMessageAdapter.217)
+20150610-120643.322: Always: ipc: VulcanMessageAdapter refreshing endpoints (VulcanMessageAdapter.cpp.VulcanMessageAdapter.226)
+20150610-120643.324: Always: ipc: VulcanMessageAdapter refresh pending, wait... (VulcanMessageAdapter.cpp.VulcanMessageAdapter.234)
+20150610-120643.324: Always: ipc: VulcanMessageAdapter switching to point to point (VulcanMessageAdapter.cpp.refreshEndPointsCallback.110)
+20150610-120643.394: Always: ipc: VulcanMessageAdapter initialization done (VulcanMessageAdapter.cpp.VulcanMessageAdapter.249)
+20150610-120643.395: Info: ipc: End VulcanMessageAdapter initialization (VulcanMessageAdapter.cpp.VulcanMessageAdapter.169)
+20150610-120643.396: Info: setTargetDataRates: 0 upload, 0 download
+20150610-120643.397: WorkerThreads: 8
+20150610-120643.398: Info: setTargetDataRates: 0 upload, 0 download
+20150610-120643.399: ACCController::Init: add notification observers
+20150610-120643.404: MControllerDelegate::quota empty user name found
+20150610-120643.404: MControllerDelegate::quota {storageFree:-1, storageTotal:-1}
+20150610-120643.434: BaseControllerDelegate::pushSyncStatus: sent CoreSyncStateSyncDisabled (11)
+20150610-120643.434: ACCController::updateWithState: 11
+20150610-120643.436: Info: Loading plugins from folder: '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins'
+20150610-120643.437: Info: Loading plugins from folder: '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins/DesignLibraryPlugin'
+20150610-120643.452: Info: Plugin loaded: '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins/DesignLibraryPlugin/DesignLibraryPlugin.framework'
+20150610-120643.453: Info: Loading plugins from folder: '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins/ExchangePlugin'
+20150610-120643.474: Info: Plugin loaded: '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins/ExchangePlugin/ExchangePlugin.framework'
+20150610-120643.475: Info: Loading plugins from folder: '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins/LiveType'
+20150610-120643.493: Info: Plugin loaded: '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins/LiveType/LiveType.framework'
+20150610-120643.493: Info: Loading plugins from folder: '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins/SynKit'
+20150610-120643.520: Error: Plugin not loaded (Incompatible host version, expecting 27, plugin had 26): '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins/SynKit/SynKit.framework'
+20150610-120643.528: Error: Plugin not loaded (Incompatible host version, expecting 27, plugin had 26): '/Applications/Utilities/Adobe Creative Cloud/CoreSyncPlugins/SynKit/SynKit.framework'
+20150610-120643.529: Info: AppHookControllerImpl::onStartup in
+20150610-120643.530: Info: [DesignLibraryPlugin] [DesignLibraryAppHook.cpp:onStartup:53] onStartup +++
+20150610-120643.531: Info: [DesignLibraryPlugin] [DesignLibraryAppHook.cpp:onStartup:56] Init plugin-mgr...
+20150610-120643.531: Info: [DesignLibraryPlugin] [DesignLibraryManager.cpp:Init:95] Init file system...
+20150610-120643.536: Info: [DesignLibraryPlugin] [DesignLibraryManager.cpp:InitFileSystem:168] DesignLibraryPlugin version is "1.0.0.21"
+20150610-120643.537: Info: [DesignLibraryPlugin] [DesignLibraryManager.cpp:Init:102] Register msg handler...
+20150610-120643.538: Info: [DesignLibraryPlugin] [DesignLibraryManager.cpp:Init:106] Init done.
+20150610-120643.539: Info: [DesignLibraryPlugin] [DesignLibraryAppHook.cpp:onStartup:72] add sync path filter "/assets/adobe-libraries"...
+20150610-120643.540: Info: [DesignLibraryPlugin] [DesignLibraryAppHook.cpp:onStartup:79] register interest path "/assets/adobe-libraries/"...
+20150610-120643.543: Info: [ExchangePlugin] (EPTaskManager.cpp, 393 ) --initMainloop: initMainloop begin, and begin check if core lib is loaded..., version is 1.3.0.38
+20150610-120643.543: Info: [livetype] onStartup
+20150610-120643.546: Info: [livetype] onStartup => success
+20150610-120643.547: Info: AppHookControllerImpl::onStartup out
+20150610-120643.592: ACCController::injectFinderExt
+20150610-120643.596: ACCController::doInjectFinderExt: injectExt = 1
+20150610-120643.596: ACCController::doInjectFinderExt: appIdentifier: com.apple.finder
+20150610-120643.649: ACCController::doInjectFinderExt: launch helper tool at path:/Applications/Utilities/Adobe Creative Cloud/CoreSyncExtension/ACCFinderBundleLoader_64.app/Contents/MacOS/ACCFinderBundleLoader_64
+20150610-120643.733: Error: [ExchangePlugin] (EPTaskManager.cpp, 504 ) --createEntitlementFileFolder: makeWritableForAllUsers() failed for "/Library/Application Support/Adobe/Extension Manager CC/Configuration/Entitlement", status is -47!
+20150610-120643.784: mach_inject: found threadEntry image at: 0x1053e6000 with size: 19936
+20150610-120643.803: mach_inject::get_offset: lib : /usr/lib/system/libsystem_pthread.dylib, finder addr:0x7fff8c39b000
+20150610-120643.804: mach_inject::get_offset: lib : /usr/lib/system/libdyld.dylib, finder addr:0x7fff9588f000
+20150610-120643.805: mach_inject::get_offset: lib : /usr/lib/system/libsystem_kernel.dylib, finder addr:0x7fff972b5000
+20150610-120643.812: mach_inject::get_offset: lib : /usr/lib/system/libsystem_pthread.dylib, self addr:0x7fff8c39b000
+20150610-120643.812: mach_inject::get_offset: lib : /usr/lib/system/libdyld.dylib, self addr:0x7fff9588f000
+20150610-120643.813: mach_inject::get_offset: lib : /usr/lib/system/libsystem_kernel.dylib, self addr:0x7fff972b5000
+20150610-120643.814: mach_inject::get_offset: offset 0, 0x0
+20150610-120643.815: mach_inject::get_offset: offset 1, 0x0
+20150610-120643.816: mach_inject::get_offset: offset 2, 0x0
+20150610-120643.818: ACCFinderBundleLoader: Finder Extension injected succsessfully
+20150610-120643.825: ACCFinderExtenson::loadBundle: path = /Applications/Utilities/Adobe Creative Cloud/CoreSyncExtension/ACCFinderBundleLoader_64.app/Contents/Frameworks/ACCFinderInnerExtesion.bundle
+20150610-120643.887: ACCController::finderInitSuccessfull: injectExt:YES
+20150610-120643.889: ACCController::finderInitSuccessfull: injectExt:YES
+20150610-120643.890: ACCFinderExtensionController::init: intialization succsessfull
+20150610-120644.659: Info: [livetype] onTextReceived cosy.fonts.UpdatePreferencesRequest
+20150610-120644.668: Info: [livetype]  sendText accc.fonts.UpdatePreferencesResponse (success)
+20150610-120644.670: Info: [livetype] syncStatus: OFF
+20150610-120644.674: Info: [livetype] onTextReceived cosy.fonts.UpdatePreferencesRequest
+20150610-120644.675: Info: [livetype]  sendText accc.fonts.UpdatePreferencesResponse (success)
+20150610-120644.676: Info: [livetype] syncStatus: OFF
+20150610-120333.641: MControllerDelegate::shutdownRequest
+20150610-120333.641: ACCController::shutdown
+20150610-120333.642: ACCSync::stopJob: forced: 1, reason: shutdown
+20150610-120333.643: 2015-06-10 12:03:33: File Monitoring was asked to stop on: : shutdown
+20150610-120333.644: 2015-06-10 12:03:33: File Monitoring was asked to stop on: : shutdown
+20150610-120333.644: Info: AppHookControllerImpl::onShutdown in
+20150610-120333.645: Info: [DesignLibraryPlugin] [DesignLibraryAppHook.cpp:onShutdown:101] onShutdown +++
+20150610-120333.645: Info: [DesignLibraryPlugin] [DesignLibraryAppHook.cpp:onShutdown:104] Announce shutdown event!
+20150610-120333.656: Info: [DesignLibraryPlugin] [DesignLibraryMessageHandlerImpl.cpp:OnShutdown:92] Sending out vulcan msg that plugin is shutdown...
+20150610-120333.656: Info: [DesignLibraryPlugin] [DesignLibraryMessageUtil.cpp:SendVulcanMessage:141] Payload is "<?xml version="1.0" encoding="utf-8"?>
+<push><session_id>e7c52d83-0eeb-4754-a530-103f19ec29b6</session_id><version>1.0</version><adobe_id/><type>DesignLib.ShutdownNotification</type></push>"
+20150610-120333.657: Info: [DesignLibraryPlugin] [DesignLibraryAppHook.cpp:onShutdown:107] Terminate plugin-mgr...
+20150610-120333.657: Info: [DesignLibraryPlugin] [DesignLibraryManager.cpp:Terminate:114] Terminate: done.
+20150610-120333.670: Info: [livetype] onShutdown
+20150610-120333.670: Info: [livetype]  disableFontSync
+20150610-120333.671: Info: [livetype] deactivated all fonts
+20150610-120333.672: Info: AppHookControllerImpl::onShutdown out
+20150610-120333.672: ACCController::removeAllIcons
+20150610-120333.676: ACCController::shutdown completed

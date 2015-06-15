@@ -1,0 +1,13 @@
+2015-06-12 13:44:50 -0700 [FaceTimeServiceSession(imagent:227:YES):Default] Priming FaceTime Server bag
+2015-06-12 13:44:50 -0700 [FaceTimeServiceSession(imagent:227:YES):Default] ...done
+2015-06-12 13:44:50 -0700 [FaceTimeServiceSession(imagent:227:YES):Default] Building push listener
+2015-06-12 13:44:50 -0700 [FaceTimeServiceSession(imagent:227:YES):Default]   =>  Returning topic: com.apple.private.ac
+2015-06-12 13:44:50 -0700 [FaceTimeServiceSession(imagent:227:YES):Default]   =>  Returning topic: com.apple.ess
+2015-06-12 13:44:50 -0700 [FaceTimeServiceSession(imagent:227:YES):Default]   => Topics: (
+    "com.apple.private.ac",
+    "com.apple.ess"
+)
+2015-06-12 13:44:50 -0700 [FaceTimeServiceSession(imagent:227:YES):Default] ...done
+2015-06-12 13:44:50 -0700 [FaceTimeServiceSession(imagent:227:YES):Default] Building Message delivery
+2015-06-12 13:44:50 -0700 [FaceTimeServiceSession(imagent:227:YES):Default] Building Message delivery
+2015-06-12 13:44:50 -0700 [FaceTimeServiceSession(imagent:227:YES):Default] ...done

@@ -1,0 +1,18 @@
+<CloudSyncSettings>
+LocalUrl = "/Users/sheetal/Creative Cloud Files"
+RemoteUrl = "acsl://scss.adobesc.com/files"
+Sync = No
+SyncInterval = 3
+AutoRun = Yes
+TrayIco = Yes
+TrayPopup = Yes
+Proxy = <ProxyServer>
+  UseWinInetProxy = Yes
+  UseProxyBelow = No
+  Host = ""
+  Port = 0
+  UserID = ""
+  Password = ""
+</ProxyServer>
+Locale = ""
+</CloudSyncSettings>
