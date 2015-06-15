@@ -69,7 +69,7 @@
          "maximized": false,
          "right": 1350,
          "top": 23,
-         "work_area_bottom": 835,
+         "work_area_bottom": 838,
          "work_area_left": 0,
          "work_area_right": 1440,
          "work_area_top": 23
@@ -1326,7 +1326,7 @@
       }
    },
    "gcm": {
-      "check_time": "13078615591180719"
+      "check_time": "13078860945807703"
    },
    "google": {
       "services": {
@@ -1681,6 +1681,14 @@
                   "protocol_str": "quic"
                }
             },
+            "play.google.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "probability": 1.0,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": true
+            },
             "plus.google.com:443": {
                "alternate_protocol": {
                   "port": 443,
@@ -1985,7 +1993,7 @@
       "first_sync_time": "13078615531064034",
       "has_setup_completed": true,
       "keystore_encryption_bootstrap_token": "djEwYhyIXgfVjbO08Qy4oYpQ2znTJ4bfymtdOAvajQ/O9aNKiozP/cgrQW0mDoqHxIzzJGc6B2C0+gpHnzgP9tctcSCotqO+xYj1TG/yB6neYgU=",
-      "last_synced_time": "13078623237680986",
+      "last_synced_time": "13078862256083998",
       "remaining_rollback_tries": 0,
       "session_sync_guid": "session_syncgFufaBLqy+cIctJDf6jMxA==",
       "suppress_start": false

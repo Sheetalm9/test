@@ -29,3 +29,19 @@ fsck_hfs started at Fri Jun 12 14:12:46 2015
 ** The volume WinZip appears to be OK.
 fsck_hfs completed at Fri Jun 12 14:12:46 2015
 
+
+fsck_hfs started at Mon Jun 15 10:01:03 2015
+** /dev/rdisk4s2 (NO WRITE)
+   Executing fsck_hfs (version hfs-285).
+** Checking Journaled HFS Plus volume.
+   The volume name is Sublime Text 2
+** Checking extents overflow file.
+** Checking catalog file.
+** Checking multi-linked files.
+** Checking catalog hierarchy.
+** Checking extended attributes file.
+** Checking volume bitmap.
+** Checking volume information.
+** The volume Sublime Text 2 appears to be OK.
+fsck_hfs completed at Mon Jun 15 10:01:03 2015
+

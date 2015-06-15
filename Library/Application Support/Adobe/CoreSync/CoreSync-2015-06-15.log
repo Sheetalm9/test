@@ -1,1 +1,13 @@
 20150615-095024.731: ACCController::osSleepWake: NSConcreteNotification 0x7ff4a2ca2320 {name = NSWorkspaceDidWakeNotification; object = <NSWorkspace: 0x7ff4a2f52200>}
+20150615-095916.080: ACCController::doInjectFinderExt: injectExt = 1
+20150615-095916.081: ACCController::doInjectFinderExt: appIdentifier: com.apple.Notes
+20150615-095916.081: ACCController::doInjectFinderExt: app identifier: com.apple.Notes not equal to com.apple.finder
+20150615-100115.235: ACCController::doInjectFinderExt: injectExt = 1
+20150615-100115.236: ACCController::doInjectFinderExt: appIdentifier: com.sublimetext.2
+20150615-100115.236: ACCController::doInjectFinderExt: app identifier: com.sublimetext.2 not equal to com.apple.finder
+20150615-101051.107: ACCController::doInjectFinderExt: injectExt = 1
+20150615-101051.114: ACCController::doInjectFinderExt: appIdentifier: com.github.GitHub
+20150615-101051.115: ACCController::doInjectFinderExt: app identifier: com.github.GitHub not equal to com.apple.finder
+20150615-101056.664: ACCController::doInjectFinderExt: injectExt = 1
+20150615-101056.666: ACCController::doInjectFinderExt: appIdentifier: com.github.GitHub
+20150615-101056.666: ACCController::doInjectFinderExt: app identifier: com.github.GitHub not equal to com.apple.finder

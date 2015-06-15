@@ -81,7 +81,7 @@
                "stars.type": "2"
             },
             "name": "Inbox (29) - sheetal@mahesh.com - Mahesh.com Mail",
-            "sync_transaction_version": "2",
+            "sync_transaction_version": "3",
             "type": "url",
             "url": "https://mail.google.com/mail/u/0/#inbox"
          }, {
@@ -146,7 +146,7 @@
             "url": "http://127.0.0.1:8080/apex/f?p=4500:3002:4274936943347962::NO:::"
          } ],
          "date_added": "13078615291439936",
-         "date_modified": "13075514159647225",
+         "date_modified": "13078860717491498",
          "id": "1",
          "name": "Bookmarks Bar",
          "type": "folder"
@@ -159,7 +159,7 @@
          "name": "Other Bookmarks",
          "type": "folder"
       },
-      "sync_transaction_version": "2",
+      "sync_transaction_version": "3",
       "synced": {
          "children": [  ],
          "date_added": "13078615291440214",

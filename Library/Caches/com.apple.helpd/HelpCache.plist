@@ -2,6 +2,53 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AppPathsWithoutHelpBooksKey</key>
+	<array>
+		<string>/Applications/Adobe Photoshop CC/Adobe Photoshop CC.app</string>
+		<string>/Applications/Axure RP Pro 7.0.app</string>
+		<string>/Applications/Dashboard.app</string>
+		<string>/Applications/Degrees.app</string>
+		<string>/Applications/FileZilla.app</string>
+		<string>/Applications/Firefox.app</string>
+		<string>/Applications/Google Chrome 2.app</string>
+		<string>/Applications/Google Chrome.app</string>
+		<string>/Applications/GoToMeeting/GoToMeeting (1312).app</string>
+		<string>/Applications/GoToMeeting/GoToMeeting (1350).app</string>
+		<string>/Applications/GoToMeeting/GoToMeeting (1415).app</string>
+		<string>/Applications/GoToMeeting/GoToMeeting (1440).app</string>
+		<string>/Applications/GoToMeeting/GoToMeeting (1468).app</string>
+		<string>/Applications/GoToMeeting/GoToMeeting (1555).app</string>
+		<string>/Applications/GoToMeeting/GoToMeeting (1558).app</string>
+		<string>/Applications/GoToMeeting/GoToMeeting (1669).app</string>
+		<string>/Applications/GoToMeeting/GoToMeeting (1767).app</string>
+		<string>/Applications/GoToMeeting/GoToMeeting (1796).app</string>
+		<string>/Applications/GoToMeeting/GoToMeeting (1831).app</string>
+		<string>/Applications/GoToMeeting/GoToMeeting (1848).app</string>
+		<string>/Applications/GoToMeeting/GoToMeeting (1865).app</string>
+		<string>/Applications/GoToMeeting/GoToMeeting (2331).app</string>
+		<string>/Applications/GoToMeeting/GoToMeeting (2352).app</string>
+		<string>/Applications/GoToMeeting/GoToMeeting (2377).app</string>
+		<string>/Applications/GoToMeeting/GoToMeeting (2417).app</string>
+		<string>/Applications/GoToMeeting.app</string>
+		<string>/Applications/HipChat.app</string>
+		<string>/Applications/join.me.app</string>
+		<string>/Applications/Launchpad.app</string>
+		<string>/Applications/Mailbox (Beta).app</string>
+		<string>/Applications/mention.app</string>
+		<string>/Applications/Mission Control.app</string>
+		<string>/Applications/Popcorn-Time.app</string>
+		<string>/Applications/Skype.app</string>
+		<string>/Applications/Slack.app</string>
+		<string>/Applications/Spotify.app</string>
+		<string>/Applications/System Preferences.app</string>
+		<string>/Applications/Time Machine.app</string>
+		<string>/Applications/Utilities/Adobe Flash Player Install Manager.app</string>
+		<string>/Applications/Utilities/Bluetooth File Exchange.app</string>
+		<string>/Applications/Utilities/Boot Camp Assistant.app</string>
+		<string>/Applications/Utilities/Migration Assistant.app</string>
+		<string>/Applications/Utilities/VoiceOver Utility.app</string>
+		<string>/Applications/Utilities/X11.app</string>
+	</array>
 	<key>CacheLanguageKey</key>
 	<string>en</string>
 	<key>SystemVersionKey</key>
@@ -1464,6 +1511,25 @@
 			<integer>4</integer>
 			<key>HPDBookTitle</key>
 			<string>Word Help</string>
+			<key>HPDBookType</key>
+			<integer>1</integer>
+		</dict>
+		<key>com.winzip.WinZip-Mac.help</key>
+		<dict>
+			<key>HPDBookAccessPath</key>
+			<string>/Applications/WinZip.app/Contents/Resources/Help/WinZipEdition.htm</string>
+			<key>HPDBookIdentifier</key>
+			<string>com.winzip.WinZip-Mac.help</string>
+			<key>HPDBookIndexPaths</key>
+			<array>
+				<string>/Applications/WinZip.app/Contents/Resources/Help/Help.helpindex</string>
+			</array>
+			<key>HPDBookKBURL</key>
+			<string>https://support.apple.com/www/searchredir.html?bucket=helpviewer&amp;as_oq='product'&amp;val='query'&amp;lang='lang'&amp;build='build'</string>
+			<key>HPDBookPathKey</key>
+			<string>/Applications/WinZip.app/Contents/Resources/Help</string>
+			<key>HPDBookTitle</key>
+			<string>WinZip Help</string>
 			<key>HPDBookType</key>
 			<integer>1</integer>
 		</dict>

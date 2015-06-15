@@ -27,8 +27,8 @@
    },
    "network_time": {
       "network_time_mapping": {
-         "local": 1434149637679.741,
-         "network": 1434149637343.068
+         "local": 1434388656082.642,
+         "network": 1434388639015.57
       }
    },
    "ntp": {
@@ -184,7 +184,7 @@
    "profile": {
       "info_cache": {
          "Default": {
-            "active_time": 1434144315.805027,
+            "active_time": 1434388149.425026,
             "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_0",
             "background_apps": false,
             "is_ephemeral": false,
@@ -226,7 +226,7 @@
          "exited_cleanly": false,
          "extension_renderer_crash_count": 0,
          "incomplete_session_end_count": 0,
-         "last_timestamp_sec": "1434387033",
+         "last_timestamp_sec": "1434388534",
          "launch_count": 1,
          "launch_time_sec": "1434141691",
          "page_load_count": 0,
